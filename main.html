@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src = "js/signals.min.js"></script>
+    <script src = "js/hasher.min.js"></script>
+    <script src = "js/crossroads.min.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
+    <script src = "javascript/main.js"></script>
+    <script src = "javascript/router.js"></script>
+    <!--<script src = "javascript/main.js"></script>-->
+    <script src = "javascript/canvasLayout.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="loadExercise(1,1);">
+
+<div id="navbar">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Vitruvia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Concepts <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown dropdown-submenu">
+                            <a href="#concepts/1/1" class="dropdown-toggle" data-toggle="dropdown">Concept 1</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#concepts/1/1"> Demo 1</a></li>
+                                <li><a href="#concepts/1/2"> Exercise 1</a></li>
+                                <li><a href="#concepts/1/3"> Exercise 2</a></li>
+                                <li><a href="#concepts/1/4"> Exercise 3</a></li>
+                                <li><a href="#concepts/1/5"> Exercise 4</a></li>
+                                <li><a href="#concepts/1/6"> Exercise 5</a></li>
+                                <li><a href="#concepts/1/7"> Exercise 6</a></li>
+                                <li><a href="#concepts/1/8"> Exercise 7</a></li>
+                                <li><a href="#concepts/1/9"> Exercise 8</a></li>
+                                <li><a href="#concepts/1/10">Exercise 9</a></li>
+                                <li><a href="#concepts/1/11">Exercise 10</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div id = "Exercise" class="col-md-6">
+            <!--<h3>Concept 1 Demo 1</h3>
+            <p>Put a 1x1 RED brick in the cells whose locations are:</p>
+            <p>(0,0), (5,0), (5,5), (0,5)</p>-->
+        </div>
+        <div class="col-md-6">
+            <canvas id = "vitruvia_canvas"></canvas>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class = "row">
+        <div class = "col-md-6">
+        </div>
+        <div class = "col-md-6">
+            <div class = "btn-group" role = "group">
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(blue);">
+                    <img width="30" height = "30" src="bricklayer%20colors/blue_02.png"><span class="LEGONAME">BLUE</span>
+                </button>
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(red);">
+                    <img width="30" height = "30" src="bricklayer%20colors/red_02.png"><span class="LEGONAME">RED</span>
+                </button>
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(black);">
+                    <img width="30" height = "30" src="bricklayer%20colors/black_02.png"><span class="LEGONAME">BLACK</span>
+                </button>
+            </div>
+        </div>
+        <!--<div class = "col-md-2">
+
+        </div>
+        <div class = "col-md-2">
+
+        </div>-->
+    </div>
+</div>
+
+<div class="container">
+    <div class = "row">
+        <div class = "col-md-6">
+        </div>
+        <div class = "col-md-6">
+            <div class = "btn-group" role = "group">
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(gray);">
+                    <img width="30" height = "30" src="bricklayer%20colors/gray_02.png"><span class="LEGONAME">GRAY</span>
+                </button>
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(white);">
+                    <img width="30" height = "30" src="bricklayer%20colors/white_02.png"><span class="LEGONAME">WHITE</span>
+                </button>
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(empty);">
+                    <img width="30" height = "30" src="images/empty.PNG"><span class="LEGONAME">EMPTY</span>
+                </button>
+            </div>
+        </div>
+        <!--<div class = "col-md-2">
+
+        </div>
+
+        <div class = "col-md-2">
+
+        </div>-->
+    </div>
+</div>
+
+<div class="container">
+    <div class = "row">
+        <div class = "col-md-6">
+        </div>
+        <div class = "col-md-6">
+            <div class = "btn-group" role = "group">
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(green);">
+                    <img width="30" height = "30" src="bricklayer%20colors/green_02.png"><span class="LEGONAME">GREEN</span>
+                </button>
+                <button class = "btn btn-default btn-sm color-button" onclick="setCurrentColor(yellow);">
+                    <img width="30" height = "30" src="bricklayer%20colors/yellow_02.png"><span class="LEGONAME">YELLOW</span>
+                </button>
+            </div>
+        </div>
+        <!--<div class = "col-md-2">
+
+        </div>
+        <div class = "col-md-2">
+        </div>-->
+    </div>
+</div>
+
+<div class="container">
+    <div class = "row">
+        <div class = "col-md-6">
+        </div>
+        <div class = "col-md-2">
+            <br>
+            <input type="submit" class="btn btn-info btn-lg" onclick="checkSolution();" value="Submit">
+        </div>
+        <div class = "col-md-4">
+            <br>
+            <input id = "toggle_solution" type="button" class="btn btn-info btn-lg" onclick = "toggleSolution();" value="Show Solution">
+            <button id = "next_exercise" type="button" class="btn btn-info btn-lg" onclick="nextExercise();">
+                NEXT <span class="glyphicon glyphicon-chevron-right"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
