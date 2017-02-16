@@ -58,6 +58,7 @@ var currentColor = black;
 var finalUserSolution = [];
 var gameLoaded = false;
 var incorrect = false;
+var coordinates = false;
 //========================================================================================
 function checkIfSolutionCellIsNotOccupied(a,b){
     for(j = 0; j<finalUserSolution.length; j++){
@@ -199,6 +200,9 @@ function vitruviaOnClick(e) {
     var column = cell.column;
 
     bleep.play();
+        if (coordinates){
+            toggleCoordinates(0);
+        }
     if(incorrect){
     incorrect = false;
     loadExercise(currentConceptId,currentExerciseId);
@@ -655,6 +659,49 @@ function stopFireWorks() {
     fireWorksSound.currentTime = 0;
     clearInterval(launchInterval);
     clearInterval(loopInterval);
+}
+
+// ================================================================================================================
+function toggleCoordinates(pivot){
+
+    var tempLego, tempX, tempY;
+    var toggleName = document.getElementById('switch_coordinates').innerHTML;
+    if(pivot == 1){
+        if(toggleName == "YES"){
+            document.getElementById('switch_coordinates').innerHTML ="NO";
+            coordinates = false;
+        } else {
+            document.getElementById('switch_coordinates').innerHTML ="YES";
+            coordinates = true;
+        }
+    }
+    if (coordinates){
+        console.log("I entered this function");
+        drawBoard();
+        for (k =0 ;k<userSolution.length;k++){
+            tempLego = legoNameToImage(userSolution[k].lego);
+            tempX = userSolution[k].x;
+            tempY = userSolution[k].y;
+            gDrawingContext.drawImage(tempLego,tempX,tempY,kStep -1 ,kStep - 1);
+        }
+        for(var j = 0;j<gridSize;j++){
+            for(var k = gridSize - 1; k >= 0; k--){
+                gDrawingContext.font = "14px Comic Sans MS";
+                gDrawingContext.fillStyle = "black";
+                gDrawingContext.textAlign = "center";
+                gDrawingContext.fillText("("+j+","+k+")", (j*kStep)+(kStep/2), (k*kStep)+(kStep/2));
+            }
+        }
+
+    } else {
+        drawBoard();
+        for (k =0 ;k<userSolution.length;k++){
+            tempLego = legoNameToImage(userSolution[k].lego);
+            tempX = userSolution[k].x;
+            tempY = userSolution[k].y;
+            gDrawingContext.drawImage(tempLego,tempX,tempY,kStep -1 ,kStep - 1);
+        }
+    }
 }
 
 

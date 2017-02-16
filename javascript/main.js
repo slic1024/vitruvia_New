@@ -443,7 +443,7 @@ exercises.push(new Exercise(3,13,5,
     "<h3>Concept 3 Exercise 9</h3>" +
     "<p>Put a 2x1 BLUE brick at location (3,4).</p>",
     [   new SolutionCell(3,4,"BLUE"),
-        new SolutionCell(3,4,"BLUE")]
+        new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(3,14,5,
     "<h3>Concept 3 Exercise 10</h3>" +
@@ -577,7 +577,6 @@ function nextExercise(){
         stopFireWorks();
     }
     if(nextExerciseIdExists()){
-        console.log("I exist");
         var tempExerciseLink = document.createElement('a');
         /*var linkText = document.createTextNode("my title text");
         a.appendChild(linkText);
