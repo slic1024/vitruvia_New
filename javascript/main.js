@@ -548,6 +548,9 @@ function toggleSolution() {
             tempY = userSolution[k].y;
             gDrawingContext.drawImage(tempLego,tempX,tempY,kStep -1 ,kStep - 1);
         }
+        if(coordinates){
+            toggleCoordinates(0);
+        }
     }
 }
 // ==================================================================================================================

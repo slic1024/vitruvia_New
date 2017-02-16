@@ -200,9 +200,6 @@ function vitruviaOnClick(e) {
     var column = cell.column;
 
     bleep.play();
-        if (coordinates){
-            toggleCoordinates(0);
-        }
     if(incorrect){
     incorrect = false;
     loadExercise(currentConceptId,currentExerciseId);
@@ -218,12 +215,14 @@ function vitruviaOnClick(e) {
         } else {
             gDrawingContext.drawImage(currentColor, x + 1, y + 1, kStep - 1, kStep - 1);
         }
-
         if(currentColor == empty){
             userSolution.push(new SolutionCell(x+1,y+1,"EMPTY"));
         } else {
             userSolution.push(new SolutionCell(x + 1, y + 1, imagePathToLegoName(currentColor.src)));
         }
+    }
+    if (coordinates){
+        toggleCoordinates(0);
     }
 }
 
@@ -689,7 +688,7 @@ function toggleCoordinates(pivot){
                 gDrawingContext.font = "14px Comic Sans MS";
                 gDrawingContext.fillStyle = "black";
                 gDrawingContext.textAlign = "center";
-                gDrawingContext.fillText("("+j+","+k+")", (j*kStep)+(kStep/2), (k*kStep)+(kStep/2));
+                gDrawingContext.fillText("("+j+","+k+")", (j*kStep)+(kStep/2), ((gridSize-k-1)*kStep)+(kStep/2));
             }
         }
 
