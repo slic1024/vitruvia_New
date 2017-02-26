@@ -1608,7 +1608,7 @@ function toggleSolution() {
                     tempY = exercises[i].solution[k].y;
                     tempX = tempX *kStep +1;
                     tempY = (gridSize -1 -tempY)* kStep +1;
-                    gDrawingContext.drawImage(tempLego,tempX,tempY,kStep -1 ,kStep - 1);
+                    gDrawingContext.drawImage(tempLego,tempX + axisDelta,tempY,kStep -1 ,kStep - 1);
                 }
             }
         }

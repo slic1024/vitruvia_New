@@ -17,6 +17,7 @@ var gCanvasElement;
 var gDrawingContext;
 
 var gridSize;
+var axisDelta;
 
 
 var empty      = "#D3D3D3";
@@ -185,7 +186,7 @@ function getCursorPalletPosition(e) {
     var x;
     var y;
     var rect = gCanvasElement.getBoundingClientRect();
-    x = e.clientX - rect.left;
+    x = e.clientX - rect.left - axisDelta;
     y = e.clientY - rect.top;
     x = Math.min(x, kBoardWidth * kStep);
     y = Math.min(y, kBoardHeight * kStep);
@@ -206,19 +207,19 @@ function vitruviaOnClick(e) {
     } else if(fireworks){
         stopFireWorks();
         nextExercise();
-    } else if ((column < xEnd - 1) && (row < yEnd - 1) ) {
-        var x = Math.floor(column/kStep) * kStep;
+    } else if ((column < xEnd - 1) && (row < yEnd - axisDelta - 1) &&(column > 0) ) {
+        var x = Math.floor(column/kStep) * kStep ;
         var y = Math.floor(row/kStep) * kStep;
         if(currentColor == empty){
             gDrawingContext.fillStyle = currentColor;
-            gDrawingContext.fillRect(x+1, y+1, kStep-1, kStep-1);
+            gDrawingContext.fillRect(x + axisDelta + 1, y+1, kStep-1, kStep-1);
         } else {
-            gDrawingContext.drawImage(currentColor, x + 1, y + 1, kStep - 1, kStep - 1);
+            gDrawingContext.drawImage(currentColor, x + axisDelta + 1, y + 1, kStep - 1, kStep-1);
         }
         if(currentColor == empty){
-            userSolution.push(new SolutionCell(x+1,y+1,"EMPTY"));
+            userSolution.push(new SolutionCell(x+ axisDelta +1,y+1,"EMPTY"));
         } else {
-            userSolution.push(new SolutionCell(x + 1, y + 1, imagePathToLegoName(currentColor.src)));
+            userSolution.push(new SolutionCell(x+ axisDelta + 1, y + 1, imagePathToLegoName(currentColor.src)));
         }
     }
     if (coordinates){
@@ -236,14 +237,14 @@ function drawLines(color) {
     gDrawingContext.beginPath();
 
     /* vertical lines */
-    for (var x = 0; x <= xEnd; x += kStep) {
+    for (var x = axisDelta; x <= xEnd; x += kStep) {
         gDrawingContext.moveTo(0.5 + x, 0);
-        gDrawingContext.lineTo(0.5 + x, yEnd);
+        gDrawingContext.lineTo(0.5 + x, yEnd-axisDelta);
     }
 
     /* horizontal lines */
-    for (var y = 0; y <= yEnd; y += kStep) {
-        gDrawingContext.moveTo(0    , 0.5 + y);
+    for (var y = 0; y <= yEnd - axisDelta; y += kStep) {
+        gDrawingContext.moveTo(axisDelta    , 0.5 + y);
         gDrawingContext.lineTo(xEnd, 0.5 +  y);
     }
 
@@ -260,18 +261,30 @@ function drawBoard() {
     xEnd = kPixelWidth;
     yEnd = kPixelHeight;
 
-    gDrawingContext.clearRect(0, 0, xEnd, yEnd);
+    gDrawingContext.clearRect(axisDelta, 0, xEnd, yEnd - axisDelta);
 
     gDrawingContext.beginPath();
 
     // Canvas base color
     gDrawingContext.fillStyle = empty;
-    gDrawingContext.rect(0, 0, xEnd, yEnd);
+    gDrawingContext.rect(axisDelta, 0, xEnd, yEnd - axisDelta);
     gDrawingContext.fill();
 
     drawLines(lineColor);
 
     gDrawingContext.closePath();
+    for (var x = 0; x<gridSize; x++  ){
+        gDrawingContext.font = "15px Comic Sans MS";
+        gDrawingContext.fillStyle = "black";
+        gDrawingContext.textAlign = "center";
+        gDrawingContext.fillText(gridSize - x - 1, axisDelta/2, x*kStep +(kStep));
+    }
+    for (var z = 0; z<gridSize; z++  ){
+        gDrawingContext.font = "15px Comic Sans MS";
+        gDrawingContext.fillStyle = "black";
+        gDrawingContext.textAlign = "center";
+        gDrawingContext.fillText(z, z*kStep +(kStep/2), yEnd - (axisDelta/3) );
+    }
 }
 // =======================================================================================
 function clearCanvas() {
@@ -311,7 +324,7 @@ function initGame(side) {
     var boardSize;
     var delta = 0.4;
     gridSize = side;
-
+    axisDelta = 20;
     if (window.innerWidth < window.innerHeight)
     {
         boardSize = window.innerWidth - delta * window.innerWidth ;
@@ -322,15 +335,18 @@ function initGame(side) {
     }
 
 
-    kStep = Math.floor(boardSize / side);
+    kStep = Math.floor((boardSize-axisDelta) / side);
 
 
     //size of canvas we want to use
-    kPixelWidth  = kStep * side + 1;
-    kPixelHeight = kStep * side + 1;
+    kPixelWidth  = kStep * side + 1 +axisDelta;
+    kPixelHeight = kStep * side + 1+axisDelta;
 
-    kBoardWidth  = kPixelWidth;
-    kBoardHeight = kPixelHeight;
+    /*kBoardWidth  = kPixelWidth;
+    kBoardHeight = kPixelHeight;*/
+
+    kBoardWidth  = boardSize;
+    kBoardHeight = boardSize;
 
 
     gCanvasElement        = canvasElement;
@@ -384,11 +400,14 @@ function updateGame(side){
 
 
     //size of canvas we want to use
-    kPixelWidth  = kStep * side + 1;
-    kPixelHeight = kStep * side + 1;
+    kPixelWidth  = kStep * side + 1 +axisDelta;
+    kPixelHeight = kStep * side + 1+axisDelta;
 
-    kBoardWidth  = kPixelWidth;
-    kBoardHeight = kPixelHeight;
+    /*kBoardWidth  = kPixelWidth;
+     kBoardHeight = kPixelHeight;*/
+
+    kBoardWidth  = boardSize;
+    kBoardHeight = boardSize;
 
 
     /*gCanvasElement        = canvasElement;*/
@@ -675,7 +694,6 @@ function toggleCoordinates(pivot){
         }
     }
     if (coordinates){
-        console.log("I entered this function");
         drawBoard();
         for (k =0 ;k<userSolution.length;k++){
             tempLego = legoNameToImage(userSolution[k].lego);
@@ -688,7 +706,7 @@ function toggleCoordinates(pivot){
                 gDrawingContext.font = "14px Comic Sans MS";
                 gDrawingContext.fillStyle = "black";
                 gDrawingContext.textAlign = "center";
-                gDrawingContext.fillText("("+j+","+k+")", (j*kStep)+(kStep/2), ((gridSize-k-1)*kStep)+(kStep/2));
+                gDrawingContext.fillText("("+j+","+k+")", (j*kStep)+(kStep/2)+axisDelta, ((gridSize-k-1)*kStep)+(kStep/2));
             }
         }
 
