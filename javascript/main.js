@@ -1526,6 +1526,438 @@ exercises.push(new Exercise(7,9,7,
         new SolutionCell(5,6,"RED"),
         new SolutionCell(6,6,"RED")]
 ));
+// Concept 8
+exercises.push(new Exercise(8,1,5,
+    "<h3>Concept 8 Demo 1</h3>" +
+    "<p>On paper, write a program consisting of a sequence of function calls." +
+    " When you are finished, hand your program to a classmate to execute." +
+    " Verify that the execution is correct.</p>",
+    [   new SolutionCell(0,0,"EMPTY")]
+));
+exercises.push(new Exercise(8,2,6,
+    "<h3>Concept 8 Exercise 1</h3>" +
+    "<p>On paper, write a program consisting of a sequence of function calls." +
+    " When you are finished, hand your program to a classmate to execute." +
+    " Verify that the execution is correct.</p>",
+    [   new SolutionCell(0,0,"EMPTY")]
+));
+exercises.push(new Exercise(8,3,5,
+    "<h3>Concept 8 Exercise 2</h3>" +
+    "<p>1. Take two pieces of paper containing programs and combine them and execute the result." +
+    " Assume overwriting is permitted.</p>"+
+    "<p>2. The reverse the order of the pages (i.e., programs) and execute the result.</p>",
+    [   new SolutionCell(0,0,"EMPTY")]
+));
+//Concept 9
+exercises.push(new Exercise(9,1,7,
+    "<h3>Concept 9 Demo 1</h3>" +
+    "<p>In the exercises folder you will find a file named vitruvia_09_demo_01.pdf.</p>"+
+    "<p>The structure is the flag of Denmark." +
+    " Assuming the lower left corner of the flag is at cell (0,0), what bricks need to be placed to complete the flag?</p>",
+    [   new SolutionCell(3,3,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,2,"WHITE"),
+        new SolutionCell(6,2,"WHITE")]
+));
+exercises.push(new Exercise(9,2,8,
+    "<h3>Concept 9 Exercise 1</h3>" +
+    "<p>In the exercises folder you will find a file named vitruvia_09_01.pdf." +
+    " The structure is the flag of Germany which consists of a BLACK horizontal stripe at the top," +
+    " followed by a RED horizontal stripe in the middle," +
+    " and a YELLOW horizontal stripe at the bottom. Assuming the lower left corner of the flag is at cell (0,0)," +
+    " what bricks need to be placed to complete the flag?</p>",
+    [   new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"RED")]
+));
+exercises.push(new Exercise(9,3,8,
+    "<h3>Concept 9 Exercise 2</h3>" +
+    "<p>In the exercises folder you will find a file named vitruvia_09_02.pdf." +
+    " The structure is the flag of France which is a BLUE stripe followed by a WHITE stripe followed by a RED stripe." +
+    " Assuming the lower left corner of the flag is at cell (0,0)," +
+    " what bricks need to be placed to complete the flag?</p>",
+    [   new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"WHITE")]
+));
+// Concept 10
+exercises.push(new Exercise(10,1,8,
+    "<h3>Concept 10 Demo 1</h3>" +
+    "<p>fun redBackground() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_3x2_RED(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_3x2_RED(0,3);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_RED(4,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_RED(4,3)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+"<p>fun whiteHorizontalStripe() =</p>"+
+"<p style='text-indent: 2em;'>(</p>"+
+"<p style='text-indent: 4em;'>                put2D_2x1_WHITE(0,2);</p>"+
+"<p style='text-indent: 4em;'>put2D_2x1_WHITE(2,2);</p>"+
+"<p style='text-indent: 4em;'> put2D_2x1_WHITE(4,2);</p>"+
+"<p style='text-indent: 4em;'> put2D_2x1_WHITE(6,2)</p>"+
+"<p style='text-indent: 2em;'> )</p>"+
+"<p> fun whiteVerticalStripe() =</p>"+
+"<p style='text-indent: 2em;'>(</p>"+
+"<p style='text-indent: 4em;'>put2D_1x2_WHITE(3,3);</p>"+
+"<p style='text-indent: 4em;'> put2D_1x2_WHITE(3,0)</p>"+
+"<p style='text-indent: 2em;'>  );</p>"+
+"<p>(* this can be further structured *)</p>"+
+"<p>redBackground();</p>"+
+"<p>whiteHorizontalStripe();</p>"+
+"<p>whiteVerticalStripe();  </p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(6,0,"RED"),
+        new SolutionCell(7,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(6,1,"RED"),
+        new SolutionCell(7,1,"RED"),
+        new SolutionCell(0,2,"WHITE"),
+        new SolutionCell(1,2,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(4,2,"WHITE"),
+        new SolutionCell(5,2,"WHITE"),
+        new SolutionCell(6,2,"WHITE"),
+        new SolutionCell(7,2,"WHITE"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(6,3,"RED"),
+        new SolutionCell(7,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,4,"WHITE"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(6,4,"RED"),
+        new SolutionCell(7,4,"RED")]
+));
+exercises.push(new Exercise(10,2,5,
+    "<h3>Concept 10 Exercise 1</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun f() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x2_GREEN (0,0)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>f();</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(0,1,"GREEN")]
+));
+exercises.push(new Exercise(10,3,6,
+"<h3>Concept 10 Exercise 2</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun france() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x2_BLUE (0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x2_WHITE (2,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x2_RED (4,0) (* note there is no semicolon *)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>france();</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,0,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED")]
+));
+exercises.push(new Exercise(10,4,5,
+    "<h3>Concept 10 Exercise 3</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun yellow() = put2D_2x2_YELLOW(0,0);</p>"+
+    "<p>fun blue() = put2D_2x2_BLUE(1,1);</p>"+
+    "<p>fun thing() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>yellow();</p>"+
+    "<p style='text-indent: 4em;'>blue()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>thing();</p>",
+    [   new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW")]
+));
+exercises.push(new Exercise(10,5,5,
+    "<h3>Concept 10 Exercise 4</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun yellow() = put2D_2x2_YELLOW(0,0);</p>"+
+    "<p>fun blue() = put2D_2x2_BLUE(1,1);</p>"+
+    "<p>fun thing() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>blue();</p>"+
+    "<p style='text-indent: 4em;'>yellow()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>thing();</p>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE")]
+));
+exercises.push(new Exercise(10,6,5,
+    "<h3>Concept 10 Exercise 5</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun yellow() = put2D_2x2_YELLOW(0,0);</p>"+
+    "<p>fun blue() = put2D_2x2_BLUE(0,1);</p>"+
+    "<p>fun red() = put2D_2x2_RED(1,1);</p>"+
+    "<p>fun thing() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>blue();</p>"+
+    "<p style='text-indent: 4em;'>red();</p>"+
+    "<p style='text-indent: 4em;'>yellow()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>thing();</p>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(0,2,"BLUE")]
+));
+exercises.push(new Exercise(10,7,5,
+    "<h3>Concept 10 Exercise 6</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun gray() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_GRAY(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_GRAY(0,2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>fun blue() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x2_BLUE(1,1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(3,3)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>fun grayAndBlue() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'> gray();</p>"+
+    "<p style='text-indent: 4em;'>blue()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>grayAndBlue();</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"GRAY"),
+        new SolutionCell(0,2,"GRAY"),
+        new SolutionCell(0,3,"GRAY"),
+        new SolutionCell(1,0,"GRAY"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"GRAY"),
+        new SolutionCell(2,0,"GRAY"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"GRAY"),
+        new SolutionCell(3,0,"GRAY"),
+        new SolutionCell(3,1,"GRAY"),
+        new SolutionCell(3,2,"GRAY"),
+        new SolutionCell(3,3,"BLUE")]
+));
+exercises.push(new Exercise(10,8,5,
+    "<h3>Concept 10 Exercise 7</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun red() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_RED(4,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_RED(4,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_RED(0,4);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_RED(2,4);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_RED(4,4)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>fun white() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_WHITE(2,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(2,3);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(1,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(2,1)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>fun flag() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>red();</p>"+
+    "<p style='text-indent: 4em;'>white()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>flag();</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"WHITE"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED")]
+));
+exercises.push(new Exercise(10,9,6,
+    "<h3>Concept 10 Exercise 8</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun red()   = put2D_2x4_RED(4,0)</p>"+
+    "<p>fun white() = put2D_2x4_WHITE(2,0)</p>"+
+    "<p>fun green() = put2D_2x4_GREEN(0,0)</p>"+
+    "<p>fun flagOfItaly() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>green();</p>"+
+    "<p style='text-indent: 4em;'>white();</p>"+
+    "<p style='text-indent: 4em;'>red()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>flagOfItaly();</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(2,0,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED")]
+));
+exercises.push(new Exercise(10,10,8,
+    "<h3>Concept 10 Exercise 9</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<p>fun horizontalRed()   =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_RED(4,0)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>fun horizontalWhite() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_WHITE(0,4);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_WHITE(4,4)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>fun horizontalBlue()  =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_BLUE(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_BLUE(4,2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>fun flagOfRussia() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>horizontalWhite();</p>"+
+    "<p style='text-indent: 4em;'>horizontalBlue();</p>"+
+    "<p style='text-indent: 4em;'>horizontalRed()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>flagOfRussia();</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(6,0,"RED"),
+        new SolutionCell(7,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(6,1,"RED"),
+        new SolutionCell(7,1,"RED"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(6,2,"BLUE"),
+        new SolutionCell(7,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(6,3,"BLUE"),
+        new SolutionCell(7,3,"BLUE"),
+        new SolutionCell(0,4,"WHITE"),
+        new SolutionCell(1,4,"WHITE"),
+        new SolutionCell(2,4,"WHITE"),
+        new SolutionCell(3,4,"WHITE"),
+        new SolutionCell(4,4,"WHITE"),
+        new SolutionCell(5,4,"WHITE"),
+        new SolutionCell(6,4,"WHITE"),
+        new SolutionCell(7,4,"WHITE"),
+        new SolutionCell(0,5,"WHITE"),
+        new SolutionCell(1,5,"WHITE"),
+        new SolutionCell(2,5,"WHITE"),
+        new SolutionCell(3,5,"WHITE"),
+        new SolutionCell(4,5,"WHITE"),
+        new SolutionCell(5,5,"WHITE"),
+        new SolutionCell(6,5,"WHITE"),
+        new SolutionCell(7,5,"WHITE")]
+));
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){
