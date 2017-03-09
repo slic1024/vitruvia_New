@@ -1958,6 +1958,833 @@ exercises.push(new Exercise(10,10,8,
         new SolutionCell(6,5,"WHITE"),
         new SolutionCell(7,5,"WHITE")]
 ));
+// Concept 11
+exercises.push(new Exercise(11,1,5,
+    "<h3>Concept 11 Demo 1</h3>" +
+    "<p>Execute the following Level 1 program by placing bricks at the appropriate locations. </p>"+
+    "<p>put2D_1x1_YELLOW(0,0);</p>"+
+    "<p>incOffset2D(1,3);</p>"+
+    "<p>put2D_4x2_BLUE(0,0);</p>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"BLUE")]
+));
+exercises.push(new Exercise(11,2,5,
+    "<h3>Concept 11 Demo 2</h3>" +
+    "<p>Execute the following Level 1 program by placing bricks at the appropriate locations. </p>"+
+    "<p>put2D_2x1_RED(0,0);</p>"+
+    "<p>incOffset2D(1,1);</p>"+
+    "<p>put2D_2x1_WHITE(0,0);</p>"+
+    "<p>incOffset2D(1,1);</p>"+
+    "<p>put2D_2x1_BLUE(0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE")]
+));
+exercises.push(new Exercise(11,3,5,
+    "<h3>Concept 11 Demo 3</h3>" +
+    "<p>Execute the following Level 1 program by placing bricks at the appropriate locations. </p>"+
+    "<p>put2D_2x1_RED(0,0);</p>"+
+    "<p>setOffset2D(1,1);</p>"+
+    "<p>put2D_2x1_WHITE(0,0);</p>"+
+    "<p>incOffset2D(1,1);</p>"+
+    "<p>put2D_2x1_BLUE(0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE")]
+));
+exercises.push(new Exercise(11,4,6,
+    "<h3>Concept 11 Demo 4</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+"<p>put2D_2x1_RED(0,0);</p>"+
+"<p>incOffset2D(1,1);</p>"+
+"<p>put2D_2x1_WHITE(0,0);</p>"+
+"<p>incOffset2D(1,1);</p>"+
+"<p>put2D_2x1_BLUE(0,0);</p>"+
+"<p>incOffset2D(1,~1);</p>"+
+"<p>put2D_2x1_WHITE(0,0);</p>"+
+"<p>incOffset2D(1,~1);</p>"+
+"<p>put2D_2x1_RED(0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(4,1,"WHITE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED")]
+));
+exercises.push(new Exercise(11,5,6,
+    "<h3>Concept 11 Demo 5</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>put2D_2x1_RED(0,0);</p>"+
+    "<p>incOffset2D(1,1);</p>"+
+    "<p>put2D_2x1_WHITE(0,0);</p>"+
+    "<p>incOffset2D(1,1);</p>"+
+    "<p>put2D_2x1_BLUE(0,0);</p>"+
+    "<p>incOffset2D(1,~1);</p>"+
+    "<p>put2D_2x1_WHITE(0,0);</p>"+
+    "<p>incOffset2D(1,~1);</p>"+
+    "<p>put2D_2x1_RED(0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(4,1,"WHITE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED")]
+));
+exercises.push(new Exercise(11,6,5,
+    "<h3>Concept 11 Demo 6</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun head() =</p>"+
+"<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>incOffset2D(1,4);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,0);</p>"+
+    "<p style='text-indent: 4em;'>decOffset2D(1,4)</p>"+
+"<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun body() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>incOffset2D(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,0);</p>"+
+    "<p style='text-indent: 4em;'>decOffset2D(0,2)</p>"+
+"<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun legs() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(0,0);</p>"+
+    "<p style='text-indent: 4em;'>incOffset2D(3,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(0,0);</p>"+
+    "<p style='text-indent: 4em;'>decOffset2D(3,0)</p>"+
+"<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun person() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>head();</p>"+
+    "<p style='text-indent: 4em;'>body();</p>"+
+    "<p style='text-indent: 4em;'>legs()</p>"+
+"<p style='text-indent: 2em;'>);</p>"+
+"<p>person();</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW")]
+));
+exercises.push(new Exercise(11,7,6,
+    "<h3>Concept 11 Exercise 1</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>put2D_2x2_BLUE(0,0);</p>"+
+    "<p>incOffset2D(0,4);</p>"+
+    "<p>put2D_2x2_BLUE(0,0);</p>"+
+    "<p>incOffset2D(4,0);</p>"+
+    "<p>put2D_2x2_BLUE(0,0);</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(11,8,6,
+    "<h3>Concept 11 Exercise 2</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>put2D_2x2_GREEN(0,0);</p>"+
+    "<p>incOffset2D(0,4);</p>"+
+    "<p>put2D_2x2_GREEN(0,0);</p>"+
+    "<p>incOffset2D(4,0);</p>"+
+    "<p>put2D_2x2_GREEN(0,0);</p>"+
+    "<p>decOffset2D(0,4);</p>"+
+    "<p>put2D_2x2_GREEN(0,0);</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(4,5,"GREEN"),
+        new SolutionCell(5,5,"GREEN"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(5,0,"GREEN"),
+        new SolutionCell(4,1,"GREEN"),
+        new SolutionCell(5,1,"GREEN")]
+));
+exercises.push(new Exercise(11,9,6,
+    "<h3>Concept 11 Exercise 3</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>put2D_2x2_YELLOW(0,0);</p>"+
+    "<p>incOffset2D(0,4);</p>"+
+    "<p>put2D_2x2_GREEN(0,0);</p>"+
+    "<p>incOffset2D(4,0);</p>"+
+    "<p>put2D_2x2_RED(0,0);</p>"+
+    "<p>decOffset2D(0,4);</p>"+
+    "<p>put2D_2x2_GRAY(0,0);</p>"+
+    "<p>incOffset2D(~2,2);</p>"+
+    "<p>put2D_2x2_BLUE(0,0);</p>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,5,"RED"),
+        new SolutionCell(4,0,"GRAY"),
+        new SolutionCell(5,0,"GRAY"),
+        new SolutionCell(4,1,"GRAY"),
+        new SolutionCell(5,1,"GRAY"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,2,"BLUE")]
+));
+exercises.push(new Exercise(11,10,5,
+    "<h3>Concept 11 Exercise 4</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>put2D_1x1_RED(0,0);</p>"+
+    "<p>setOffset2D(3,3);</p>"+
+    "<p>put2D_2x2_BLUE(~1,~2);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE")]
+));
+exercises.push(new Exercise(11,11,6,
+    "<h3>Concept 11 Exercise 5</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun xGray() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(2,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(2,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(1,1)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun xBlue() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(2,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(2,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(1,1)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun xs() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>incOffset2D(1,1);</p>"+
+    "<p style='text-indent: 4em;'>xGray();</p>"+
+    "<p style='text-indent: 4em;'>incOffset2D(2,1);</p>"+
+    "<p style='text-indent: 4em;'>xBlue();</p>"+
+    "<p style='text-indent: 4em;'>decOffset2D(3,2)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>xs();</p>"+
+    "<p>put2D_1x1_RED(0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,1,"GRAY"),
+        new SolutionCell(2,2,"GRAY"),
+        new SolutionCell(3,3,"GRAY"),
+        new SolutionCell(1,3,"GRAY"),
+        new SolutionCell(3,1,"GRAY"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(3,4,"BLUE")]
+));
+exercises.push(new Exercise(11,12,6,
+    "<h3>Concept 11 Exercise 6</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun left() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun right() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(1,1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun pattern() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>left();</p>"+
+    "<p style='text-indent: 4em;'>incOffset2D(1,1);</p>"+
+    "<p style='text-indent: 4em;'>right();</p>"+
+    "<p style='text-indent: 4em;'>decOffset2D(1,1)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>pattern();</p>"+
+    "<p>setOffset2D(3,0);</p>"+
+    "<p>pattern();</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(5,3,"YELLOW")]
+));
+exercises.push(new Exercise(11,13,6,
+    "<h3>Concept 11 Exercise 7</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun left() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun right() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(1,1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun top() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_GREEN(1,1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(3,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun bottom() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(0,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_GREEN(1,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(3,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun smallPattern() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>left();</p>"+
+    "<p style='text-indent: 4em;'>incOffset2D(1,1);</p>"+
+    "<p style='text-indent: 4em;'>right();</p>"+
+    "<p style='text-indent: 4em;'>decOffset2D(1,1)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun pattern() =</p>"+
+"<p style='text-indent: 2em;'>(</p>"+
+"<p style='text-indent: 4em;'>put2D_2x1_RED(0,0);</p>"+
+"<p style='text-indent: 4em;'>incOffset2D(0,1);</p>"+
+"<p style='text-indent: 4em;'>smallPattern();</p>"+
+"<p style='text-indent: 4em;'>incOffset2D(3,0); (* offset = (3,1) *)</p>"+
+"<p style='text-indent: 4em;'>smallPattern();</p>"+
+"<p style='text-indent: 4em;'>incOffset2D(~3,3); (* offset = (0,4) *)</p>"+
+"<p style='text-indent: 4em;'>top();</p>"+
+"<p style='text-indent: 4em;'>incOffset2D(2,~4); (* offset = (2,0) *)</p>"+
+"<p style='text-indent: 4em;'>bottom();</p>"+
+"<p style='text-indent: 4em;'>decOffset2D(2,0);</p>"+
+"<p style='text-indent: 4em;'>put2D_2x1_RED(4,5)</p>"+
+"<p style='text-indent: 2em;'>);</p>"+
+    "<p>pattern();</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(3,0,"GREEN"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(5,0,"GREEN"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(5,1,"GREEN"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"YELLOW"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(5,4,"YELLOW"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(2,5,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,5,"RED")]
+));
+//Concept 12
+exercises.push(new Exercise(12,1,5,
+    "<h3>Concept 12 Demo 1</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun myPut(x,z) = put2D_4x2_RED(x,z);</p>"+
+    "<p>myPut(0,1);</p>",
+    [   new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(3,2,"RED")]
+));
+exercises.push(new Exercise(12,2,5,
+    "<h3>Concept 12 Demo 2</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun myPut(x,z) =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GREEN(x,z);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GREEN(x+3,z+3))</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>setOffset2D(1,1);</p>"+
+    "<p>put2D_1x1_BLUE(0,0);</p>"+
+    "<p>setOffset2D(2,2);</p>"+
+    "<p>put2D_1x1_RED(0,0);</p>"+
+    "<p>setOffset2D(0,0);</p>"+
+    "<p>myPut(0,0);</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(3,3,"GREEN")]
+));
+exercises.push(new Exercise(12,3,5,
+    "<h3>Concept 12 Demo 3</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun design1() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_RED(0,0);</p>"+
+"<p style='text-indent: 4em;'>incOffset2D(4,0);</p>"+
+"<p style='text-indent: 4em;'>put2D_1x1_RED(0,0);</p>"+
+"<p style='text-indent: 4em;'>incOffset2D(0,4);</p>"+
+"<p style='text-indent: 4em;'>put2D_1x1_RED(0,0);</p>"+
+"<p style='text-indent: 4em;'>decOffset2D(4,0);</p>"+
+"<p style='text-indent: 4em;'>put2D_1x1_RED(0,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun design2() =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x,z);</p>"+
+"<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x+2,z);</p>"+
+"<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x+2,z+2);</p>"+
+"<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x,z+2)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>design1();</p>"+
+    "<p>setOffset2D(0,0);</p>"+
+    "<p>design2(1,1);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(3,3,"YELLOW"),
+        new SolutionCell(4,4,"RED")]
+));
+exercises.push(new Exercise(12,4,6,
+    "<h3>Concept 12 Demo 4</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun put2D_6x2_RED(x,z) =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+   "<p style='text-indent: 4em;'>put2D_3x2_RED(x,z);</p>"+
+    "<p style='text-indent: 4em;'>put2D_3x2_RED(x +3,z)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>put2D_6x2_RED(0,0);</p>"+
+    "<p>put2D_6x2_RED(0,3);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(5,4,"RED")]
+));
+exercises.push(new Exercise(12,5,6,
+    "<h3>Concept 12 Demo 5</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun put2D_6x2_RED_on_Row_Zero x =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_3x2_RED(x  ,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_3x2_RED(x+3,0)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>put2D_6x2_RED_on_Row_Zero 0;</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,1,"RED")]
+));
+exercises.push(new Exercise(12,6,6,
+    "<h3>Concept 12 Exercise 1</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun mysteryPiece(x,z) =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x2_BLUE(x,z);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x2_BLUE(x+2,z+2)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>mysteryPiece(2,0);</p>"+
+    "<p>mysteryPiece(0,2);</p>",
+    [   new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,5,"BLUE")]
+));
+exercises.push(new Exercise(12,7,7,
+    "<h3>Concept 12 Exercise 2</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun mysteryPiece(x,z) =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_RED(x,z+1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_RED(x+2,z+1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(x+1,z);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(x+1,z+2)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>mysteryPiece(0,0);</p>"+
+    "<p>mysteryPiece(4,0);</p>",
+    [   new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(6,1,"RED")]
+));
+exercises.push(new Exercise(12,8,5,
+    "<h3>Concept 12 Exercise 3</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun mystery v =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GREEN (v   ,v);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_GREEN (v+1 ,v+1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(v+1 ,v);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(v   ,v+1)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>mystery 0;</p>"+
+    "<p>mystery 3;</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(4,4,"GREEN")]
+));
+exercises.push(new Exercise(12,9,5,
+    "<h3>Concept 12 Exercise 4</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<p>fun mystery v =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,0);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,1);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,2);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,3)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>mystery 0;</p>"+
+    "<p>mystery 2;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE")]
+));
+exercises.push(new Exercise(12,10,7,
+    "<h3>Concept 12 Exercise 5</h3>" +
+    "<p>fun f v =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(v,v);</p>"+
+    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(v,v+2)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun g v =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_RED(v,v);</p>"+
+    "<p style='text-indent: 4em;'>put2D_2x1_RED(v+2,v)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun mystery(x,z) =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>f x;</p>"+
+    "<p style='text-indent: 4em;'>g z</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>mystery(0, 1);</p>"+
+    "<p>incOffset2D(2,2);</p>"+
+    "<p>mystery(0, 1);</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(6,3,"RED")]
+));
+// Concept 13
+exercises.push(new Exercise(13,1,7,
+    "<h3>Concept 13 Demo 1</h3>" +
+    "<p>Idea: radius*radius >= x*x + z*z</p>"+
+"<p>Formula: radius >= sqrt( sq(x-centerX) + sq(z-centerZ) )</p>"+
+"<p>Note: We will round to the nearest integer.</p>"+
+"<p>3 >= sqrt( sq(~3) + sq(~1)) true</p>"+
+"<p>3 >= sqrt( sq(~3) + sq(0) ) true</p>"+
+"<p>3 >= sqrt( sq(~3) + sq(1) ) true</p>"+
+"<p>3 >= sqrt( sq(~3) + sq(2) ) false</p>"+
+"<p>3 >= sqrt( sq(~3) + sq(3) ) false</p>"+
+"<p>Execute the following function calls.</p>"+
+"<p>circleXZ 3 BLUE (3,3);</p>"+
+"<p>put2D_1x1_WHITE(3,3);</p>",
+    [   new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(6,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(6,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(6,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,5,"BLUE"),
+        new SolutionCell(2,6,"BLUE"),
+        new SolutionCell(3,6,"BLUE"),
+        new SolutionCell(4,6,"BLUE")]
+));
+//Concept 14
+exercises.push(new Exercise(14,1,5,
+    "<h3>Concept 14 Demo 1</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,2) RED (0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"RED")]
+));
+exercises.push(new Exercise(14,2,5,
+    "<h3>Concept 14 Demo 2</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,4) BLUE (0,1);</p>",
+    [   new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE")]
+));
+exercises.push(new Exercise(14,3,5,
+    "<h3>Concept 14 Exercise 1</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,1) YELLOW (0,0);</p>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(2,0,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW")]
+));
+exercises.push(new Exercise(14,4,5,
+    "<h3>Concept 14 Exercise 2</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,3) GREEN (0,1);</p>",
+    [   new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(3,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(3,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(3,3,"GREEN")]
+));
+exercises.push(new Exercise(14,5,5,
+    "<h3>Concept 14 Exercise 3</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,4) GREEN (0,0);</p>"+
+    "<p>put2D (4,4) BLUE  (1,1);</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(3,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"BLUE")]
+));
+exercises.push(new Exercise(14,6,7,
+    "<h3>Concept 14 Exercise 4</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (7,5) RED (0,0);</p>"+
+    "<p>put2D (7,1) WHITE (0,2);</p>"+
+    "<p>put2D (1,5) WHITE (3,0);</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(3,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"BLUE")]
+));
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){

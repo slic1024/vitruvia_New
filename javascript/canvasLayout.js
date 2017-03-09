@@ -276,14 +276,14 @@ function drawBoard() {
     for (var x = 0; x<gridSize; x++  ){
         gDrawingContext.font = "15px Comic Sans MS";
         gDrawingContext.fillStyle = "black";
-        gDrawingContext.textAlign = "center";
-        gDrawingContext.fillText(gridSize - x - 1, axisDelta/2, x*kStep +(kStep));
+        /*gDrawingContext.textAlign = "center";*/
+        gDrawingContext.fillText(gridSize - x - 1, axisDelta/2, x*kStep +(kStep/3));
     }
     for (var z = 0; z<gridSize; z++  ){
         gDrawingContext.font = "15px Comic Sans MS";
         gDrawingContext.fillStyle = "black";
-        gDrawingContext.textAlign = "center";
-        gDrawingContext.fillText(z, z*kStep +(kStep/2), yEnd - (axisDelta/3) );
+        /*gDrawingContext.textAlign = "center";*/
+        gDrawingContext.fillText(z, z*kStep +(kStep), yEnd - (axisDelta/4) );
     }
 }
 // =======================================================================================
