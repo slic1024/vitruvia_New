@@ -2885,6 +2885,318 @@ exercises.push(new Exercise(14,7,9,
         new SolutionCell(7,8,"BLUE"),
         new SolutionCell(8,8,"BLUE")]
 ));
+// Concept 15
+exercises.push(new Exercise(15,1,5,
+    "<h3>Concept 15 Demo 1</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>lineXZ (0,0) (4,4) RED;</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(4,4,"RED")]
+));
+exercises.push(new Exercise(15,2,6,
+    "<h3>Concept 15 Demo 2</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>lineXZ (0,0) (5,1) BLUE;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(5,1,"BLUE")]
+));
+exercises.push(new Exercise(15,3,6,
+    "<h3>Concept 15 Exercise 1</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>lineXZ (0,0) (1,5) GREEN;</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(1,5,"GREEN")]
+));
+exercises.push(new Exercise(15,4,6,
+    "<h3>Concept 15 Exercise 2</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>lineXZ (0,0) (0,5) BLUE;</p>"+
+"<p>lineXZ (0,0) (1,5) BLUE;</p>"+
+"<p>lineXZ (0,0) (5,5) BLUE;</p>"+
+"<p>lineXZ (0,0) (5,1) BLUE;</p>"+
+"<p>lineXZ (0,0) (5,0) BLUE;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+//Concept 16
+exercises.push(new Exercise(16,1,5,
+    "<h3>Concept 16 Demo 1</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,2) RED (3,4);</p>",
+    [   new SolutionCell(3,4,"RED"),
+        new SolutionCell(4,4,"RED")]
+));
+exercises.push(new Exercise(16,2,5,
+    "<h3>Concept 16 Demo 2</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,2) BLUE (~3,4);</p>",
+    [new SolutionCell(0,4,"BLUE")]
+));
+exercises.push(new Exercise(16,3,5,
+    "<h3>Concept 16 Exercise 1</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (2,2) BLUE (4,4);</p>",
+    [new SolutionCell(4,4,"BLUE")]
+));
+exercises.push(new Exercise(16,4,5,
+    "<h3>Concept 16 Exercise 2</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (2,4) GREEN (3,3);</p>",
+    [   new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(4,3,"GREEN")]
+));
+exercises.push(new Exercise(16,5,5,
+    "<h3>Concept 16 Exercise 3</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<p>put2D (4,1) RED (5,3);</p>",
+    [   new SolutionCell(0,0,"EMPTY")]
+));
+//Concept 17
+exercises.push(new Exercise(17,1,7,
+    "<h3>Concept 17 Demo 1</h3>" +
+    "<p>build2D(7,7);</p>"+
+    "<p>put2D (1,1) YELLOW (0,0);</p>"+
+    "<p>setMySpace2D (1,1) (4,4);</p>"+
+    "<p>put2D (5,5) BLUE (0,0);</p>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"BLUE")]
+));
+exercises.push(new Exercise(17,2,7,
+    "<h3>Concept 17 Demo 2</h3>" +
+    "<p>build2D(7,7);</p>"+
+    "<p>setMySpace2D (0,0) (5,5);</p>"+
+    "<p>put2D (6,6) BLUE   (0,0);</p>"+
+    "<p>put2D (1,1) YELLOW (0,0);</p>"+
+    "<p>put2D (1,1) YELLOW (4,4);</p>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE")]
+));
+exercises.push(new Exercise(17,3,7,
+    "<h3>Concept 17 Demo 3</h3>" +
+    "<p>build2D(7,7);</p>"+
+    "<p>put2D (1,1) GREEN (6,6);</p>"+
+    "<p>setMySpace2D (0,0) (4,4);</p>"+
+    "<p>put2D (4,4) RED (0,0);</p>"+
+    "<p>setMySpace2D (2,2) (4,4);</p>"+
+    "<p>put2D (4,4) BLUE (0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE"),
+        new SolutionCell(6,6,"GREEN")]
+));
+exercises.push(new Exercise(17,4,7,
+    "<h3>Concept 17 Demo 4</h3>" +
+    "<p>build2D(7,7);</p>"+
+    "<p>setMySpace2D (0,0) (3,5);</p>"+
+"<p>put2D (10,10) RED (0,0);</p>"+
+"<p>setMySpace2D (3,0) (3,4);</p>"+
+"<p>put2D (10,10) BLUE (0,0);</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,3,"BLUE")]
+));
+//Concept 18
+exercises.push(new Exercise(18,1,6,
+    "<h3>Concept 18 Demo 1</h3>" +
+    "<p>fun f(x,z) = put2D (2,2) BLUE (x,z)</p>"+
+    "<p>fun g(x,z) = put2D (2,2) GREEN (x,z)</p>"+
+    "<p>fun thing1(x,z) =</p>"+
+    "<p style='text-indent: 2em;'>(</p>"+
+    "<p style='text-indent: 4em;'>f(x,z);</p>"+
+    "<p style='text-indent: 4em;'>g(x+2,z+2)</p>"+
+    "<p style='text-indent: 2em;'>)</p>"+
+    "<p>fun thing2(x,z) =</p>"+
+    "<p style='text-indent: 2em;'>let</p>"+
+    "<p style='text-indent: 4em;'>fun f(x,z) = put2D (2,2) RED (x,z)</p>"+
+    "<p style='text-indent: 2em;'>in</p>"+
+    "<p style='text-indent: 4em;'>f(x,z);</p>"+
+    "<p style='text-indent: 4em;'>g(x+2,z+2)</p>"+
+    "<p style='text-indent: 2em;'>end;</p>"+
+    "<p>thing1(0,2);</p>"+
+    "<p>thing2(2,0);</p>",
+    [   new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(2,4,"GREEN"),
+        new SolutionCell(2,5,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,2,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(5,2,"GREEN"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE")]
+));
+// Concept 19
+exercises.push(new Exercise(19,1,5,
+    "<h3>Concept 19 Demo 1</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<p>put (4,1,2) BLUE (0,0,0);</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE")]
+));
+exercises.push(new Exercise(19,2,5,
+    "<h3>Concept 19 Exercise 1</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<p>put (2,1,3) RED (1,0,2);</p>",
+    [   new SolutionCell(1,2,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,4,"RED")]
+));
+exercises.push(new Exercise(19,3,5,
+    "<h3>Concept 19 Exercise 2</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<p>put (4,1,1) BLUE (0,0,4);</p>",
+    [   new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE")]
+));
+exercises.push(new Exercise(19,4,5,
+    "<h3>Concept 19 Exercise 3</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<p>put (2,1,3) GREEN (0,5,0);</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(1,2,"GREEN")]
+));
+//Concept 20
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){
