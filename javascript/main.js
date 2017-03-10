@@ -3711,6 +3711,487 @@ exercises.push(new Exercise(20,18,6,
         new SolutionCell(5,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
+//Concept 21
+exercises.push(new Exercise(21,1,4,
+    "<h3>Concept 21 Demo 1</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x = 0 then </p>" +
+    "<p style='text-indent: 2em;'>if z = 0 then BLUE else EMPTY </p>" +
+    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE")]
+));
+exercises.push(new Exercise(21,2,4,
+    "<h3>Concept 21 Demo 2</h3>" +
+    "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
+    "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
+    "<p>In other words, the Boolean operator 'andalso' can be used to combine two Boolean expressions. " +
+    "An expression (e1 andalso e2) evaluates to true if and only if e1 evaluates to true and e2 evaluates to true. " +
+    "Otherwise, (e1 andalso e2)  evaluates to false.</p>"+
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x = 0 andalso z = 0 then BLUE else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE")]
+));
+exercises.push(new Exercise(21,3,6,
+    "<h3>Concept 21 Demo 3</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x < 3 then</p>" +
+    "<p style='text-indent: 2em;'>if z < 3 then BLUE else RED</p>" +
+    "<p style='text-indent: 4em;'>else RED;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(0,5,"RED"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(1,5,"RED"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(3,5,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED")]
+));
+exercises.push(new Exercise(21,4,6,
+    "<h3>Concept 21 Demo 4</h3>" +
+    "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
+    "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x < 3 andalso z < 3 then BLUE else RED</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(0,5,"RED"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(1,5,"RED"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(3,5,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED")]
+));
+exercises.push(new Exercise(21,5,6,
+    "<h3>Concept 21 Exercise 1</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if 2 <= x then</p>" +
+    "<p style='text-indent: 2em;'>if x <= 4 then BLUE else EMPTY</p>" +
+    "<p style='text-indent: 4em;'>else EMPTY;</p>",
+    [   new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE")]
+));
+exercises.push(new Exercise(21,6,6,
+    "<h3>Concept 21 Exercise 2</h3>" +
+    "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
+    "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if 2 <= x andalso x <= 4 then BLUE else EMPTY</p>",
+    [   new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE")]
+));
+exercises.push(new Exercise(21,7,6,
+    "<h3>Concept 21 Exercise 3</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x >= z then</p>" +
+    "<p style='text-indent: 2em;'>if x <= 2*z then BLUE else EMPTY</p>" +
+    "<p style='text-indent: 4em;'>else EMPTY;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(21,8,6,
+    "<h3>Concept 21 Exercise 4</h3>" +
+    "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
+    "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x >= z andalso x <= 2*z then BLUE else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(21,9,6,
+    "<h3>Concept 21 Exercise 5</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x >= z div 2 then</p>" +
+    "<p style='text-indent: 2em;'>if x <= 2*z then BLUE else EMPTY</p>" +
+    "<p style='text-indent: 4em;'>else EMPTY;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(21,10,6,
+    "<h3>Concept 21 Exercise 6</h3>" +
+    "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
+    "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x >= z div 2 andalso x <= 2*z then BLUE else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(21,11,6,
+    "<h3>Concept 21 Exercise 7</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x <= 3 then</p>" +
+    "<p style='text-indent: 2em;'>if z <= 3 then GREEN else EMPTY</p>" +
+    "<p style='text-indent: 4em;'>else YELLOW</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(3,0,"GREEN"),
+        new SolutionCell(3,1,"GREEN"),
+        new SolutionCell(3,2,"GREEN"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(5,3,"YELLOW"),
+        new SolutionCell(5,4,"YELLOW"),
+        new SolutionCell(5,5,"YELLOW")]
+));
+exercises.push(new Exercise(21,12,6,
+    "<h3>Concept 21 Exercise 8</h3>" +
+    "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
+    "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x <= 3 andalso z <= 3 then GREEN</p>"+
+    "<p style='text-indent: 2em;'>else if x > 3 then YELLOW</p>" +
+    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(3,0,"GREEN"),
+        new SolutionCell(3,1,"GREEN"),
+        new SolutionCell(3,2,"GREEN"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(5,3,"YELLOW"),
+        new SolutionCell(5,4,"YELLOW"),
+        new SolutionCell(5,5,"YELLOW")]
+));
+exercises.push(new Exercise(21,13,6,
+    "<h3>Concept 21 Exercise 9</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x <= 3 then</p>" +
+    "<p style='text-indent: 2em;'>if z > 2 then GREEN else YELLOW</p>" +
+    "<p style='text-indent: 4em;'>else BLUE</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(21,14,6,
+    "<h3>Concept 21 Exercise 10</h3>" +
+    "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
+    "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x = 3 andalso z > 2 then GREEN</p>"+
+    "<p style='text-indent: 2em;'>else if x <> 3 then BLUE</p>" +
+    "<p style='text-indent: 4em;'>else YELLOW</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(21,15,6,
+    "<h3>Concept 21 Exercise 11</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x >= 3 then</p>"+
+    "<p style='text-indent: 4em;'>if z >= 3 then BLUE </p>" +
+    "<p style='text-indent: 4em;'>else RED</p>"+
+    "<p style='text-indent: 2em;'>else if z >= 3 then YELLOW</p>" +
+    "<p style='text-indent: 4em;'>else GREEN</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+//Concept 22
+
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){
