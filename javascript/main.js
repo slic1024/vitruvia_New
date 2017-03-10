@@ -4191,7 +4191,702 @@ exercises.push(new Exercise(21,15,6,
         new SolutionCell(5,5,"BLUE")]
 ));
 //Concept 22
-
+exercises.push(new Exercise(22,1,6,
+    "<h3>Concept 22 Demo 1</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    "What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x = 0 then BLUE </p>"+
+    "<p style='text-indent: 2em;'>else if z = 0 then BLUE </p>" +
+    "<p style='text-indent: 4em;'>else EMPTY </p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(5,0,"BLUE")]
+));
+exercises.push(new Exercise(22,2,6,
+    "<h3>Concept 22 Demo 2</h3>" +
+    "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
+    "<p>e1 orelse e2 = if e1 then true else e2</p>" +
+    "<p>In other words, the Boolean operator 'orelse' can be used to combine two Boolean expressions." +
+    " An expression (e1 orelse e2) evaluates to true if and only if e1 evaluates to true or e2 evaluates to true." +
+    " Otherwise, (e1 orelse e2)  evaluates to false.</p>"+
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x = 0 orelse z = 0 then BLUE else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(5,0,"BLUE")]
+));
+exercises.push(new Exercise(22,3,6,
+    "<h3>Concept 22 Demo 3</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    "What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x < 3 then BLUE</p>"+
+    "<p style='text-indent: 2em;'>else if z < 3 then BLUE else RED</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(3,5,"RED"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED")]
+));
+exercises.push(new Exercise(22,4,6,
+    "<h3>Concept 22 Demo 4</h3>" +
+    "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
+    "<p>e1 orelse e2 = if e1 then true else e2</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x < 3 orelse z < 3 then BLUE else RED</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(3,5,"RED"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED")]
+));
+exercises.push(new Exercise(22,5,7,
+    "<h3>Concept 22 Exercise 1</h3>" +
+    "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
+    "<p>e1 orelse e2 = if e1 then true else e2</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x = 3 orelse z = 3 then WHITE else RED</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"WHITE"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(0,5,"RED"),
+        new SolutionCell(0,6,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(1,3,"WHITE"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(1,5,"RED"),
+        new SolutionCell(1,6,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(2,6,"RED"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(3,4,"WHITE"),
+        new SolutionCell(3,5,"WHITE"),
+        new SolutionCell(3,6,"WHITE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"WHITE"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(4,6,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"WHITE"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED"),
+        new SolutionCell(5,6,"RED"),
+        new SolutionCell(6,0,"RED"),
+        new SolutionCell(6,1,"RED"),
+        new SolutionCell(6,2,"RED"),
+        new SolutionCell(6,3,"WHITE"),
+        new SolutionCell(6,4,"RED"),
+        new SolutionCell(6,5,"RED"),
+        new SolutionCell(6,6,"RED")]
+));
+exercises.push(new Exercise(22,6,6,
+    "<h3>Concept 22 Exercise 2</h3>" +
+    "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
+    "<p>e1 orelse e2 = if e1 then true else e2</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x = z orelse z = 5 - x then WHITE else RED</p>",
+    [   new SolutionCell(0,0,"WHITE"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(0,5,"WHITE"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"WHITE"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"WHITE"),
+        new SolutionCell(1,5,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(3,5,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"WHITE"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"WHITE"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,0,"WHITE"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"WHITE")]
+));
+exercises.push(new Exercise(22,7,7,
+    "<h3>Concept 22 Exercise 3</h3>" +
+    "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
+    "What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if z < x then GREEN</p>"+
+    "<p style='text-indent: 2em;'>else if z < 6 - x then GREEN else YELLOW</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(0,6,"YELLOW"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(1,6,"YELLOW"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(2,6,"YELLOW"),
+        new SolutionCell(3,0,"GREEN"),
+        new SolutionCell(3,1,"GREEN"),
+        new SolutionCell(3,2,"GREEN"),
+        new SolutionCell(3,3,"YELLOW"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(3,5,"YELLOW"),
+        new SolutionCell(3,6,"YELLOW"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(4,1,"GREEN"),
+        new SolutionCell(4,2,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(4,6,"YELLOW"),
+        new SolutionCell(5,0,"GREEN"),
+        new SolutionCell(5,1,"GREEN"),
+        new SolutionCell(5,2,"GREEN"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(5,5,"YELLOW"),
+        new SolutionCell(5,6,"YELLOW"),
+        new SolutionCell(6,0,"GREEN"),
+        new SolutionCell(6,1,"GREEN"),
+        new SolutionCell(6,2,"GREEN"),
+        new SolutionCell(6,3,"GREEN"),
+        new SolutionCell(6,4,"GREEN"),
+        new SolutionCell(6,5,"GREEN"),
+        new SolutionCell(6,6,"YELLOW")]
+));
+exercises.push(new Exercise(22,8,7,
+    "<h3>Concept 22 Exercise 4</h3>" +
+    "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
+    "<p>e1 orelse e2 = if e1 then true else e2</p>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if z < x orelse z < 6 - x then GREEN </p>"+
+    "<p style='text-indent: 2em;'>else YELLOW</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(0,6,"YELLOW"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(1,6,"YELLOW"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(2,6,"YELLOW"),
+        new SolutionCell(3,0,"GREEN"),
+        new SolutionCell(3,1,"GREEN"),
+        new SolutionCell(3,2,"GREEN"),
+        new SolutionCell(3,3,"YELLOW"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(3,5,"YELLOW"),
+        new SolutionCell(3,6,"YELLOW"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(4,1,"GREEN"),
+        new SolutionCell(4,2,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(4,6,"YELLOW"),
+        new SolutionCell(5,0,"GREEN"),
+        new SolutionCell(5,1,"GREEN"),
+        new SolutionCell(5,2,"GREEN"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(5,5,"YELLOW"),
+        new SolutionCell(5,6,"YELLOW"),
+        new SolutionCell(6,0,"GREEN"),
+        new SolutionCell(6,1,"GREEN"),
+        new SolutionCell(6,2,"GREEN"),
+        new SolutionCell(6,3,"GREEN"),
+        new SolutionCell(6,4,"GREEN"),
+        new SolutionCell(6,5,"GREEN"),
+        new SolutionCell(6,6,"YELLOW")]
+));
+exercises.push(new Exercise(22,9,7,
+    "<h3>Concept 22 Exercise 5</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) =      if z >= x + 3 then GREEN</p>"+
+    "<p style='text-indent: 2em;'>else if z >= 9 - x then GREEN </p>"+
+    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    [   new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(0,6,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(1,6,"GREEN"),
+        new SolutionCell(2,5,"GREEN"),
+        new SolutionCell(2,6,"GREEN"),
+        new SolutionCell(3,6,"GREEN"),
+        new SolutionCell(4,5,"GREEN"),
+        new SolutionCell(4,6,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(5,5,"GREEN"),
+        new SolutionCell(5,6,"GREEN"),
+        new SolutionCell(6,3,"GREEN"),
+        new SolutionCell(6,4,"GREEN"),
+        new SolutionCell(6,5,"GREEN"),
+        new SolutionCell(6,6,"GREEN")]
+));
+exercises.push(new Exercise(22,10,7,
+    "<h3>Concept 22 Exercise 6</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if z <= 3 - x orelse z <= x - 3  then RED</p>"+
+    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(6,0,"RED"),
+        new SolutionCell(6,1,"RED"),
+        new SolutionCell(6,2,"RED"),
+        new SolutionCell(6,3,"RED")]
+));
+exercises.push(new Exercise(22,11,6,
+    "<h3>Concept 22 Exercise 7</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x <= z div 2 orelse x >= 2*z then BLUE </p>"+
+    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE")]
+));
+exercises.push(new Exercise(22,12,6,
+    "<h3>Concept 22 Exercise 8</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then BLUE</p>"+
+    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(22,12,6,
+    "<h3>Concept 22 Exercise 8</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then</p>"+
+    "<p style='text-indent: 4em;'>if z < 2 orelse z > 3 then GREEN</p>"+
+    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(4,1,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(4,5,"GREEN"),
+        new SolutionCell(5,0,"GREEN"),
+        new SolutionCell(5,1,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(5,5,"GREEN")]
+));
+exercises.push(new Exercise(22,13,6,
+    "<h3>Concept 22 Exercise 9</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then</p>"+
+    "<p style='text-indent: 4em;'>if z < 2 orelse z > 3 then GREEN</p>"+
+    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(4,1,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(4,5,"GREEN"),
+        new SolutionCell(5,0,"GREEN"),
+        new SolutionCell(5,1,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(5,5,"GREEN")]
+));
+exercises.push(new Exercise(22,14,6,
+    "<h3>Concept 22 Exercise 10</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then RED</p>"+
+    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    [   new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(0,5,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(1,5,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED")]
+));
+exercises.push(new Exercise(22,15,6,
+    "<h3>Concept 22 Exercise 11</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
+    "<p style='text-indent: 4em;'>else if z < 3 - x orelse z > 7 - x then BLUE</p>"+
+    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    [   new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(22,16,6,
+    "<h3>Concept 22 Exercise 12</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
+    "<p style='text-indent: 4em;'>else if z > 3 - x orelse z < 7 - x then BLUE</p>"+
+    "<p style='text-indent: 4em;'>else EMPTY</p>" +
+    "<p>Can this code be improved?</p>",
+    [   new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(22,17,6,
+    "<h3>Concept 22 Exercise 13</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
+    "<p style='text-indent: 4em;'>else BLUE</p>",
+    [   new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE")]
+));
+exercises.push(new Exercise(22,18,7,
+    "<h3>Concept 22 Exercise 14</h3>" +
+    "<p>What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<p>fun f(x,y,z) = if x mod 2 = 0 orelse z mod 2 = 0 then BLUE</p>"+
+    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(0,6,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,6,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(2,6,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,6,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(4,6,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,6,"BLUE"),
+        new SolutionCell(6,0,"BLUE"),
+        new SolutionCell(6,1,"BLUE"),
+        new SolutionCell(6,2,"BLUE"),
+        new SolutionCell(6,3,"BLUE"),
+        new SolutionCell(6,4,"BLUE"),
+        new SolutionCell(6,5,"BLUE"),
+        new SolutionCell(6,6,"BLUE")]
+));
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){
