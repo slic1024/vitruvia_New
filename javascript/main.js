@@ -3197,6 +3197,520 @@ exercises.push(new Exercise(19,4,5,
         new SolutionCell(1,2,"GREEN")]
 ));
 //Concept 20
+exercises.push(new Exercise(20,1,4,
+    "<h3>Concept 20 Demo 1</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = BLUE</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE")]
+));
+exercises.push(new Exercise(20,2,6,
+    "<h3>Concept 20 Demo 2</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x = 3 then BLUE else RED</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(0,5,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(1,5,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED")]
+));
+exercises.push(new Exercise(20,3,6,
+    "<h3>Concept 20 Exercise 1 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if z = 3 then RED else EMPTY</p>",
+    [   new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,3,"RED")]
+));
+exercises.push(new Exercise(20,4,6,
+    "<h3>Concept 20 Exercise 2 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x = z then GREEN else EMPTY</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(5,5,"GREEN")]
+));
+exercises.push(new Exercise(20,5,6,
+    "<h3>Concept 20 Exercise 3 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x < z then YELLOW else EMPTY</p>",
+    [   new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,5,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(0,2,"YELLOW"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW")]
+));
+exercises.push(new Exercise(20,6,6,
+    "<h3>Concept 20 Exercise 4 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x + z = 5 then BLUE else EMPTY</p>",
+    [   new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(5,0,"BLUE")]
+));
+exercises.push(new Exercise(20,7,6,
+    "<h3>Concept 20 Exercise 5 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x + z > 5 then RED else EMPTY</p>",
+    [   new SolutionCell(1,5,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(3,5,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,5,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,1,"RED")]
+));
+exercises.push(new Exercise(20,8,6,
+    "<h3>Concept 20 Exercise 6 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if (x + z) mod 2 = 0 then GRAY else WHITE</p>",
+    [   new SolutionCell(0,0,"GRAY"),
+        new SolutionCell(1,1,"GRAY"),
+        new SolutionCell(2,2,"GRAY"),
+        new SolutionCell(3,3,"GRAY"),
+        new SolutionCell(4,4,"GRAY"),
+        new SolutionCell(5,5,"GRAY"),
+        new SolutionCell(2,0,"GRAY"),
+        new SolutionCell(3,1,"GRAY"),
+        new SolutionCell(4,2,"GRAY"),
+        new SolutionCell(5,3,"GRAY"),
+        new SolutionCell(4,0,"GRAY"),
+        new SolutionCell(5,1,"GRAY"),
+        new SolutionCell(0,2,"GRAY"),
+        new SolutionCell(1,3,"GRAY"),
+        new SolutionCell(2,4,"GRAY"),
+        new SolutionCell(3,5,"GRAY"),
+        new SolutionCell(0,4,"GRAY"),
+        new SolutionCell(1,5,"GRAY"),
+        new SolutionCell(5,0,"WHITE"),
+        new SolutionCell(0,5,"WHITE"),
+        new SolutionCell(0,3,"WHITE"),
+        new SolutionCell(1,4,"WHITE"),
+        new SolutionCell(2,5,"WHITE"),
+        new SolutionCell(0,1,"WHITE"),
+        new SolutionCell(1,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(3,4,"WHITE"),
+        new SolutionCell(4,5,"WHITE"),
+        new SolutionCell(1,0,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(4,3,"WHITE"),
+        new SolutionCell(5,4,"WHITE"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(4,1,"WHITE"),
+        new SolutionCell(5,2,"WHITE")]
+));
+exercises.push(new Exercise(20,9,6,
+    "<h3>Concept 20 Exercise 7 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x + z mod 2 = 0 then BLUE else YELLOW</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(2,0,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(3,3,"YELLOW"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(5,3,"YELLOW"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(5,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,5,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(5,5,"YELLOW")]
+));
+exercises.push(new Exercise(20,10,6,
+    "<h3>Concept 20 Exercise 8 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x mod 2 = 0 then BLUE else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(0,4,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(4,5,"BLUE")]
+));
+exercises.push(new Exercise(20,11,6,
+    "<h3>Concept 20 Exercise 9 </h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then BLUE else EMPTY</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(5,4,"BLUE")]
+));
+exercises.push(new Exercise(20,12,6,
+    "<h3>Concept 20 Exercise 10</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then EMPTY else GREEN</p>",
+    [   new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(2,5,"GREEN"),
+        new SolutionCell(3,1,"GREEN"),
+        new SolutionCell(3,2,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(4,1,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(5,0,"GREEN"),
+        new SolutionCell(5,2,"GREEN"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(5,5,"GREEN")]
+));
+exercises.push(new Exercise(20,13,6,
+    "<h3>Concept 20 Exercise 11</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 0 then RED else EMPTY</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(3,4,"RED")]
+));
+exercises.push(new Exercise(20,14,6,
+    "<h3>Concept 20 Exercise 12</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 1 then GREEN else EMPTY</p>",
+    [   new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(3,1,"GREEN"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(4,2,"GREEN"),
+        new SolutionCell(4,4,"GREEN")]
+));
+exercises.push(new Exercise(20,15,6,
+    "<h3>Concept 20 Exercise 13</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x div 3 = 0 then GREEN else YELLOW</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(3,3,"YELLOW"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(5,3,"YELLOW"),
+        new SolutionCell(0,4,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(2,4,"GREEN"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(5,4,"YELLOW"),
+        new SolutionCell(0,5,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(2,5,"GREEN"),
+        new SolutionCell(3,5,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(5,5,"YELLOW")]
+));
+exercises.push(new Exercise(20,16,6,
+    "<h3>Concept 20 Exercise 14</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if (x + z div 3) mod 2 = 0 then GREEN else YELLOW</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,0,"GREEN"),
+        new SolutionCell(4,1,"GREEN"),
+        new SolutionCell(4,2,"GREEN"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(4,4,"YELLOW"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(5,5,"GREEN")]
+));
+exercises.push(new Exercise(20,17,6,
+    "<h3>Concept 20 Exercise 15</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if ((x + z) div 3) mod 2 = 0 then GREEN else YELLOW</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"GREEN"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(2,4,"GREEN"),
+        new SolutionCell(2,5,"GREEN"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(4,2,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(4,5,"YELLOW"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"GREEN"),
+        new SolutionCell(5,2,"GREEN"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(5,4,"YELLOW"),
+        new SolutionCell(5,5,"YELLOW")]
+));
+exercises.push(new Exercise(20,18,6,
+    "<h3>Concept 20 Exercise 16</h3>" +
+    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
+    " What is the result of applying the brick function f to the following matrix of cells." +
+    " Assume that the y value for all cell positions is 0.</p>"+
+    "<p>fun f(x,y,z) = if x div 3 = z div 3  then GREEN else YELLOW</p>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(2,0,"GREEN"),
+        new SolutionCell(2,1,"GREEN"),
+        new SolutionCell(2,2,"GREEN"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(3,4,"GREEN"),
+        new SolutionCell(3,5,"GREEN"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(4,5,"GREEN"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(5,4,"GREEN"),
+        new SolutionCell(5,5,"GREEN")]
+));
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){
