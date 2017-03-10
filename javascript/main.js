@@ -4887,6 +4887,269 @@ exercises.push(new Exercise(22,18,7,
         new SolutionCell(6,5,"BLUE"),
         new SolutionCell(6,6,"BLUE")]
 ));
+// Concept 23
+exercises.push(new Exercise(23,1,7,
+    "<h3>Concept 23 Demo 1 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+"<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if x = 3 then BLUE else EMPTY;</p>"+
+    "<p>fun g(x,y,z) = if z = 3 then</p>"+
+    "<p style='text-indent: 4em;'>if access(x,y,z) = BLUE then RED</p>"+
+    "<p style='text-indent: 4em;'>else GREEN</p>"+
+    "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
+    "<p>traverseWithin (0,0,0) (size,0,size) f;</p>"+
+    "<p>traverseWithin (0,0,0) (size,0,size) g;</p>",
+    [   new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(3,6,"BLUE"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(2,3,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(6,3,"GREEN")]
+));
+exercises.push(new Exercise(23,2,4,
+    "<h3>Concept 23 Exercise 1 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if (x+z) mod 2 = 0 then BLUE else YELLOW;</p>"+
+    "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then RED else IDENTITY;</p>"+
+    "<p>traverseWithin (0,0,0) (3,0,3) f;</p>"+
+    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"RED")]
+));
+exercises.push(new Exercise(23,3,4,
+    "<h3>Concept 23 Exercise 2 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if (x+z) mod 2 = 0 then BLUE else YELLOW;;</p>"+
+    "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
+    "<p style='text-indent: 4em;'>if z > 1 then RED else IDENTITY</p>"+
+    "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
+    "<p>traverseWithin (0,0,0) (3,0,3) f;</p>"+
+    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"BLUE"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"RED")]
+));
+exercises.push(new Exercise(23,4,4,
+    "<h3>Concept 23 Exercise 3 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if x mod 2 = 0 then BLUE else YELLOW;</p>"+
+    "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
+    "<p style='text-indent: 4em;'>if z > 1 then RED else IDENTITY</p>"+
+    "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
+    "<p>traverseWithin (0,0,0) (3,0,3) f;</p>"+
+    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"YELLOW")]
+));
+exercises.push(new Exercise(23,5,5,
+    "<h3>Concept 23 Exercise 4 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if x mod 2 = 0 orelse z mod 2 = 0 then BLUE else YELLOW;</p>"+
+    "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
+    "<p style='text-indent: 4em;'>if z > 1 then RED else IDENTITY</p>"+
+    "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
+    "<p>traverseWithin (0,0,0) (4,0,4) f;</p>"+
+    "<p>traverseWithin (0,0,0) (4,0,4) g;</p>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(3,3,"YELLOW"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(4,0,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED")]
+));
+exercises.push(new Exercise(23,6,5,
+    "<h3>Concept 23 Exercise 5 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if x mod 3 = 0  orelse z mod 3 = 0 then BLUE else YELLOW;</p>"+
+    "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
+    "<p style='text-indent: 4em;'>if z > 1 then RED else EMPTY</p>"+
+    "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
+    "<p>traverseWithin (0,0,0) (4,0,4) f;</p>"+
+    "<p>traverseWithin (0,0,0) (4,0,4) g;</p>",
+    [   new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"YELLOW")]
+));
+exercises.push(new Exercise(23,7,7,
+    "<h3>Concept 23 Exercise 6 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if ( x + z ) div 3 mod 3 = 0 then BLUE else YELLOW;</p>"+
+    "<p>fun g(x,y,z) = if x = z then</p>"+
+    "<p style='text-indent: 4em;'>if access(x,y,z) = YELLOW then RED</p>"+
+    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
+    "<p>traverseWithin (0,0,0) (6,0,6) f;</p>"+
+    "<p>traverseWithin (0,0,0) (6,0,6) g;</p>",
+    [   new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"YELLOW"),
+        new SolutionCell(0,4,"YELLOW"),
+        new SolutionCell(0,5,"YELLOW"),
+        new SolutionCell(0,6,"YELLOW"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(1,6,"YELLOW"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(2,3,"YELLOW"),
+        new SolutionCell(2,4,"YELLOW"),
+        new SolutionCell(2,5,"YELLOW"),
+        new SolutionCell(2,6,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(3,5,"YELLOW"),
+        new SolutionCell(3,6,"BLUE"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+        new SolutionCell(4,3,"YELLOW"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(4,6,"BLUE"),
+        new SolutionCell(5,0,"YELLOW"),
+        new SolutionCell(5,1,"YELLOW"),
+        new SolutionCell(5,2,"YELLOW"),
+        new SolutionCell(5,3,"YELLOW"),
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,6,"BLUE"),
+        new SolutionCell(6,0,"YELLOW"),
+        new SolutionCell(6,1,"YELLOW"),
+        new SolutionCell(6,2,"YELLOW"),
+        new SolutionCell(6,3,"BLUE"),
+        new SolutionCell(6,4,"BLUE"),
+        new SolutionCell(6,5,"BLUE"),
+        new SolutionCell(6,6,"RED")]
+));
+exercises.push(new Exercise(23,8,7,
+    "<h3>Concept 23 Exercise 7 </h3>" +
+    "<p>The access function lets you inspect the contents of a cell." +
+    " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>fun f(x,y,z) = if ( x + z ) div 3 mod 3 = 0 then BLUE</p>"+
+    "<p style='text-indent: 4em;'>else if ( x + z ) div 3 mod 3 = 1 then YELLOW</p>"+
+    "<p style='text-indent: 4em;'>else GREEN;</p>"+
+    "<p>fun g(x,y,z) = if x = z orelse x = z+1 then</p>"+
+    "<p style='text-indent: 4em;'>if access(x,y,z) = BLUE then RED</p>"+
+    "<p style='text-indent: 4em;'>else IDENTITY</p>"+
+    "<p style='text-indent: 2em;'>else EMPTY;</p>"+
+    "<p>traverseWithin (0,0,0) (6,0,6) f;</p>"+
+    "<p>traverseWithin (0,0,0) (6,0,6) g;</p>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,3,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(4,4,"GREEN"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED"),
+        new SolutionCell(6,5,"RED"),
+        new SolutionCell(6,6,"YELLOW")]
+));
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){
