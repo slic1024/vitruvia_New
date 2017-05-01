@@ -5218,17 +5218,21 @@ function loadExercise(concept_id,exercise_id) {
 function checkSolution() {
     var cellCount = 0;
     var solutionLength;
+    var initialFinalLength = finalUserSolution.length;
     if(fireworks){
         stopFireWorks();
         nextExercise();
         return;
     }
     generateUserSolution();
-    for (var i=0; i<finalUserSolution.length;i++){
+    initialFinalLength = finalUserSolution.length;
+    console.log(finalUserSolution);
+    for (var i=initialFinalLength - 1; i>=0;i--){
         if(finalUserSolution[i].lego ==  "EMPTY"){
             finalUserSolution.splice(i,1);
         }
     }
+    console.log(finalUserSolution);
     for(i=0; i<exercises.length;i++){
         if (exercises[i].concept_id == currentConceptId && exercises[i].exercise_id == currentExerciseId) {
             solutionLength = exercises[i].solution.length;

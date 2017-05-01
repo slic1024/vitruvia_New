@@ -74,7 +74,7 @@ function generateUserSolution(){
     var xL,yL;
     finalUserSolution = [];
     for(var i=userSolution.length-1; i>=0;i--){
-        xL = Math.floor(userSolution[i].x/kStep);
+        xL = Math.floor((userSolution[i].x )/kStep);
         yL = gridSize - 1 -  Math.floor(userSolution[i].y/kStep);
         if(finalUserSolution.length !=0){
             if(checkIfSolutionCellIsNotOccupied(xL,yL)){
@@ -288,7 +288,7 @@ function drawBoard() {
 }
 // =======================================================================================
 function clearCanvas() {
-    userSolution = [];
+    //userSolution = [];
     gDrawingContext.fillStyle = empty;
     gDrawingContext.rect(0, 0, xEnd, yEnd);
     gDrawingContext.fill();
@@ -694,6 +694,7 @@ function toggleCoordinates(pivot){
         }
     }
     if (coordinates){
+        clearCanvas();
         drawBoard();
         for (k =0 ;k<userSolution.length;k++){
             tempLego = legoNameToImage(userSolution[k].lego);
@@ -711,6 +712,7 @@ function toggleCoordinates(pivot){
         }
 
     } else {
+        clearCanvas();
         drawBoard();
         for (k =0 ;k<userSolution.length;k++){
             tempLego = legoNameToImage(userSolution[k].lego);
