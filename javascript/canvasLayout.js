@@ -267,7 +267,8 @@ function drawBoard() {
 
     // Canvas base color
     gDrawingContext.fillStyle = empty;
-    gDrawingContext.rect(axisDelta, 0, xEnd, yEnd - axisDelta);
+    //gDrawingContext.rect(axisDelta, 0, xEnd, yEnd - axisDelta);
+    gDrawingContext.rect(0, 0, xEnd, yEnd);
     gDrawingContext.fill();
 
     drawLines(lineColor);

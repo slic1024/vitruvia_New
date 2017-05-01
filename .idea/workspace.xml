@@ -4,7 +4,6 @@
     <list default="true" id="1df29e59-b9d9-4f7d-ad35-174521025b56" name="Default" comment="Initial Commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/canvasLayout.js" afterPath="$PROJECT_DIR$/javascript/canvasLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/main.js" afterPath="$PROJECT_DIR$/javascript/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="testingTwitter.iws" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="45">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="canvasLayout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/canvasLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1043">
-              <caret line="282" column="52" lean-forward="true" selection-start-line="282" selection-start-column="52" selection-end-line="282" selection-end-column="52" />
+            <state relative-caret-position="231">
+              <caret line="269" column="65" lean-forward="true" selection-start-line="269" selection-start-column="65" selection-end-line="269" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -62,8 +61,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="5324" column="24" lean-forward="true" selection-start-line="5324" selection-start-column="24" selection-end-line="5324" selection-end-column="24" />
+            <state relative-caret-position="581">
+              <caret line="5339" column="43" lean-forward="false" selection-start-line="5339" selection-start-column="43" selection-end-line="5339" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
                 <marker date="1493610664000" expanded="true" signature="62845:62862" ph="..." />
@@ -543,6 +542,13 @@
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -645,12 +651,13 @@
       <workItem from="1492097800015" duration="539000" />
       <workItem from="1492544043544" duration="126000" />
       <workItem from="1492779465493" duration="750000" />
-      <workItem from="1493322352664" duration="2204000" />
+      <workItem from="1493322352664" duration="2617000" />
+      <workItem from="1493650859175" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168042000" />
+    <option name="totallyTimeSpent" value="168683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="49" width="1378" height="744" extended-state="0" />
@@ -4184,22 +4191,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/canvasLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1043">
-          <caret line="282" column="52" lean-forward="true" selection-start-line="282" selection-start-column="52" selection-end-line="282" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5324" column="24" lean-forward="true" selection-start-line="5324" selection-start-column="24" selection-end-line="5324" selection-end-column="24" />
+        <state relative-caret-position="581">
+          <caret line="5339" column="43" lean-forward="false" selection-start-line="5339" selection-start-column="43" selection-end-line="5339" selection-end-column="43" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
             <marker date="1493610664000" expanded="true" signature="62845:62862" ph="..." />
@@ -4540,10 +4538,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/canvasLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="269" column="65" lean-forward="true" selection-start-line="269" selection-start-column="65" selection-end-line="269" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
