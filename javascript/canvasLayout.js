@@ -698,10 +698,17 @@ function toggleCoordinates(pivot){
         clearCanvas();
         drawBoard();
         for (k =0 ;k<userSolution.length;k++){
-            tempLego = legoNameToImage(userSolution[k].lego);
-            tempX = userSolution[k].x;
-            tempY = userSolution[k].y;
-            gDrawingContext.drawImage(tempLego,tempX,tempY,kStep -1 ,kStep - 1);
+            if(userSolution[k].lego != "EMPTY") {
+                tempLego = legoNameToImage(userSolution[k].lego);
+                tempX = userSolution[k].x;
+                tempY = userSolution[k].y;
+                gDrawingContext.drawImage(tempLego, tempX, tempY, kStep - 1, kStep - 1);
+            } else {
+                gDrawingContext.fillStyle = fillColor;
+                tempX = userSolution[k].x;
+                tempY = userSolution[k].y;
+                gDrawingContext.fillRect(tempX, tempY ,kStep -1 ,kStep - 1);
+            }
         }
         for(var j = 0;j<gridSize;j++){
             for(var k = gridSize - 1; k >= 0; k--){
@@ -716,10 +723,17 @@ function toggleCoordinates(pivot){
         clearCanvas();
         drawBoard();
         for (k =0 ;k<userSolution.length;k++){
-            tempLego = legoNameToImage(userSolution[k].lego);
-            tempX = userSolution[k].x;
-            tempY = userSolution[k].y;
-            gDrawingContext.drawImage(tempLego,tempX,tempY,kStep -1 ,kStep - 1);
+            if(userSolution[k].lego != "EMPTY") {
+                tempLego = legoNameToImage(userSolution[k].lego);
+                tempX = userSolution[k].x;
+                tempY = userSolution[k].y;
+                gDrawingContext.drawImage(tempLego, tempX, tempY, kStep - 1, kStep - 1);
+            } else {
+                tempX = userSolution[k].x;
+                tempY = userSolution[k].y;
+                gDrawingContext.fillStyle = fillColor;
+                gDrawingContext.fillRect(tempX , tempY ,kStep -1 ,kStep - 1);
+            }
         }
     }
 }
