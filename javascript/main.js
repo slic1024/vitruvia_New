@@ -368,7 +368,7 @@ exercises.push(new Exercise(3,5,5,
     "<h3>Concept 3 Exercise 1</h3>" +
     "<p>Put a 3x2 YELLOW brick at location (1,2).</p>",
     [   new SolutionCell(1,2,"YELLOW"),
-        new SolutionCell(1,2,"YELLOW"),
+        new SolutionCell(1,3,"YELLOW"),
         new SolutionCell(2,2,"YELLOW"),
         new SolutionCell(2,3,"YELLOW"),
         new SolutionCell(3,2,"YELLOW"),
