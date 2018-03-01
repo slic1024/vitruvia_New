@@ -60,6 +60,12 @@ var finalUserSolution = [];
 var gameLoaded = false;
 var incorrect = false;
 var coordinates = false;
+
+//========================================================================================
+function clearGridSheet(){
+    userSolution = [];
+    drawBoard();
+}
 //========================================================================================
 function checkIfSolutionCellIsNotOccupied(a,b){
     for(j = 0; j<finalUserSolution.length; j++){
@@ -199,11 +205,20 @@ function vitruviaOnClick(e) {
     var cell   = getCursorPalletPosition(e);
     var row    = cell.row;
     var column = cell.column;
+    var tempLego, tempX, tempY;
 
     bleep.play();
     if(incorrect){
-    incorrect = false;
     loadExercise(currentConceptId,currentExerciseId);
+        incorrect = false;
+
+        for (var k =0 ;k<userSolution.length;k++){
+            tempLego = legoNameToImage(userSolution[k].lego);
+            tempX = userSolution[k].x;
+            tempY = userSolution[k].y;
+            gDrawingContext.drawImage(tempLego,tempX,tempY,kStep -1 ,kStep - 1);
+        }
+
     } else if(fireworks){
         stopFireWorks();
         nextExercise();
@@ -363,7 +378,9 @@ function initGame(side) {
 
 // ====================================================================================================================
 function updateGame(side){
-    userSolution = [];
+    if(!(incorrect)) {
+        userSolution = [];
+    }
     /*var canvasElement  = document.getElementById("vitruvia_canvas");*/
     var v              = side;
 

@@ -321,7 +321,6 @@ exercises.push(new Exercise(2,8,7,
         new SolutionCell(3,6,"RED"),
         new SolutionCell(0,6,"RED"),
         new SolutionCell(3,0,"RED"),
-        new SolutionCell(3,3,"RED"),
         new SolutionCell(4,1,"RED"),
         new SolutionCell(5,2,"RED"),
         new SolutionCell(6,3,"RED"),
@@ -5213,6 +5212,9 @@ function loadExercise(concept_id,exercise_id) {
             }
         }
     }
+    if(coordinates){
+        toggleCoordinates(0);
+    }
 }
 // ======================================================================================================================
 function checkSolution() {
@@ -5348,5 +5350,42 @@ function nextExercise(){
         gDrawingContext.fillStyle = "red";
         gDrawingContext.textAlign = "center";
         gDrawingContext.fillText("This is the end", xEnd/2, yEnd/2);
+    }
+}
+// ===================================================================================================================
+function changeBackground(data){
+    switch (data){
+        case 'christmas':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/christmas-colour.png')";
+            break;
+        case 'circles':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/circles-dark.png')";
+            break;
+        case 'doodles':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/doodles.png')";
+            break;
+        case 'halftoneYellow':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/halftone-yellow.png')";
+            break;
+        case 'veneer':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/light-veneer.png')";
+            break;
+        case 'polka':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/polka-dots.png')";
+            break;
+        case 'gaming':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/gaming-pattern.png')";
+            break;
+        case 'whirlpool':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/whirlpool.png')";
+            break;
+        case 'skyscraper':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/skyscraper.png')";
+            break;
+        case 'waves':
+            document.body.style.backgroundImage = "url('images/backgroundTheme/vertical-waves.png')";
+            break;
+        default:
+            break;
     }
 }

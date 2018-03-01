@@ -11,6 +11,7 @@
     <script src = "js/hasher.min.js"></script>
     <script src = "js/crossroads.min.js"></script>
     <script src = "js/bootstrap.min.js"></script>
+    <script src = "js/jquery-3.3.1.min.js"></script>
     <script src = "javascript/main.js"></script>
     <script src = "javascript/router.js"></script>
     <!--<script src = "javascript/main.js"></script>-->
@@ -389,6 +390,41 @@
                                 <li><a href="#concepts/23/8"> Exercise 7</a></li>
                             </ul>
                         </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Theme <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('circles')">Circles</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('doodles')">Doodles</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('gaming')">Gaming</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('halftoneYellow')">Halftone Yellow</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('veneer')">Light Veneer</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('skyscraper')">Skyscraper</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('waves')">Waves</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:changeBackground('whirlpool')">Whirlpool</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
 
 
         </div>
@@ -410,6 +446,10 @@
                         <h5>Display Coordinates:</h5>
                         <button id = "switch_coordinates" class ="btn btn-sm btn-default" onclick="toggleCoordinates(1);">NO</button>
                     </td>
+
+                </tr>
+                <tr>
+                    <td><button class ="btn  btn-default" onclick="clearGridSheet();">Clear</button></td>
                 </tr>
                 </tbody>
             </table>
