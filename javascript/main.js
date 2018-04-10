@@ -3296,6 +3296,23 @@ exercises.push(new Exercise(18,3,6,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
+exercises.push(new Exercise(18,4,6,
+    "<h3>Concept 18 Exercise 1</h3>" +
+    "<p style='text-indent: 2em;'>let</p>"+
+    "<p style='text-indent: 4em;'>x = 1;</p>"+
+    "<p style='text-indent: 4em;'>z = x + 2;</p>"+
+    "<p style='text-indent: 4em;'>side = 2;</p>"+
+    "<p style='text-indent: 2em;'>in</p>"+
+    "<p style='text-indent: 4em;'>put2D (side,side) BLUE (x,z)</p>;"+
+    "<p style='text-indent: 4em;'>put2D (side,1) RED  (x,z+side)</p>"+
+    "<p style='text-indent: 2em;'>end;</p>",
+    [   new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(1,5,"RED"),
+        new SolutionCell(2,5,"RED")]
+));
 
 // Concept 19
 exercises.push(new Exercise(19,1,5,
