@@ -3235,35 +3235,41 @@ exercises.push(new Exercise(17,4,7,
         new SolutionCell(5,2,"BLUE"),
         new SolutionCell(5,3,"BLUE")]
 ));
-//Concept 18
+//Concept 18 -----------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(18,1,6,
     "<h3>Concept 18 Demo 1</h3>" +
-    "<p style='text-indent: 2em;'>let</p>"+
-    "<p style='text-indent: 4em;'>x = 5;</p>"+
-    "<p style='text-indent: 4em;'>z = 4;</p>"+
-    "<p style='text-indent: 2em;'>in</p>"+
-    "<p style='text-indent: 4em;'>put2D (1,1) BLACK (x,z)</p>"+
-    "<p style='text-indent: 2em;'>end;</p>",
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>" +
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val x = 5;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val z = 4;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,1) BLACK (x,z)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(5,4,"BLACK")]
 ));
 exercises.push(new Exercise(18,2,6,
     "<h3>Concept 18 Demo 2</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,z) = put2D (2,2) BLUE (x,z)</p>"+
     "<p>fun g(x,z) = put2D (2,2) GREEN (x,z)</p>"+
     "<p>fun thing1(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>f(x,z);</p>"+
-    "<p style='text-indent: 4em;'>g(x+2,z+2)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>(</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>f(x,z);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>g(x+2,z+2)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>)</p>"+
     "<p>fun thing2(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>let</p>"+
-    "<p style='text-indent: 4em;'>fun f(x,z) = put2D (2,2) RED (x,z)</p>"+
-    "<p style='text-indent: 2em;'>in</p>"+
-    "<p style='text-indent: 4em;'>f(x,z);</p>"+
-    "<p style='text-indent: 4em;'>g(x+2,z+2)</p>"+
-    "<p style='text-indent: 2em;'>end;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>fun f(x,z) = put2D (2,2) RED (x,z)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>f(x,z);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>g(x+2,z+2)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
     "<p>thing1(0,2);</p>"+
-    "<p>thing2(2,0);</p>",
+    "<p>thing2(2,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,0,"RED"),
         new SolutionCell(2,1,"RED"),
         new SolutionCell(3,0,"RED"),
@@ -3283,29 +3289,52 @@ exercises.push(new Exercise(18,2,6,
 ));
 exercises.push(new Exercise(18,3,6,
     "<h3>Concept 18 Exercise 1</h3>" +
-    "<p style='text-indent: 2em;'>let</p>"+
-    "<p style='text-indent: 4em;'>x = 2;</p>"+
-    "<p style='text-indent: 4em;'>z = 3;</p>"+
-    "<p style='text-indent: 4em;'>v = 2;</p>"+
-    "<p style='text-indent: 2em;'>in</p>"+
-    "<p style='text-indent: 4em;'>put2D (v,1) BLUE (x,z)</p>;"+
-    "<p style='text-indent: 4em;'>put2D (1,v) RED  (x+v,z)</p>"+
-    "<p style='text-indent: 2em;'>end;</p>",
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val x = 1;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val z = 4;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,1) GREEN (x,z)&semi;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,1) YELLOW (x+1,z)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end&semi;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(1,4,"GREEN"),
+        new SolutionCell(2,4,"YELLOW")
+    ]
+));
+exercises.push(new Exercise(18,4,6,
+    "<h3>Concept 18 Exercise 2</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val x = 2&semi;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val z = 3&semi;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val v = 2&semi;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (v,1) BLUE (x,z)&semi;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,v) RED  (x+v,z)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end&semi;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,3,"BLUE"),
         new SolutionCell(3,3,"BLUE"),
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
-exercises.push(new Exercise(18,4,6,
-    "<h3>Concept 18 Exercise 1</h3>" +
-    "<p style='text-indent: 2em;'>let</p>"+
-    "<p style='text-indent: 4em;'>x = 1;</p>"+
-    "<p style='text-indent: 4em;'>z = x + 2;</p>"+
-    "<p style='text-indent: 4em;'>side = 2;</p>"+
-    "<p style='text-indent: 2em;'>in</p>"+
-    "<p style='text-indent: 4em;'>put2D (side,side) BLUE (x,z)</p>;"+
-    "<p style='text-indent: 4em;'>put2D (side,1) RED  (x,z+side)</p>"+
-    "<p style='text-indent: 2em;'>end;</p>",
+
+exercises.push(new Exercise(18,5,6,
+    "<h3>Concept 18 Exercise 3</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val x = 1;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val z = x + 2;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val side = 2;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (side,side) BLUE (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (side,1) RED  (x,z+side)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
         new SolutionCell(1,4,"BLUE"),
@@ -3313,8 +3342,168 @@ exercises.push(new Exercise(18,4,6,
         new SolutionCell(1,5,"RED"),
         new SolutionCell(2,5,"RED")]
 ));
+exercises.push(new Exercise(18,6,6,
+    "<h3>Concept 18 Exercise 4</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val side = 2;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val x = side;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val z = side;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (side,side) BLUE (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (side,side) RED  (x+side,z+side)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(5,5,"RED")]
+));
+exercises.push(new Exercise(18,7,6,
+    "<h3>Concept 18 Exercise 5</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val max = 5;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val x = 0;</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val z = 0;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,1) BLUE (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,1) BLUE (x+max,z);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,1) BLUE (x+max,z+max);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>put2D (1,1) BLUE (x,z+max)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,5,"BLUE"),
+        new SolutionCell(0,5,"BLUE")
+    ]
+));
+exercises.push(new Exercise(18,8,7,
+    "<h3>Concept 18 Exercise 6</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>fun cross (x,z) = </p>"+
+    "<p style='text-indent: 5em; line-height: 80%;'>(</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (3,1) BLUE (x,z+1);</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (1,3) BLUE (x+1,z)</p>"+
+    "<p style='text-indent: 5em; line-height: 80%;'>);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val shift = 4;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>cross (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>cross (shift,0);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>cross (shift,shift);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>cross (0,shift)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
 
-// Concept 19
+        new SolutionCell(5,0,"BLUE"),
+        new SolutionCell(5,1,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(4,1,"BLUE"),
+        new SolutionCell(6,1,"BLUE"),
+
+        new SolutionCell(5,4,"BLUE"),
+        new SolutionCell(5,5,"BLUE"),
+        new SolutionCell(5,6,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(6,5,"BLUE"),
+
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(1,5,"BLUE"),
+        new SolutionCell(1,6,"BLUE"),
+        new SolutionCell(0,5,"BLUE"),
+        new SolutionCell(2,5,"BLUE")
+    ]
+));
+exercises.push(new Exercise(18,9,7,
+    "<h3>Concept 18 Exercise 7</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>fun seed (x,z) = </p>"+
+    "<p style='text-indent: 5em; line-height: 80%;'>(</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (2,1) BLUE (x,z);</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (1,1) BLUE (x+1,z+1)</p>"+
+    "<p style='text-indent: 5em; line-height: 80%;'>);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val shift = 2;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>seed (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>seed (shift,0);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>seed (shift,shift)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(3,3,"BLUE")
+    ]
+));
+exercises.push(new Exercise(18,10,7,
+    "<h3>Concept 18 Exercise 8</h3>" +
+    "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>let</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>fun seed (x,z) = </p>"+
+    "<p style='text-indent: 5em; line-height: 80%;'>(</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (1,1) BLACK (x,z);</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (1,1) BLACK (x+1,z+1)</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (1,1) RED   (x  ,z+1)</p>"+
+    "<p style='text-indent: 6em; line-height: 80%;'>put2D (1,1) RED   (x+1,z  )</p>"+
+    "<p style='text-indent: 5em; line-height: 80%;'>);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>val shift = 2;</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>in</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>seed (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>seed (shift,0);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>seed (shift,shift);</p>"+
+    "<p style='text-indent: 4em; line-height: 80%;'>seed (0,shift)</p>"+
+    "<p style='text-indent: 2em; line-height: 80%;'>end;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(1,1,"BLACK"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,0,"RED"),
+
+        new SolutionCell(2,0,"BLACK"),
+        new SolutionCell(3,1,"BLACK"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,0,"RED"),
+
+        new SolutionCell(2,2,"BLACK"),
+        new SolutionCell(3,3,"BLACK"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(3,2,"RED"),
+
+        new SolutionCell(0,2,"BLACK"),
+        new SolutionCell(1,3,"BLACK"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,2,"RED")
+
+    ]
+));
+
+
+
+// Concept 19 -----------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(19,1,5,
     "<h3>Concept 19 Demo 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
@@ -3359,7 +3548,7 @@ exercises.push(new Exercise(19,4,5,
         new SolutionCell(0,2,"GREEN"),
         new SolutionCell(1,2,"GREEN")]
 ));
-//Concept 20
+//Concept 20 -----------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(20,1,4,
     "<h3>Concept 20 Demo 1</h3>" +
     "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
