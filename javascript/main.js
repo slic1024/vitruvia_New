@@ -3238,6 +3238,16 @@ exercises.push(new Exercise(17,4,7,
 //Concept 18
 exercises.push(new Exercise(18,1,6,
     "<h3>Concept 18 Demo 1</h3>" +
+    "<p style='text-indent: 2em;'>let</p>"+
+    "<p style='text-indent: 4em;'>x = 5;</p>"+
+    "<p style='text-indent: 4em;'>z = 4;</p>"+
+    "<p style='text-indent: 2em;'>in</p>"+
+    "<p style='text-indent: 4em;'>put2D (1,1) BLACK (x,z)</p>"+
+    "<p style='text-indent: 2em;'>end;</p>",
+    [   new SolutionCell(5,4,"BLACK")]
+));
+exercises.push(new Exercise(18,2,6,
+    "<h3>Concept 18 Demo 2</h3>" +
     "<p>fun f(x,z) = put2D (2,2) BLUE (x,z)</p>"+
     "<p>fun g(x,z) = put2D (2,2) GREEN (x,z)</p>"+
     "<p>fun thing1(x,z) =</p>"+
@@ -3271,6 +3281,7 @@ exercises.push(new Exercise(18,1,6,
         new SolutionCell(1,2,"BLUE"),
         new SolutionCell(1,3,"BLUE")]
 ));
+
 // Concept 19
 exercises.push(new Exercise(19,1,5,
     "<h3>Concept 19 Demo 1</h3>" +
