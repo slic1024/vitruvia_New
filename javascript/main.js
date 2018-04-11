@@ -3507,7 +3507,9 @@ exercises.push(new Exercise(18,10,7,
 exercises.push(new Exercise(19,1,5,
     "<h3>Concept 19 Demo 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
-    "<p>put (4,1,2) BLUE (0,0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (4,1,2) BLUE (0,0,0);</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(2,0,"BLUE"),
@@ -3520,7 +3522,9 @@ exercises.push(new Exercise(19,1,5,
 exercises.push(new Exercise(19,2,5,
     "<h3>Concept 19 Exercise 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
-    "<p>put (2,1,3) RED (1,0,2);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (2,1,3) RED (1,0,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,2,"RED"),
         new SolutionCell(2,2,"RED"),
         new SolutionCell(1,3,"RED"),
@@ -3531,7 +3535,9 @@ exercises.push(new Exercise(19,2,5,
 exercises.push(new Exercise(19,3,5,
     "<h3>Concept 19 Exercise 2</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
-    "<p>put (4,1,1) BLUE (0,0,4);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (4,1,1) BLUE (0,0,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"BLUE"),
         new SolutionCell(1,4,"BLUE"),
         new SolutionCell(2,4,"BLUE"),
@@ -3540,7 +3546,9 @@ exercises.push(new Exercise(19,3,5,
 exercises.push(new Exercise(19,4,5,
     "<h3>Concept 19 Exercise 3</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
-    "<p>put (2,1,3) GREEN (0,5,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (2,1,3) GREEN (0,5,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
@@ -3548,6 +3556,199 @@ exercises.push(new Exercise(19,4,5,
         new SolutionCell(0,2,"GREEN"),
         new SolutionCell(1,2,"GREEN")]
 ));
+exercises.push(new Exercise(19,5,7,
+    "<h3>Concept 19 Exercise 4</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (1,1,1) RED    (3,0,3);</p>"+
+    "<p>put (2,1,3) BLUE   (3,0,4);</p>"+
+    "<p>put (3,1,2) GREEN  (4,0,2);</p>"+
+    "<p>put (2,1,3) YELLOW (2,0,0);</p>"+
+    "<p>put (3,1,2) BLACK  (0,0,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(2,0,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+
+        new SolutionCell(4,2,"GREEN"),
+        new SolutionCell(5,2,"GREEN"),
+        new SolutionCell(6,2,"GREEN"),
+        new SolutionCell(4,3,"GREEN"),
+        new SolutionCell(5,3,"GREEN"),
+        new SolutionCell(6,3,"GREEN"),
+
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"BLUE"),
+        new SolutionCell(3,5,"BLUE"),
+        new SolutionCell(4,5,"BLUE"),
+        new SolutionCell(3,6,"BLUE"),
+        new SolutionCell(4,6,"BLUE"),
+
+        new SolutionCell(0,3,"BLACK"),
+        new SolutionCell(1,3,"BLACK"),
+        new SolutionCell(2,3,"BLACK"),
+        new SolutionCell(0,4,"BLACK"),
+        new SolutionCell(1,4,"BLACK"),
+        new SolutionCell(2,4,"BLACK"),
+
+        new SolutionCell(3,3,"RED")
+    ]
+));
+exercises.push(new Exercise(19,6,7,
+    "<h3>Concept 19 Exercise 5</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (3,1,7) BLACK  (2,0,0);</p>"+
+    "<p>put (7,1,3) RED    (0,0,2);</p>"+
+    "<p>put (1,1,7) YELLOW (3,0,0);</p>"+
+    "<p>put (7,1,1) BLUE   (0,0,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(3,4,"YELLOW"),
+        new SolutionCell(3,5,"YELLOW"),
+        new SolutionCell(3,6,"YELLOW"),
+
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(6,3,"BLUE"),
+
+        new SolutionCell(2,0,"BLACK"),
+        new SolutionCell(2,1,"BLACK"),
+        new SolutionCell(2,5,"BLACK"),
+        new SolutionCell(2,6,"BLACK"),
+        new SolutionCell(4,0,"BLACK"),
+        new SolutionCell(4,1,"BLACK"),
+        new SolutionCell(4,5,"BLACK"),
+        new SolutionCell(4,6,"BLACK"),
+
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(6,2,"RED"),
+
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(6,4,"RED")
+    ]
+));
+exercises.push(new Exercise(19,7,7,
+    "<h3>Concept 19 Exercise 6</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (7,1,7) BLACK  (0,0,0);</p>"+
+    "<p>put (3,1,3) RED    (2,0,4);</p>"+
+    "<p>put (3,1,3) YELLOW (2,0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(2,0,"YELLOW"),
+        new SolutionCell(2,1,"YELLOW"),
+        new SolutionCell(2,2,"YELLOW"),
+        new SolutionCell(3,0,"YELLOW"),
+        new SolutionCell(3,1,"YELLOW"),
+        new SolutionCell(3,2,"YELLOW"),
+        new SolutionCell(4,0,"YELLOW"),
+        new SolutionCell(4,1,"YELLOW"),
+        new SolutionCell(4,2,"YELLOW"),
+
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(2,5,"RED"),
+        new SolutionCell(2,6,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(3,5,"RED"),
+        new SolutionCell(3,6,"RED"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(4,5,"RED"),
+        new SolutionCell(4,6,"RED"),
+        
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(0,1,"BLACK"),
+        new SolutionCell(0,2,"BLACK"),
+        new SolutionCell(0,3,"BLACK"),
+        new SolutionCell(0,4,"BLACK"),
+        new SolutionCell(0,5,"BLACK"),
+        new SolutionCell(0,6,"BLACK"),
+
+        new SolutionCell(1,0,"BLACK"),
+        new SolutionCell(1,1,"BLACK"),
+        new SolutionCell(1,2,"BLACK"),
+        new SolutionCell(1,3,"BLACK"),
+        new SolutionCell(1,4,"BLACK"),
+        new SolutionCell(1,5,"BLACK"),
+        new SolutionCell(1,6,"BLACK"),
+
+        new SolutionCell(5,0,"BLACK"),
+        new SolutionCell(5,1,"BLACK"),
+        new SolutionCell(5,2,"BLACK"),
+        new SolutionCell(5,3,"BLACK"),
+        new SolutionCell(5,4,"BLACK"),
+        new SolutionCell(5,5,"BLACK"),
+        new SolutionCell(5,6,"BLACK"),
+
+        new SolutionCell(6,0,"BLACK"),
+        new SolutionCell(6,1,"BLACK"),
+        new SolutionCell(6,2,"BLACK"),
+        new SolutionCell(6,3,"BLACK"),
+        new SolutionCell(6,4,"BLACK"),
+        new SolutionCell(6,5,"BLACK"),
+        new SolutionCell(6,6,"BLACK"),
+        
+        new SolutionCell(2,3,"BLACK"),
+        new SolutionCell(3,3,"BLACK"),
+        new SolutionCell(4,3,"BLACK")
+
+    ]
+));
+exercises.push(new Exercise(19,8,7,
+    "<h3>Concept 19 Exercise 7</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put (4,1,4) BLACK  (0,0,0);</p>"+
+    "<p>put (1,1,4) YELLOW (1,0,3);</p>"+
+    "<p>put (1,1,4) BLUE   (2,0,2);</p>"+
+    "<p>put (1,1,4) RED    (3,0,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(1,3,"YELLOW"),
+        new SolutionCell(1,4,"YELLOW"),
+        new SolutionCell(1,5,"YELLOW"),
+        new SolutionCell(1,6,"YELLOW"),
+
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(2,5,"BLUE"),
+
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"RED"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(0,1,"BLACK"),
+        new SolutionCell(0,2,"BLACK"),
+        new SolutionCell(0,3,"BLACK"),
+        new SolutionCell(1,0,"BLACK"),
+        new SolutionCell(1,1,"BLACK"),
+        new SolutionCell(1,2,"BLACK"),
+        new SolutionCell(2,0,"BLACK"),
+        new SolutionCell(2,1,"BLACK"),
+        new SolutionCell(3,0,"BLACK")
+    ]
+));
+
+
 //Concept 20 -----------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(20,1,4,
     "<h3>Concept 20 Demo 1</h3>" +
