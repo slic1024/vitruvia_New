@@ -21,11 +21,15 @@ function SolutionCell(x,y,lego){
     this.lego = lego;
 }
 
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 1
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(1,1,6,
     "<h3>Concept 1 Demo 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GREEN brick in the cells whose locations are:</p>" +
-    "<p>(0,0), (5,1), (1,2), (4,3), (2,4), (3,5)</p>",
+    "<p>(0,0), (5,1), (1,2), (4,3), (2,4), (3,5)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(5,1,"GREEN"),
         new SolutionCell(1,2,"GREEN"),
@@ -35,8 +39,10 @@ exercises.push(new Exercise(1,1,6,
 ));
 exercises.push(new Exercise(1,2,6,
     "<h3>Concept 1 Exercise 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 RED brick in the cells whose locations are:</p>" +
-    "<p>(0,0), (5,0), (5,5), (0,5)</p>",
+    "<p>(0,0), (5,0), (5,5), (0,5)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
      [   new SolutionCell(0,0,"RED"),
          new SolutionCell(0,5,"RED"),
          new SolutionCell(5,0,"RED"),
@@ -44,8 +50,10 @@ exercises.push(new Exercise(1,2,6,
 ));
 exercises.push(new Exercise(1,3,6,
     "<h3>Concept 1 Exercise 2</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 YELLOW brick in the cells whose locations are:</p>" +
-    "<p>(0,0), (1,1), (2,2), (3,3), (4,4), (5,5)</p>",
+    "<p>(0,0), (1,1), (2,2), (3,3), (4,4), (5,5)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,1,"YELLOW"),
         new SolutionCell(2,2,"YELLOW"),
@@ -55,8 +63,10 @@ exercises.push(new Exercise(1,3,6,
 ));
 exercises.push(new Exercise(1,4,5,
     "<h3>Concept 1 Exercise 3</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GRAY brick in the cells whose locations are:</p>" +
-    "<p>(2,0), (3,0), (2,1), (3,1)</p>",
+    "<p>(2,0), (3,0), (2,1), (3,1)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,0,"GRAY"),
         new SolutionCell(3,0,"GRAY"),
         new SolutionCell(2,1,"GRAY"),
@@ -64,8 +74,10 @@ exercises.push(new Exercise(1,4,5,
 ));
 exercises.push(new Exercise(1,5,5,
     "<h3>Concept 1 Exercise 4</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 BLUE brick in the cells whose locations are:</p>" +
-    "<p>(0,0), (0,1), (0,2), (0,3), (0,4) </p>",
+    "<p>(0,0), (0,1), (0,2), (0,3), (0,4) </p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -74,8 +86,10 @@ exercises.push(new Exercise(1,5,5,
 ));
 exercises.push(new Exercise(1,6,5,
     "<h3>Concept 1 Exercise 5</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GREEN brick in the cells whose locations are:</p>" +
-    "<p>(0,0), (0,1), (0,2), (0,3), (1,0), (1,1), (1,2), (1,3)</p>",
+    "<p>(0,0), (0,1), (0,2), (0,3), (1,0), (1,1), (1,2), (1,3)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -87,8 +101,10 @@ exercises.push(new Exercise(1,6,5,
 ));
 exercises.push(new Exercise(1,7,5,
     "<h3>Concept 1 Exercise 6</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a red brick in the cells whose locations are:</p>" +
-    "<p>(2,0), (3,1), (4,2), (3,3), (2,4), (1,3),(0,2), (1,1)</p>",
+    "<p>(2,0), (3,1), (4,2), (3,3), (2,4), (1,3),(0,2), (1,1)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,0,"RED"),
         new SolutionCell(3,1,"RED"),
         new SolutionCell(4,2,"RED"),
@@ -100,8 +116,10 @@ exercises.push(new Exercise(1,7,5,
 ));
 exercises.push(new Exercise(1,8,5,
     "<h3>Concept 1 Exercise 7</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a YELLOW brick in the cells whose locations are:</p>" +
-    "<p>(0,4), (1,3), (2,2), (3,1), (4,0), (0,0), (1,1), (3,3), (4,4)</p>",
+    "<p>(0,4), (1,3), (2,2), (3,1), (4,0), (0,0), (1,1), (3,3), (4,4)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"YELLOW"),
         new SolutionCell(1,3,"YELLOW"),
         new SolutionCell(2,2,"YELLOW"),
@@ -114,8 +132,10 @@ exercises.push(new Exercise(1,8,5,
 ));
 exercises.push(new Exercise(1,9,6,
     "<h3>Concept 1 Exercise 8</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a BLUE brick in the cells whose locations are:</p>" +
-    "<p>(0,3), (1,3), (2,3),(3,3), (4,3), (5,3),(1,4), (2,5), (3,5),(4,4)</p>",
+    "<p>(0,3), (1,3), (2,3),(3,3), (4,3), (5,3),(1,4), (2,5), (3,5),(4,4)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"BLUE"),
         new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
@@ -129,8 +149,10 @@ exercises.push(new Exercise(1,9,6,
 ));
 exercises.push(new Exercise(1,10,5,
     "<h3>Concept 1 Exercise 9</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a GREEN brick in the cells whose locations are:</p>" +
-    "<p>(0,1), (1,1), (2,1), (0,2), (1,2), (2,2)</p>",
+    "<p>(0,1), (1,1), (2,1), (0,2), (1,2), (2,2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"GREEN"),
         new SolutionCell(1,1,"GREEN"),
         new SolutionCell(2,1,"GREEN"),
@@ -140,8 +162,10 @@ exercises.push(new Exercise(1,10,5,
 ));
 exercises.push(new Exercise(1,11,5,
     "<h3>Concept 1 Exercise 10</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a GRAY brick in the cells whose locations are:</p>" +
-    "<p>(3,0), (3,1), (3,2), (3,3), (4,0), (4,1), (4,2), (4,3)</p>",
+    "<p>(3,0), (3,1), (3,2), (3,3), (4,0), (4,1), (4,2), (4,3)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,0,"GRAY"),
         new SolutionCell(3,1,"GRAY"),
         new SolutionCell(3,2,"GRAY"),
@@ -151,12 +175,16 @@ exercises.push(new Exercise(1,11,5,
         new SolutionCell(4,2,"GRAY"),
         new SolutionCell(4,3,"GRAY")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 2
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(2,1,6,
     "<h3>Concept 2 Demo 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,0)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z), (x,z+1), (x+1,z+1)</p>",
+    "<p>(x,z), (x+1,z), (x,z+1), (x+1,z+1)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
@@ -164,9 +192,11 @@ exercises.push(new Exercise(2,1,6,
 ));
 exercises.push(new Exercise(2,2,5,
     "<h3>Concept 2 Demo 2</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,0)</p>" +
     "<p>Put a RED brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+4,z), (x,z+4), (x+4,z+4)</p>",
+    "<p>(x,z), (x+4,z), (x,z+4), (x+4,z+4)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,4,"RED"),
         new SolutionCell(4,0,"RED"),
@@ -174,9 +204,11 @@ exercises.push(new Exercise(2,2,5,
 ));
 exercises.push(new Exercise(2,3,6,
     "<h3>Concept 2 Exercise 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,0)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x,z+1), (x,z+2), (x,z+3), (x,z+4), (x,z+5)</p>",
+    "<p>(x,z), (x,z+1), (x,z+2), (x,z+3), (x,z+4), (x,z+5)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
         new SolutionCell(0,3,"BLUE"),
@@ -186,9 +218,11 @@ exercises.push(new Exercise(2,3,6,
 ));
 exercises.push(new Exercise(2,4,5,
     "<h3>Concept 2 Exercise 2</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z-2), (x,z-1), (x,z), (x,z+1), (x,z+2)</p>",
+    "<p>(x,z-2), (x,z-1), (x,z), (x,z+1), (x,z+2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,1,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
@@ -197,9 +231,11 @@ exercises.push(new Exercise(2,4,5,
 ));
 exercises.push(new Exercise(2,5,5,
     "<h3>Concept 2 Exercise 3</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (4,4)</p>" +
     "<p>Put a RED brick in the cells whose locations are:</p>"+
-    "<p>(x,z-4), (x,z-3), (x,z-2), (x,z-1), (x,z)</p>",
+    "<p>(x,z-4), (x,z-3), (x,z-2), (x,z-1), (x,z)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(4,4,"RED"),
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,2,"RED"),
@@ -208,9 +244,11 @@ exercises.push(new Exercise(2,5,5,
 ));
 exercises.push(new Exercise(2,6,5,
     "<h3>Concept 2 Exercise 4</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,0)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z), (x+2,z), (x+3,z), (x+4,z)</p>",
+    "<p>(x,z), (x+1,z), (x+2,z), (x+3,z), (x+4,z)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(2,0,"BLUE"),
@@ -219,9 +257,11 @@ exercises.push(new Exercise(2,6,5,
 ));
 exercises.push(new Exercise(2,7,5,
     "<h3>Concept 2 Exercise 5</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x-2,z), (x-1,z), (x,z), (x+1,z), (x+2,z)</p>",
+    "<p>(x-2,z), (x-1,z), (x,z), (x+1,z), (x+2,z)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,2,"BLUE"),
         new SolutionCell(1,2,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
@@ -230,9 +270,11 @@ exercises.push(new Exercise(2,7,5,
 ));
 exercises.push(new Exercise(2,8,5,
     "<h3>Concept 2 Exercise 6</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (4,4)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x-4,z), (x-3,z), (x-2,z), (x-1,z), (x,z)</p>",
+    "<p>(x-4,z), (x-3,z), (x-2,z), (x-1,z), (x,z)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"BLUE"),
         new SolutionCell(1,4,"BLUE"),
         new SolutionCell(2,4,"BLUE"),
@@ -241,9 +283,11 @@ exercises.push(new Exercise(2,8,5,
 ));
 exercises.push(new Exercise(2,9,5,
     "<h3>Concept 2 Exercise 7</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,0)</p>" +
     "<p>Put a GREEN brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z+1), (x+2,z+2), (x+3,z+3), (x+4,z+4)</p>",
+    "<p>(x,z), (x+1,z+1), (x+2,z+2), (x+3,z+3), (x+4,z+4)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,1,"GREEN"),
         new SolutionCell(2,2,"GREEN"),
@@ -252,9 +296,11 @@ exercises.push(new Exercise(2,9,5,
 ));
 exercises.push(new Exercise(2,10,5,
     "<h3>Concept 2 Exercise 8</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a RED brick in the cells whose locations are:</p>"+
-    "<p>(x-2,z-2), (x-1,z-1), (x,z), (x+1,z+1), (x+2,z+2)</p>",
+    "<p>(x-2,z-2), (x-1,z-1), (x,z), (x+1,z+1), (x+2,z+2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,1,"RED"),
         new SolutionCell(2,2,"RED"),
@@ -263,9 +309,11 @@ exercises.push(new Exercise(2,10,5,
 ));
 exercises.push(new Exercise(2,11,5,
     "<h3>Concept 2 Exercise 9</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (4,4)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x-4,z-4), (x-3,z-3), (x-2,z-2), (x-1,z-1), (x,z)</p>",
+    "<p>(x-4,z-4), (x-3,z-3), (x-2,z-2), (x-1,z-1), (x,z)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
@@ -274,9 +322,11 @@ exercises.push(new Exercise(2,11,5,
 ));
 exercises.push(new Exercise(2,12,5,
     "<h3>Concept 2 Exercise 10</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,4)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z-3), (x+2,z-2), (x+3,z-3), (x+4,z-4)</p>",
+    "<p>(x,z), (x+1,z-3), (x+2,z-2), (x+3,z-3), (x+4,z-4)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"BLUE"),
         new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
@@ -285,9 +335,11 @@ exercises.push(new Exercise(2,12,5,
 ));
 exercises.push(new Exercise(2,13,5,
     "<h3>Concept 2 Exercise 11</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x-2,z+2), (x-1,z+1), (x,z), (x+1,z-1), (x+2,z-2)</p>",
+    "<p>(x-2,z+2), (x-1,z+1), (x,z), (x+1,z-1), (x+2,z-2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"BLUE"),
         new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
@@ -296,9 +348,11 @@ exercises.push(new Exercise(2,13,5,
 ));
 exercises.push(new Exercise(2,14,5,
     "<h3>Concept 2 Exercise 12</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (4,0)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x-4,z+4), (x-3,z+3), (x-2,z+2), (x-1,z+1), (x,z)</p>",
+    "<p>(x-4,z+4), (x-3,z+3), (x-2,z+2), (x-1,z+1), (x,z)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"BLUE"),
         new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
@@ -307,9 +361,11 @@ exercises.push(new Exercise(2,14,5,
 ));
 exercises.push(new Exercise(2,15,5,
     "<h3>Concept 2 Exercise 13</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z), (x,z+1), (x-1,z), (x,z-1)</p>",
+    "<p>(x,z), (x+1,z), (x,z+1), (x-1,z), (x,z-1)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,2,"BLUE"),
         new SolutionCell(3,2,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
@@ -318,9 +374,11 @@ exercises.push(new Exercise(2,15,5,
 ));
 exercises.push(new Exercise(2,16,5,
     "<h3>Concept 2 Exercise 14</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,1)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z), (x+2,z), (x+1,z+1), (x+1,z-1)</p>",
+    "<p>(x,z), (x+1,z), (x+2,z), (x+1,z+1), (x+1,z-1)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -329,10 +387,12 @@ exercises.push(new Exercise(2,16,5,
 ));
 exercises.push(new Exercise(2,17,5,
     "<h3>Concept 2 Exercise 15</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a RED brick at (2,2)</p>"+
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z), (x,z+1), (x-1,z), (x,z-1), (x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1)</p>",
+    "<p>(x,z), (x+1,z), (x,z+1), (x-1,z), (x,z-1), (x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,2,"RED"),
         new SolutionCell(3,2,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
@@ -345,10 +405,12 @@ exercises.push(new Exercise(2,17,5,
 ));
 exercises.push(new Exercise(2,18,5,
     "<h3>Concept 2 Exercise 16</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a BLACK brick at (2,2)</p>"+
     "<p>Put a RED brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1), (x+2,z+2), (x-2,z+2), (x-2,z-2), (x+2,z-2)</p>",
+    "<p>(x,z), (x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1), (x+2,z+2), (x-2,z+2), (x-2,z-2), (x+2,z-2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,2,"BLACK"),
         new SolutionCell(3,3,"RED"),
         new SolutionCell(1,3,"RED"),
@@ -361,9 +423,11 @@ exercises.push(new Exercise(2,18,5,
 ));
 exercises.push(new Exercise(2,19,5,
     "<h3>Concept 2 Exercise 17</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,0)</p>" +
     "<p>Put a GREEN brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z), (x+1,z+1), (x+2,z), (x+3,z), (x+3,z+1), (x+2,z+2), (x+3,z+2), (x+3,z+3)</p>",
+    "<p>(x,z), (x+1,z), (x+1,z+1), (x+2,z), (x+3,z), (x+3,z+1), (x+2,z+2), (x+3,z+2), (x+3,z+3)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(1,1,"GREEN"),
@@ -376,12 +440,14 @@ exercises.push(new Exercise(2,19,5,
 ));
 exercises.push(new Exercise(2,20,7,
     "<h3>Concept 2 Exercise 18</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (3,6)</p>" +
     "<p>Put a GRAY brick in the cells whose locations are:</p>"+
     "<p>(x,z), (x-1,z-1), (x+1,z-1), (x-2,z-2), (x+2,z-2), (x-3,z-3), (x-2,z-3), (x-1,z-3), (x,z-3),</p>"+
     "<p>(x+1,z-3), (x+2,z-3), (x+3,z-3)</p>"+
     "<p>Put a WHITE brick in the cells whose locations are:</p>"+
-    "<p>(x,z-1), (x-1,z-2), (x,z-2), (x+1,z-2)</p>",
+    "<p>(x,z-1), (x-1,z-2), (x,z-2), (x+1,z-2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"GRAY"),
         new SolutionCell(1,3,"GRAY"),
         new SolutionCell(2,3,"GRAY"),
@@ -400,7 +466,9 @@ exercises.push(new Exercise(2,20,7,
         new SolutionCell(4,5,"WHITE")]
 ));
 
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 3
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(3,1,5,
     "<h3>Concept 3 Demo 1</h3>" +
     "<p>Put a 1x1 RED brick at location (0,0).</p>",
@@ -528,7 +596,9 @@ exercises.push(new Exercise(3,14,5,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 4
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(4,1,8,
     "<h3>Concept 4 Demo 1</h3>" +
     "<p>Put a 4x2 RED brick at location (0,0).</p>"+
