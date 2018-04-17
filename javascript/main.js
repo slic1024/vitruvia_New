@@ -25,7 +25,7 @@ function SolutionCell(x,y,lego){
 // Concept 1
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(1,1,6,
-    "<h3>Concept 1 Demo 1</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Demo 1</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GREEN brick in the cells whose locations are:</p>" +
     "<p>(0,0), (5,1), (1,2), (4,3), (2,4), (3,5)</p>"+
@@ -38,7 +38,7 @@ exercises.push(new Exercise(1,1,6,
         new SolutionCell(3,5,"GREEN")]
 ));
 exercises.push(new Exercise(1,2,6,
-    "<h3>Concept 1 Exercise 1</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 1</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 RED brick in the cells whose locations are:</p>" +
     "<p>(0,0), (5,0), (5,5), (0,5)</p>"+
@@ -49,7 +49,7 @@ exercises.push(new Exercise(1,2,6,
          new SolutionCell(5,5,"RED")]
 ));
 exercises.push(new Exercise(1,3,6,
-    "<h3>Concept 1 Exercise 2</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 2</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 YELLOW brick in the cells whose locations are:</p>" +
     "<p>(0,0), (1,1), (2,2), (3,3), (4,4), (5,5)</p>"+
@@ -62,7 +62,7 @@ exercises.push(new Exercise(1,3,6,
         new SolutionCell(5,5,"YELLOW")]
 ));
 exercises.push(new Exercise(1,4,5,
-    "<h3>Concept 1 Exercise 3</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 3</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GRAY brick in the cells whose locations are:</p>" +
     "<p>(2,0), (3,0), (2,1), (3,1)</p>"+
@@ -73,7 +73,7 @@ exercises.push(new Exercise(1,4,5,
         new SolutionCell(3,1,"GRAY")]
 ));
 exercises.push(new Exercise(1,5,5,
-    "<h3>Concept 1 Exercise 4</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 4</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 BLUE brick in the cells whose locations are:</p>" +
     "<p>(0,0), (0,1), (0,2), (0,3), (0,4) </p>"+
@@ -85,7 +85,7 @@ exercises.push(new Exercise(1,5,5,
         new SolutionCell(0,4,"BLUE")]
 ));
 exercises.push(new Exercise(1,6,5,
-    "<h3>Concept 1 Exercise 5</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 5</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GREEN brick in the cells whose locations are:</p>" +
     "<p>(0,0), (0,1), (0,2), (0,3), (1,0), (1,1), (1,2), (1,3)</p>"+
@@ -100,7 +100,7 @@ exercises.push(new Exercise(1,6,5,
         new SolutionCell(1,3,"GREEN")]
 ));
 exercises.push(new Exercise(1,7,5,
-    "<h3>Concept 1 Exercise 6</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 6</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a red brick in the cells whose locations are:</p>" +
     "<p>(2,0), (3,1), (4,2), (3,3), (2,4), (1,3),(0,2), (1,1)</p>"+
@@ -115,7 +115,7 @@ exercises.push(new Exercise(1,7,5,
         new SolutionCell(1,1,"RED")]
 ));
 exercises.push(new Exercise(1,8,5,
-    "<h3>Concept 1 Exercise 7</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 7</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a YELLOW brick in the cells whose locations are:</p>" +
     "<p>(0,4), (1,3), (2,2), (3,1), (4,0), (0,0), (1,1), (3,3), (4,4)</p>"+
@@ -131,7 +131,7 @@ exercises.push(new Exercise(1,8,5,
         new SolutionCell(4,4,"YELLOW")]
 ));
 exercises.push(new Exercise(1,9,6,
-    "<h3>Concept 1 Exercise 8</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 8</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a BLUE brick in the cells whose locations are:</p>" +
     "<p>(0,3), (1,3), (2,3),(3,3), (4,3), (5,3),(1,4), (2,5), (3,5),(4,4)</p>"+
@@ -148,7 +148,7 @@ exercises.push(new Exercise(1,9,6,
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(1,10,5,
-    "<h3>Concept 1 Exercise 9</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 9</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a GREEN brick in the cells whose locations are:</p>" +
     "<p>(0,1), (1,1), (2,1), (0,2), (1,2), (2,2)</p>"+
@@ -161,7 +161,7 @@ exercises.push(new Exercise(1,10,5,
         new SolutionCell(2,2,"GREEN")]
 ));
 exercises.push(new Exercise(1,11,5,
-    "<h3>Concept 1 Exercise 10</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 10</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a GRAY brick in the cells whose locations are:</p>" +
     "<p>(3,0), (3,1), (3,2), (3,3), (4,0), (4,1), (4,2), (4,3)</p>"+
@@ -470,21 +470,27 @@ exercises.push(new Exercise(2,20,7,
 // Concept 3
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(3,1,5,
-    "<h3>Concept 3 Demo 1</h3>" +
-    "<p>Put a 1x1 RED brick at location (0,0).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 1x1 RED brick at location (0,0).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED")]
 ));
 exercises.push(new Exercise(3,2,5,
-    "<h3>Concept 3 Demo 2</h3>" +
-    "<p>Put a 2x2 RED brick at location (3,2).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 2</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x2 RED brick at location (3,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,2,"RED"),
         new SolutionCell(3,3,"RED"),
         new SolutionCell(4,2,"RED"),
         new SolutionCell(4,3,"RED")]
 ));
 exercises.push(new Exercise(3,3,5,
-    "<h3>Concept 3 Demo 3</h3>" +
-    "<p>Put a 4x2 YELLOW brick at location (0,2).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 3</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 4x2 YELLOW brick at location (0,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,2,"YELLOW"),
         new SolutionCell(1,2,"YELLOW"),
         new SolutionCell(2,2,"YELLOW"),
@@ -495,8 +501,10 @@ exercises.push(new Exercise(3,3,5,
         new SolutionCell(3,3,"YELLOW")]
 ));
 exercises.push(new Exercise(3,4,5,
-    "<h3>Concept 3 Demo 4</h3>" +
-    "<p>Put a 2x3 GRAY brick at location (1,0)</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 4</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x3 GRAY brick at location (1,0)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,0,"GRAY"),
         new SolutionCell(1,1,"GRAY"),
         new SolutionCell(1,2,"GRAY"),
@@ -505,8 +513,10 @@ exercises.push(new Exercise(3,4,5,
         new SolutionCell(2,2,"GRAY")]
 ));
 exercises.push(new Exercise(3,5,5,
-    "<h3>Concept 3 Exercise 1</h3>" +
-    "<p>Put a 3x2 YELLOW brick at location (1,2).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 3x2 YELLOW brick at location (1,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,2,"YELLOW"),
         new SolutionCell(1,3,"YELLOW"),
         new SolutionCell(2,2,"YELLOW"),
@@ -515,8 +525,10 @@ exercises.push(new Exercise(3,5,5,
         new SolutionCell(3,3,"YELLOW")]
 ));
 exercises.push(new Exercise(3,6,6,
-    "<h3>Concept 3 Exercise 2</h3>" +
-    "<p>Put a 2x4 GRAY brick at location (4,1).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 2</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x4 GRAY brick at location (4,1).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(4,1,"GRAY"),
         new SolutionCell(4,2,"GRAY"),
         new SolutionCell(4,3,"GRAY"),
@@ -527,8 +539,10 @@ exercises.push(new Exercise(3,6,6,
         new SolutionCell(5,4,"GRAY")]
 ));
 exercises.push(new Exercise(3,7,6,
-    "<h3>Concept 3 Exercise 3</h3>" +
-    "<p>Put a 4x2 BLUE brick at location (1,3).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 3</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 4x2 BLUE brick at location (1,3).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
         new SolutionCell(3,3,"BLUE"),
@@ -539,8 +553,10 @@ exercises.push(new Exercise(3,7,6,
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(3,8,5,
-    "<h3>Concept 3 Exercise 4</h3>" +
-    "<p>Put a 2x3 RED brick at location (2,2).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 4</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x3 RED brick at location (2,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,2,"RED"),
         new SolutionCell(2,3,"RED"),
         new SolutionCell(2,4,"RED"),
@@ -549,20 +565,26 @@ exercises.push(new Exercise(3,8,5,
         new SolutionCell(3,4,"RED")]
 ));
 exercises.push(new Exercise(3,9,5,
-    "<h3>Concept 3 Exercise 5</h3>" +
-    "<p>Put a 2x1 GREEN brick at location (3,0).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 5</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x1 GREEN brick at location (3,0).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,0,"GREEN"),
         new SolutionCell(4,0,"GREEN")]
 ));
 exercises.push(new Exercise(3,10,5,
-    "<h3>Concept 3 Exercise 6</h3>" +
-    "<p>Put a 1x2 BLUE brick at location (2,1).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 6</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 1x2 BLUE brick at location (2,1).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,1,"BLUE"),
         new SolutionCell(2,2,"BLUE")]
 ));
 exercises.push(new Exercise(3,11,5,
-    "<h3>Concept 3 Exercise 7</h3>" +
-    "<p>Put a 4x2 YELLOW brick at location (0,3).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 7</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 4x2 YELLOW brick at location (0,3).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"YELLOW"),
         new SolutionCell(1,3,"YELLOW"),
         new SolutionCell(2,3,"YELLOW"),
@@ -573,22 +595,28 @@ exercises.push(new Exercise(3,11,5,
         new SolutionCell(3,4,"YELLOW")]
 ));
 exercises.push(new Exercise(3,12,5,
-    "<h3>Concept 3 Exercise 8</h3>" +
-    "<p>Put a 2x2 GRAY brick at location (1,1).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 8</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x2 GRAY brick at location (1,1).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,1,"GRAY"),
         new SolutionCell(1,2,"GRAY"),
         new SolutionCell(2,1,"GRAY"),
         new SolutionCell(2,1,"GRAY")]
 ));
 exercises.push(new Exercise(3,13,5,
-    "<h3>Concept 3 Exercise 9</h3>" +
-    "<p>Put a 2x1 BLUE brick at location (3,4).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 9</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x1 BLUE brick at location (3,4).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,4,"BLUE"),
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(3,14,5,
-    "<h3>Concept 3 Exercise 10</h3>" +
-    "<p>Put a 2x3 RED brick at location (3,2).</p>",
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 10</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>Put a 2x3 RED brick at location (3,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,2,"RED"),
         new SolutionCell(3,3,"RED"),
         new SolutionCell(3,4,"RED"),
@@ -601,11 +629,13 @@ exercises.push(new Exercise(3,14,5,
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(4,1,8,
     "<h3>Concept 4 Demo 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 4x2 RED brick at location (0,0).</p>"+
     "<p>Put a 4x2 BLUE brick at location (4,0).</p>"+
     "<p>Put a 2x2 BLUE brick at location (0,2).</p>"+
     "<p>Put a 4x2 YELLOW brick at location (2,2).</p>"+
-    "<p>Put a 2x2 RED brick at location (6,2).</p>",
+    "<p>Put a 2x2 RED brick at location (6,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -641,9 +671,11 @@ exercises.push(new Exercise(4,1,8,
 ));
 exercises.push(new Exercise(4,2,5,
     "<h3>Concept 4 Exercise 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 RED brick at location (0,0). </p>"+
     "<p>Put a 1x1 RED brick at location (1,0).</p>"+
-    "<p>Put a 2x1 BLUE brick at location (0,1).</p>",
+    "<p>Put a 2x1 BLUE brick at location (0,1).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(0,1,"BLUE"),
@@ -651,9 +683,11 @@ exercises.push(new Exercise(4,2,5,
 ));
 exercises.push(new Exercise(4,3,5,
     "<h3>Concept 4 Exercise 2</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 YELLOW brick at location (0,0). </p>"+
     "<p>Put a 1x1 YELLOW brick at location (0,1).</p>"+
-    "<p>Put a 1x2 BLUE brick at location (1,1).</p>",
+    "<p>Put a 1x2 BLUE brick at location (1,1).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(0,1,"YELLOW"),
         new SolutionCell(1,2,"BLUE"),
@@ -661,11 +695,13 @@ exercises.push(new Exercise(4,3,5,
 ));
 exercises.push(new Exercise(4,4,5,
     "<h3>Concept 4 Exercise 3</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 RED brick at location (0,0). </p>"+
     "<p>Put a 1x1 RED brick at location (1,0).</p>"+
     "<p>Put a 1x1 RED brick at location (0,1). </p>"+
     "<p>Put a 1x1 RED brick at location (1,1).</p>"+
-    "<p>Put a 2x2 BLUE brick at location (2,2).</p>",
+    "<p>Put a 2x2 BLUE brick at location (2,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(0,1,"RED"),
@@ -677,13 +713,15 @@ exercises.push(new Exercise(4,4,5,
 ));
 exercises.push(new Exercise(4,5,5,
     "<h3>Concept 4 Exercise 4</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 RED brick at location (0,0). </p>"+
     "<p>Put a 1x1 RED brick at location (1,0).</p>"+
     "<p>Put a 1x1 RED brick at location (0,1). </p>"+
     "<p>Put a 1x1 RED brick at location (1,1).</p>"+
     "<p>Put a 1x1 RED brick at location (0,2).</p>"+
     "<p>Put a 1x1 RED brick at location (1,2).</p>"+
-    "<p>Put a 2x3 WHITE brick at location (2,0).</p>",
+    "<p>Put a 2x3 WHITE brick at location (2,0).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(0,1,"RED"),
@@ -699,13 +737,15 @@ exercises.push(new Exercise(4,5,5,
 ));
 exercises.push(new Exercise(4,6,6,
     "<h3>Concept 4 Exercise 5</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 YELLOW brick at location (0,0). </p>"+
     "<p>Put a 1x1 YELLOW brick at location (1,0).</p>"+
     "<p>Put a 1x1 YELLOW brick at location (2,0). </p>"+
     "<p>Put a 1x1 YELLOW brick at location (0,1).</p>"+
     "<p>Put a 1x1 YELLOW brick at location (1,1). </p>"+
     "<p>Put a 1x1 YELLOW brick at location (2,1).</p>"+
-    "<p>Put a 3x2 GRAY brick at location (3,2).</p>",
+    "<p>Put a 3x2 GRAY brick at location (3,2).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,0,"YELLOW"),
         new SolutionCell(2,0,"YELLOW"),
@@ -721,6 +761,7 @@ exercises.push(new Exercise(4,6,6,
 ));
 exercises.push(new Exercise(4,7,5,
     "<h3>Concept 4 Exercise 6</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 YELLOW brick at location (0,0). </p>"+
     "<p>Put a 1x1 YELLOW brick at location (1,0).</p>"+
     "<p>Put a 1x1 YELLOW brick at location (2,0). </p>"+
@@ -729,7 +770,8 @@ exercises.push(new Exercise(4,7,5,
     "<p>Put a 1x1 YELLOW brick at location (1,1). </p>"+
     "<p>Put a 1x1 YELLOW brick at location (2,1).</p>"+
     "<p>Put a 1x1 YELLOW brick at location (3,1).</p>"+
-    "<p>Put a 4x2 GREEN brick at location (0,2). </p>",
+    "<p>Put a 4x2 GREEN brick at location (0,2). </p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,0,"YELLOW"),
         new SolutionCell(2,0,"YELLOW"),
@@ -749,6 +791,7 @@ exercises.push(new Exercise(4,7,5,
 ));
 exercises.push(new Exercise(4,8,5,
     "<h3>Concept 4 Exercise 7</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 BLUE brick at location (0,0).</p>"+
     "<p>Put a 1x1 BLUE brick at location (1,0).</p>"+
     "<p>Put a 1x1 BLUE brick at location (0,1).</p>"+
@@ -757,7 +800,8 @@ exercises.push(new Exercise(4,8,5,
     "<p>Put a 1x1 BLUE brick at location (1,2).</p>"+
     "<p>Put a 1x1 BLUE brick at location (0,3).</p>"+
     "<p>Put a 1x1 BLUE brick at location (1,3).</p>"+
-    "<p>Put a 2x4 GRAY brick at location (2,1).</p>",
+    "<p>Put a 2x4 GRAY brick at location (2,1).</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
@@ -777,8 +821,10 @@ exercises.push(new Exercise(4,8,5,
 ));
 exercises.push(new Exercise(4,9,5,
     "<h3>Concept 4 Exercise 8</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x2 RED brick at location (0,0)</p>"+
-    "<p>Put a 2x2 RED brick at location (2,2)</p>",
+    "<p>Put a 2x2 RED brick at location (2,2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(0,1,"RED"),
@@ -790,11 +836,13 @@ exercises.push(new Exercise(4,9,5,
 ));
 exercises.push(new Exercise(4,10,6,
     "<h3>Concept 4 Exercise 9</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x2 RED brick at location (0,0)</p>"+
     "<p>Put a 2x2 RED brick at location (2,2)</p>"+
     "<p>Put a 2x2 RED brick at location (4,4)</p>"+
     "<p>Put a 2x2 BLUE brick at location (0,4)</p>"+
-    "<p>Put a 2x2 BLUE brick at location (4,0)</p>",
+    "<p>Put a 2x2 BLUE brick at location (4,0)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(0,1,"RED"),
@@ -818,12 +866,14 @@ exercises.push(new Exercise(4,10,6,
 ));
 exercises.push(new Exercise(4,11,6,
     "<h3>Concept 4 Exercise 10</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x1 BLUE brick at location (2,5)</p>"+
     "<p>Put a 2x1 BLUE brick at location (1,4)</p>"+
     "<p>Put a 2x1 BLUE brick at location (3,4)</p>"+
     "<p>Put a 2x1 BLUE brick at location (0,3)</p>"+
     "<p>Put a 2x1 YELLOW brick at location (2,3)</p>"+
-    "<p>Put a 2x1 BLUE brick at location (4,3)</p>",
+    "<p>Put a 2x1 BLUE brick at location (4,3)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"BLUE"),
         new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,3,"YELLOW"),
@@ -839,6 +889,7 @@ exercises.push(new Exercise(4,11,6,
 ));
 exercises.push(new Exercise(4,12,5,
     "<h3>Concept 4 Exercise 11</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x2 BLUE brick at location (0,0)</p>"+
     "<p>Put a 1x2 BLUE brick at location (0,2)</p>"+
     "<p>Put a 2x1 RED brick at location (0,4)</p>"+
@@ -846,7 +897,8 @@ exercises.push(new Exercise(4,12,5,
     "<p>Put a 1x2 BLUE brick at location (4,3)</p>"+
     "<p>Put a 1x2 BLUE brick at location (4,1)</p>"+
     "<p>Put a 2x1 RED brick at location (2,1)</p>"+
-    "<p>Put a 1x1 YELLOW brick at location (2,2)</p>",
+    "<p>Put a 1x1 YELLOW brick at location (2,2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"RED"),
         new SolutionCell(1,4,"RED"),
         new SolutionCell(2,4,"RED"),
@@ -865,13 +917,15 @@ exercises.push(new Exercise(4,12,5,
 ));
 exercises.push(new Exercise(4,13,8,
     "<h3>Concept 4 Exercise 12</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 3x2 RED brick at location (0,0)</p>"+
     "<p>Put a 3x2 RED brick at location (0,3)</p>"+
     "<p>Put a 4x2 RED brick at location (4,0)</p>"+
     "<p>Put a 4x2 RED brick at location (4,3)</p>"+
     "<p>Put an 8x1 WHITE brick a location (0,2)</p>"+
     "<p>Put a 1x2 WHITE brick at location (3,0)</p>"+
-    "<p>Put a 1x2 WHITE brick at location (3,3)</p>",
+    "<p>Put a 1x2 WHITE brick at location (3,3)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -913,18 +967,14 @@ exercises.push(new Exercise(4,13,8,
         new SolutionCell(6,4,"RED"),
         new SolutionCell(7,4,"RED")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //CONCEPT 5
-exercises.push(new Exercise(5,1,5,
-    "<h3>Concept 5 Demo 1</h3>" +
-    "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-"<p>put2D_2x1_BLUE(2,4);</p>",
-    [   new SolutionCell(2,4,"BLUE"),
-        new SolutionCell(3,4,"BLUE")]
-));
 exercises.push(new Exercise(5,2,5,
-    "<h3>Concept 5 Exercise 1</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 1</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_4x2_RED(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_4x2_RED(0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -934,10 +984,22 @@ exercises.push(new Exercise(5,2,5,
         new SolutionCell(2,1,"RED"),
         new SolutionCell(3,1,"RED")]
 ));
-exercises.push(new Exercise(5,3,6,
-    "<h3>Concept 5 Exercise 2</h3>" +
+// ---------------------------------------------------------------------------------------------------------------------
+exercises.push(new Exercise(5,1,5,
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Demo 1</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_2x3_GREEN(1,3);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_2x1_BLUE(2,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE")]
+));
+exercises.push(new Exercise(5,3,6,
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 2</h3>" +
+    "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_2x3_GREEN(1,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,3,"GREEN"),
         new SolutionCell(2,3,"GREEN"),
         new SolutionCell(1,4,"GREEN"),
@@ -946,18 +1008,22 @@ exercises.push(new Exercise(5,3,6,
         new SolutionCell(2,5,"GREEN")]
 ));
 exercises.push(new Exercise(5,4,5,
-    "<h3>Concept 5 Exercise 3</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 3</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_2x2_YELLOW(3,2);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_2x2_YELLOW(3,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"YELLOW"),
         new SolutionCell(4,2,"YELLOW"),
         new SolutionCell(4,3,"YELLOW")]
 ));
 exercises.push(new Exercise(5,5,5,
-    "<h3>Concept 5 Exercise 4</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 4</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_2x4_YELLOW(3,1);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_2x4_YELLOW(3,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"YELLOW"),
         new SolutionCell(3,1,"YELLOW"),
@@ -968,23 +1034,29 @@ exercises.push(new Exercise(5,5,5,
         new SolutionCell(4,4,"YELLOW")]
 ));
 exercises.push(new Exercise(5,6,5,
-    "<h3>Concept 5 Exercise 5</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 5</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_1x2_GRAY(3,1);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_1x2_GRAY(3,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,1,"GRAY"),
         new SolutionCell(3,2,"GRAY")]
 ));
 exercises.push(new Exercise(5,7,5,
-    "<h3>Concept 5 Exercise 6</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 6</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_2x1_BLUE(3,4);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_2x1_BLUE(3,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,4,"BLUE"),
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(5,8,5,
-    "<h3>Concept 5 Exercise 7</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 7</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_3x2_RED(2,3);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_3x2_RED(2,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,3,"RED"),
         new SolutionCell(2,4,"RED"),
         new SolutionCell(3,3,"RED"),
@@ -993,9 +1065,11 @@ exercises.push(new Exercise(5,8,5,
         new SolutionCell(4,4,"RED")]
 ));
 exercises.push(new Exercise(5,9,5,
-    "<h3>Concept 5 Exercise 8</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 8</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_4x2_GREEN(1,2);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_4x2_GREEN(1,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,2,"GREEN"),
         new SolutionCell(2,2,"GREEN"),
         new SolutionCell(3,2,"GREEN"),
@@ -1006,18 +1080,22 @@ exercises.push(new Exercise(5,9,5,
         new SolutionCell(4,3,"GREEN")]
 ));
 exercises.push(new Exercise(5,10,5,
-    "<h3>Concept 5 Exercise 9</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 9</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_2x2_YELLOW(0,3);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_2x2_YELLOW(0,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"YELLOW"),
         new SolutionCell(1,3,"YELLOW"),
         new SolutionCell(0,4,"YELLOW"),
         new SolutionCell(1,4,"YELLOW")]
 ));
 exercises.push(new Exercise(5,11,5,
-    "<h3>Concept 5 Exercise 10</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 10</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
-    "<p>put2D_2x4_GRAY(1,1);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D_2x4_GRAY(1,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,1,"GRAY"),
         new SolutionCell(1,2,"GRAY"),
         new SolutionCell(1,3,"GRAY"),
@@ -1027,17 +1105,21 @@ exercises.push(new Exercise(5,11,5,
         new SolutionCell(2,3,"GRAY"),
         new SolutionCell(2,4,"GRAY")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 6
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(6,1,5,
     "<h3>Concept 6 Demo 1</h3>" +
     "<p>Fibonacci Squares: 1x1 + 1x1 + 2x2 + 3x3.</p>"+
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_1x1_RED(0,0);</p>"+
     "<p>put2D_1x1_RED(1,0);</p>"+
     "<p>put2D_2x2_WHITE(0,1);</p>"+
     "<p>put2D_2x3_BLUE(2,0);</p>"+
     "<p>put2D_1x2_BLUE(4,0);</p>"+
-    "<p>put2D_1x1_BLUE(4,2);</p>",
+    "<p>put2D_1x1_BLUE(4,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(1,1,"WHITE"),
@@ -1057,8 +1139,10 @@ exercises.push(new Exercise(6,1,5,
 exercises.push(new Exercise(6,2,5,
     "<h3>Concept 6 Exercise 1</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x4_RED(0,0);</p>"+
-    "<p>put2D_2x4_WHITE(2,0);</p>",
+    "<p>put2D_2x4_WHITE(2,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"WHITE"),
@@ -1079,8 +1163,10 @@ exercises.push(new Exercise(6,2,5,
 exercises.push(new Exercise(6,3,5,
     "<h3>Concept 6 Exercise 2</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x2_RED(0,0); </p>"+
-    "<p>put2D_2x2_RED(2,2);</p>",
+    "<p>put2D_2x2_RED(2,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(0,1,"RED"),
@@ -1093,11 +1179,13 @@ exercises.push(new Exercise(6,3,5,
 exercises.push(new Exercise(6,4,6,
     "<h3>Concept 6 Exercise 3</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x2_RED(0,0);</p>"+
     "<p>put2D_2x2_RED(2,2);</p>"+
     "<p>put2D_2x2_RED(4,4);</p>"+
     "<p>put2D_2x2_BLUE(0,4);</p>"+
-    "<p>put2D_2x2_BLUE(4,0);</p>",
+    "<p>put2D_2x2_BLUE(4,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(0,1,"RED"),
@@ -1122,11 +1210,13 @@ exercises.push(new Exercise(6,4,6,
 exercises.push(new Exercise(6,5,5,
     "<h3>Concept 6 Exercise 4</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x2_RED(0,0);</p>"+
     "<p>put2D_3x2_RED(2,0);</p>"+
     "<p>put2D_2x3_RED(3,2);</p>"+
     "<p>put2D_3x2_RED(0,3);</p>"+
-    "<p>put2D_2x1_RED(0,2);</p>",
+    "<p>put2D_2x1_RED(0,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -1155,21 +1245,23 @@ exercises.push(new Exercise(6,5,5,
 exercises.push(new Exercise(6,6,8,
     "<h3>Concept 6 Exercise 5</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x1_WHITE(0,0);</p>"+
-"<p>put2D_2x1_WHITE(1,1);</p>"+
-"<p>put2D_2x1_WHITE(2,2);</p>"+
-"<p>put2D_2x1_WHITE(3,3);</p>"+
-"<p>put2D_2x1_WHITE(4,4);</p>"+
-"<p>put2D_2x1_WHITE(5,5);</p>"+
-"<p>put2D_2x1_WHITE(6,6);</p>"+
-"<p>put2D_1x1_WHITE(7,7);</p>"+
-"<p>put2D_1x1_WHITE(0,1);</p>"+
-"<p>put2D_1x1_WHITE(1,2);</p>"+
-"<p>put2D_1x1_WHITE(2,3);</p>"+
-"<p>put2D_1x1_WHITE(3,4);</p>"+
-"<p>put2D_1x1_WHITE(4,5);</p>"+
-"<p>put2D_1x1_WHITE(5,6);</p>"+
-"<p>put2D_1x1_WHITE(6,7);</p>",
+        "<p>put2D_2x1_WHITE(1,1);</p>"+
+        "<p>put2D_2x1_WHITE(2,2);</p>"+
+        "<p>put2D_2x1_WHITE(3,3);</p>"+
+        "<p>put2D_2x1_WHITE(4,4);</p>"+
+        "<p>put2D_2x1_WHITE(5,5);</p>"+
+        "<p>put2D_2x1_WHITE(6,6);</p>"+
+        "<p>put2D_1x1_WHITE(7,7);</p>"+
+        "<p>put2D_1x1_WHITE(0,1);</p>"+
+        "<p>put2D_1x1_WHITE(1,2);</p>"+
+        "<p>put2D_1x1_WHITE(2,3);</p>"+
+        "<p>put2D_1x1_WHITE(3,4);</p>"+
+        "<p>put2D_1x1_WHITE(4,5);</p>"+
+        "<p>put2D_1x1_WHITE(5,6);</p>"+
+        "<p>put2D_1x1_WHITE(6,7);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"WHITE"),
         new SolutionCell(1,0,"WHITE"),
         new SolutionCell(0,1,"WHITE"),
@@ -1196,12 +1288,14 @@ exercises.push(new Exercise(6,6,8,
 exercises.push(new Exercise(6,7,8,
     "<h3>Concept 6 Exercise 6</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_BLUE(0,0);</p>"+
-   "<p>put2D_4x2_BLUE(4,0);</p>"+
-   "<p>put2D_3x2_BLUE(1,2);</p>"+
-   "<p>put2D_3x2_BLUE(4,2);</p>"+
-   "<p>put2D_4x2_BLUE(2,4);</p>"+
-   "<p>put2D_2x2_BLUE(3,6);</p>",
+    "<p>put2D_4x2_BLUE(4,0);</p>"+
+    "<p>put2D_3x2_BLUE(1,2);</p>"+
+    "<p>put2D_3x2_BLUE(4,2);</p>"+
+    "<p>put2D_4x2_BLUE(2,4);</p>"+
+    "<p>put2D_2x2_BLUE(3,6);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(2,0,"BLUE"),
@@ -1246,6 +1340,7 @@ exercises.push(new Exercise(6,7,8,
 exercises.push(new Exercise(6,8,8,
     "<h3>Concept 6 Exercise 7</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x2_BLUE(1,5);</p>"+
     "<p>put2D_2x2_BLUE(5,5);</p>"+
     "<p>put2D_2x1_GRAY(3,3);</p>"+
@@ -1253,7 +1348,8 @@ exercises.push(new Exercise(6,8,8,
     "<p>put2D_2x1_RED(3,1);</p>"+
     "<p>put2D_2x1_RED(5,1);</p>"+
     "<p>put2D_1x1_RED(1,2);</p>"+
-    "<p>put2D_1x1_RED(6,2);</p>",
+    "<p>put2D_1x1_RED(6,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,1,"RED"),
         new SolutionCell(2,1,"RED"),
         new SolutionCell(3,1,"RED"),
@@ -1276,6 +1372,7 @@ exercises.push(new Exercise(6,8,8,
 exercises.push(new Exercise(6,9,9,
     "<h3>Concept 6 Exercise 8</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_1x1_RED(2,8);</p>"+
     "<p>put2D_1x1_RED(6,8);</p>"+
     "<p>put2D_2x1_RED(1,7);</p>"+
@@ -1296,7 +1393,8 @@ exercises.push(new Exercise(6,9,9,
     "<p>put2D_1x1_RED(6,4);</p>"+
     "<p>put2D_2x1_RED(3,3);</p>"+
     "<p>put2D_1x1_RED(5,3);</p>"+
-    "<p>put2D_1x1_RED(4,2);</p>",
+    "<p>put2D_1x1_RED(4,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(4,2,"RED"),
         new SolutionCell(3,3,"RED"),
         new SolutionCell(4,3,"RED"),
@@ -1331,15 +1429,19 @@ exercises.push(new Exercise(6,9,9,
         new SolutionCell(2,8,"RED"),
         new SolutionCell(6,8,"RED")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 7
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(7,1,7,
-    "<h3>Concept 7 Demo 1</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Demo 1</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_3x2_RED (0 ,0);</p>"+
     "<p>put2D_3x2_WHITE (2 ,1);</p>"+
-    "<p>put2D_3x2_BLUE (4 ,2);</p>",
+    "<p>put2D_3x2_BLUE (4 ,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(1,1,"RED"),
@@ -1358,15 +1460,17 @@ exercises.push(new Exercise(7,1,7,
         new SolutionCell(6,3,"BLUE")]
 ));
 exercises.push(new Exercise(7,2,5,
-    "<h3>Concept 7 Demo 2</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Demo 2</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x2_GREEN(0,0);</p>"+
     "<p>put2D_2x2_RED(1,1);</p>"+
     "<p>put2D_2x2_BLUE(2,2);</p>"+
     "<p>put2D_2x2_YELLOW(3,3);</p>"+
-    "<p>put2D_1x1_EMPTY(4,4);</p>",
+    "<p>put2D_1x1_EMPTY(4,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(1,1,"RED"),
@@ -1381,12 +1485,14 @@ exercises.push(new Exercise(7,2,5,
         new SolutionCell(3,4,"YELLOW")]
 ));
 exercises.push(new Exercise(7,3,5,
-    "<h3>Concept 7 Exercise 1</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 1</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_RED(0,0);</p>"+
-    "<p>put2D_4x2_WHITE(1,1);</p>",
+    "<p>put2D_4x2_WHITE(1,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -1402,12 +1508,14 @@ exercises.push(new Exercise(7,3,5,
         new SolutionCell(4,2,"WHITE")]
 ));
 exercises.push(new Exercise(7,4,5,
-    "<h3>Concept 7 Exercise 2</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 2</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_GREEN(0,0);</p>"+
-    "<p>put2D_4x2_EMPTY(1,1);</p>",
+    "<p>put2D_4x2_EMPTY(1,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(2,0,"GREEN"),
@@ -1415,13 +1523,15 @@ exercises.push(new Exercise(7,4,5,
         new SolutionCell(0,1,"GREEN")]
 ));
 exercises.push(new Exercise(7,5,4,
-    "<h3>Concept 7 Exercise 3</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 3</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_GRAY(0,0);</p>"+
     "<p>put2D_4x2_GRAY(0,2);</p>"+
-    "<p>put2D_2x2_WHITE(1,1);</p>",
+    "<p>put2D_2x2_WHITE(1,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GRAY"),
         new SolutionCell(1,0,"GRAY"),
         new SolutionCell(2,0,"GRAY"),
@@ -1440,18 +1550,20 @@ exercises.push(new Exercise(7,5,4,
         new SolutionCell(3,3,"GRAY")]
 ));
 exercises.push(new Exercise(7,6,7,
-    "<h3>Concept 7 Exercise 4</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 4</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_GRAY(0,0);</p>"+
-"<p>put2D_4x2_GRAY(0,2);</p>"+
-"<p>put2D_3x2_GRAY(4,0);</p>"+
-"<p>put2D_3x2_GRAY(4,2);</p>"+
-"<p>put2D_2x2_EMPTY(1,0);</p>"+
-"<p>put2D_2x2_EMPTY(4,0);</p>"+
-"<p>put2D_2x1_EMPTY(1,3);</p>"+
-"<p>put2D_2x1_EMPTY(4,3);</p>",
+    "<p>put2D_4x2_GRAY(0,2);</p>"+
+    "<p>put2D_3x2_GRAY(4,0);</p>"+
+    "<p>put2D_3x2_GRAY(4,2);</p>"+
+    "<p>put2D_2x2_EMPTY(1,0);</p>"+
+    "<p>put2D_2x2_EMPTY(4,0);</p>"+
+    "<p>put2D_2x1_EMPTY(1,3);</p>"+
+    "<p>put2D_2x1_EMPTY(4,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GRAY"),
         new SolutionCell(0,1,"GRAY"),
         new SolutionCell(0,2,"GRAY"),
@@ -1470,22 +1582,24 @@ exercises.push(new Exercise(7,6,7,
         new SolutionCell(6,3,"GRAY")]
 ));
 exercises.push(new Exercise(7,7,6,
-    "<h3>Concept 7 Exercise 5</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 5</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_3x2_YELLOW(0,4);</p>"+
-"<p>put2D_3x2_YELLOW(3,4);</p>"+
-"<p>put2D_3x2_YELLOW(0,2);</p>"+
-"<p>put2D_3x2_YELLOW(3,2);</p>"+
-"<p>put2D_3x2_YELLOW(0,0);</p>"+
-"<p>put2D_3x2_YELLOW(3,0);</p>"+
-"<p>put2D_1x1_GRAY(0,0);</p>"+
-"<p>put2D_1x1_GRAY(1,1);</p>"+
-"<p>put2D_1x1_GRAY(2,2);</p>"+
-"<p>put2D_1x1_GRAY(3,3);</p>"+
-"<p>put2D_1x1_GRAY(4,4);</p>"+
-"<p>put2D_1x1_GRAY(5,5);</p>",
+    "<p>put2D_3x2_YELLOW(3,4);</p>"+
+    "<p>put2D_3x2_YELLOW(0,2);</p>"+
+    "<p>put2D_3x2_YELLOW(3,2);</p>"+
+    "<p>put2D_3x2_YELLOW(0,0);</p>"+
+    "<p>put2D_3x2_YELLOW(3,0);</p>"+
+    "<p>put2D_1x1_GRAY(0,0);</p>"+
+    "<p>put2D_1x1_GRAY(1,1);</p>"+
+    "<p>put2D_1x1_GRAY(2,2);</p>"+
+    "<p>put2D_1x1_GRAY(3,3);</p>"+
+    "<p>put2D_1x1_GRAY(4,4);</p>"+
+    "<p>put2D_1x1_GRAY(5,5);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GRAY"),
         new SolutionCell(1,0,"YELLOW"),
         new SolutionCell(2,0,"YELLOW"),
@@ -1524,24 +1638,26 @@ exercises.push(new Exercise(7,7,6,
         new SolutionCell(5,5,"GRAY")]
 ));
 exercises.push(new Exercise(7,8,7,
-    "<h3>Concept 7 Exercise 6</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 6</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_RED(0,0);</p>"+
-"<p>put2D_3x2_RED(4,0);</p>"+
-"<p>put2D_4x2_RED(0,2);</p>"+
-"<p>put2D_3x2_RED(4,2);</p>"+
-"<p>put2D_4x2_RED(0,4);</p>"+
-"<p>put2D_3x2_RED(4,4);</p>"+
-"<p>put2D_4x2_RED(0,5);</p>"+
-"<p>put2D_3x2_RED(4,5);</p>"+
-"<p>put2D_1x2_BLUE(1,2);</p>"+
-"<p>put2D_1x2_BLUE(1,4);</p>"+
-"<p>put2D_2x1_BLUE(2,2);</p>"+
-"<p>put2D_2x1_BLUE(3,4);</p>"+
-"<p>put2D_1x2_BLUE(5,1);</p>"+
-"<p>put2D_1x2_BLUE(5,3);</p>",
+    "<p>put2D_3x2_RED(4,0);</p>"+
+    "<p>put2D_4x2_RED(0,2);</p>"+
+    "<p>put2D_3x2_RED(4,2);</p>"+
+    "<p>put2D_4x2_RED(0,4);</p>"+
+    "<p>put2D_3x2_RED(4,4);</p>"+
+    "<p>put2D_4x2_RED(0,5);</p>"+
+    "<p>put2D_3x2_RED(4,5);</p>"+
+    "<p>put2D_1x2_BLUE(1,2);</p>"+
+    "<p>put2D_1x2_BLUE(1,4);</p>"+
+    "<p>put2D_2x1_BLUE(2,2);</p>"+
+    "<p>put2D_2x1_BLUE(3,4);</p>"+
+    "<p>put2D_1x2_BLUE(5,1);</p>"+
+    "<p>put2D_1x2_BLUE(5,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -1593,32 +1709,34 @@ exercises.push(new Exercise(7,8,7,
         new SolutionCell(6,6,"RED")]
 ));
 exercises.push(new Exercise(7,9,7,
-    "<h3>Concept 7 Exercise 7</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 7</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_RED(0,0);</p>"+
-"<p>put2D_3x2_RED(4,0);</p>"+
-"<p>put2D_4x2_RED(0,2);</p>"+
-"<p>put2D_3x2_RED(4,2);</p>"+
-"<p>put2D_4x2_RED(0,4);</p>"+
-"<p>put2D_3x2_RED(4,4);</p>"+
-"<p>put2D_4x2_RED(0,5);</p>"+
-"<p>put2D_3x2_RED(4,5);</p>"+
-"<p>put2D_1x1_WHITE(0,1);</p>"+
-"<p>put2D_1x1_WHITE(1,2);</p>"+
-"<p>put2D_1x1_WHITE(2,3);</p>"+
-"<p>put2D_1x1_WHITE(3,4);</p>"+
-"<p>put2D_1x1_WHITE(4,3);</p>"+
-"<p>put2D_1x1_WHITE(5,2);</p>"+
-"<p>put2D_1x1_WHITE(6,1);</p>"+
-"<p>put2D_1x1_WHITE(0,5);</p>"+
-"<p>put2D_1x1_WHITE(1,4);</p>"+
-"<p>put2D_1x1_WHITE(2,3);</p>"+
-"<p>put2D_1x1_WHITE(3,2);</p>"+
-"<p>put2D_1x1_WHITE(4,3);</p>"+
-"<p>put2D_1x1_WHITE(5,4);</p>"+
-"<p>put2D_1x1_WHITE(6,5);</p>",
+    "<p>put2D_3x2_RED(4,0);</p>"+
+    "<p>put2D_4x2_RED(0,2);</p>"+
+    "<p>put2D_3x2_RED(4,2);</p>"+
+    "<p>put2D_4x2_RED(0,4);</p>"+
+    "<p>put2D_3x2_RED(4,4);</p>"+
+    "<p>put2D_4x2_RED(0,5);</p>"+
+    "<p>put2D_3x2_RED(4,5);</p>"+
+    "<p>put2D_1x1_WHITE(0,1);</p>"+
+    "<p>put2D_1x1_WHITE(1,2);</p>"+
+    "<p>put2D_1x1_WHITE(2,3);</p>"+
+    "<p>put2D_1x1_WHITE(3,4);</p>"+
+    "<p>put2D_1x1_WHITE(4,3);</p>"+
+    "<p>put2D_1x1_WHITE(5,2);</p>"+
+    "<p>put2D_1x1_WHITE(6,1);</p>"+
+    "<p>put2D_1x1_WHITE(0,5);</p>"+
+    "<p>put2D_1x1_WHITE(1,4);</p>"+
+    "<p>put2D_1x1_WHITE(2,3);</p>"+
+    "<p>put2D_1x1_WHITE(3,2);</p>"+
+    "<p>put2D_1x1_WHITE(4,3);</p>"+
+    "<p>put2D_1x1_WHITE(5,4);</p>"+
+    "<p>put2D_1x1_WHITE(6,5);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -1669,7 +1787,9 @@ exercises.push(new Exercise(7,9,7,
         new SolutionCell(5,6,"RED"),
         new SolutionCell(6,6,"RED")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 8
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(8,1,5,
     "<h3>Concept 8 Demo 1</h3>" +
     "<p>On paper, write a program consisting of a sequence of function calls." +
@@ -3617,7 +3737,7 @@ exercises.push(new Exercise(19,4,5,
     "<h3>Concept 19 Exercise 3</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
-    "<p>put (2,1,3) GREEN (0,5,0);</p>"+
+    "<p>put (2,1,3) GREEN (0,0,0);</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
