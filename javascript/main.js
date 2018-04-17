@@ -6084,6 +6084,36 @@ function nextConceptIdExists() {
     }
     return false;
 }
+// ==================================================================================================================
+function previousExerciseIdExists() {
+    for(i=0; i<exercises.length;i++){
+        if (exercises[i].concept_id == currentConceptId && exercises[i].exercise_id == (currentExerciseId-1)){
+            currentExerciseId--;
+            return true;
+        }
+    }
+    return false;
+}
+// ====================================================================================================================
+function numberOfExercisesInConcept(conceptID){
+    var count = 0;
+    for(j=0; j<exercises.length;j++){
+        if(exercises[j].concept_id == conceptID)
+            count++;
+    }
+    return count;
+}
+// ===================================================================================================================
+function previousConceptIdExists() {
+    for(i=0; i<exercises.length;i++){
+        if (exercises[i].concept_id == (currentConceptId - 1) && exercises[i].exercise_id == 1){
+            currentConceptId--;
+            currentExerciseId = numberOfExercisesInConcept(currentConceptId);
+            return true;
+        }
+    }
+    return false;
+}
 // ===================================================================================================================
 function nextExercise(){
     if(fireworks){
@@ -6100,6 +6130,37 @@ function nextExercise(){
 
     }else if(nextConceptIdExists()){
          tempExerciseLink = document.createElement('a');
+        /*var linkText = document.createTextNode("my title text");
+         a.appendChild(linkText);
+         a.title = "my title text";*/
+        tempExerciseLink.href = "#concepts/"+currentConceptId+"/"+currentExerciseId;
+        document.body.appendChild(tempExerciseLink);
+        tempExerciseLink.click();
+
+    } else {
+        clearCanvas();
+        gDrawingContext.font = "30px Comic Sans MS";
+        gDrawingContext.fillStyle = "red";
+        gDrawingContext.textAlign = "center";
+        gDrawingContext.fillText("This is the end", xEnd/2, yEnd/2);
+    }
+}
+// ===================================================================================================================
+function previousExercise(){
+    if(fireworks){
+        stopFireWorks();
+    }
+    if(previousExerciseIdExists()){
+        var tempExerciseLink = document.createElement('a');
+        /*var linkText = document.createTextNode("my title text");
+         a.appendChild(linkText);
+         a.title = "my title text";*/
+        tempExerciseLink.href = "#concepts/"+currentConceptId+"/"+currentExerciseId;
+        document.body.appendChild(tempExerciseLink);
+        tempExerciseLink.click();
+
+    }else if(previousConceptIdExists()){
+        tempExerciseLink = document.createElement('a');
         /*var linkText = document.createTextNode("my title text");
          a.appendChild(linkText);
          a.title = "my title text";*/
