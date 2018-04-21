@@ -25,7 +25,7 @@ function SolutionCell(x,y,lego){
 // Concept 1
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(1,1,6,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Demo 1</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Demo 1 </h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GREEN brick in the cells whose locations are:</p>" +
     "<p>(0,0), (5,1), (1,2), (4,3), (2,4), (3,5)</p>"+
@@ -38,7 +38,7 @@ exercises.push(new Exercise(1,1,6,
         new SolutionCell(3,5,"GREEN")]
 ));
 exercises.push(new Exercise(1,2,6,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 1</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 1</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 RED brick in the cells whose locations are:</p>" +
     "<p>(0,0), (5,0), (5,5), (0,5)</p>"+
@@ -49,7 +49,7 @@ exercises.push(new Exercise(1,2,6,
          new SolutionCell(5,5,"RED")]
 ));
 exercises.push(new Exercise(1,3,6,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 2</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 2</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 YELLOW brick in the cells whose locations are:</p>" +
     "<p>(0,0), (1,1), (2,2), (3,3), (4,4), (5,5)</p>"+
@@ -62,7 +62,7 @@ exercises.push(new Exercise(1,3,6,
         new SolutionCell(5,5,"YELLOW")]
 ));
 exercises.push(new Exercise(1,4,5,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 3</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 3</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GRAY brick in the cells whose locations are:</p>" +
     "<p>(2,0), (3,0), (2,1), (3,1)</p>"+
@@ -73,7 +73,7 @@ exercises.push(new Exercise(1,4,5,
         new SolutionCell(3,1,"GRAY")]
 ));
 exercises.push(new Exercise(1,5,5,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 4</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 4</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 BLUE brick in the cells whose locations are:</p>" +
     "<p>(0,0), (0,1), (0,2), (0,3), (0,4) </p>"+
@@ -85,7 +85,7 @@ exercises.push(new Exercise(1,5,5,
         new SolutionCell(0,4,"BLUE")]
 ));
 exercises.push(new Exercise(1,6,5,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 5</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 5</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 GREEN brick in the cells whose locations are:</p>" +
     "<p>(0,0), (0,1), (0,2), (0,3), (1,0), (1,1), (1,2), (1,3)</p>"+
@@ -100,7 +100,7 @@ exercises.push(new Exercise(1,6,5,
         new SolutionCell(1,3,"GREEN")]
 ));
 exercises.push(new Exercise(1,7,5,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 6</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 6</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a red brick in the cells whose locations are:</p>" +
     "<p>(2,0), (3,1), (4,2), (3,3), (2,4), (1,3),(0,2), (1,1)</p>"+
@@ -115,7 +115,7 @@ exercises.push(new Exercise(1,7,5,
         new SolutionCell(1,1,"RED")]
 ));
 exercises.push(new Exercise(1,8,5,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 7</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 7</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a YELLOW brick in the cells whose locations are:</p>" +
     "<p>(0,4), (1,3), (2,2), (3,1), (4,0), (0,0), (1,1), (3,3), (4,4)</p>"+
@@ -131,7 +131,7 @@ exercises.push(new Exercise(1,8,5,
         new SolutionCell(4,4,"YELLOW")]
 ));
 exercises.push(new Exercise(1,9,6,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 8</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 8</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a BLUE brick in the cells whose locations are:</p>" +
     "<p>(0,3), (1,3), (2,3),(3,3), (4,3), (5,3),(1,4), (2,5), (3,5),(4,4)</p>"+
@@ -148,7 +148,7 @@ exercises.push(new Exercise(1,9,6,
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(1,10,5,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 9</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 9</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a GREEN brick in the cells whose locations are:</p>" +
     "<p>(0,1), (1,1), (2,1), (0,2), (1,2), (2,2)</p>"+
@@ -161,7 +161,7 @@ exercises.push(new Exercise(1,10,5,
         new SolutionCell(2,2,"GREEN")]
 ));
 exercises.push(new Exercise(1,11,5,
-    "<h3><a href='https://youtu.be/D32e4c7Ob78'>Concept 1</a> Exercise 10</h3>" +
+    "<h3><a href='https://youtu.be/D32e4c7Ob78'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 1 Exercise 10</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a GRAY brick in the cells whose locations are:</p>" +
     "<p>(3,0), (3,1), (3,2), (3,3), (4,0), (4,1), (4,2), (4,3)</p>"+
@@ -470,14 +470,14 @@ exercises.push(new Exercise(2,20,7,
 // Concept 3
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(3,1,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 1</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Demo 1</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x1 RED brick at location (0,0).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED")]
 ));
 exercises.push(new Exercise(3,2,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 2</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Demo 2</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x2 RED brick at location (3,2).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -487,7 +487,7 @@ exercises.push(new Exercise(3,2,5,
         new SolutionCell(4,3,"RED")]
 ));
 exercises.push(new Exercise(3,3,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 3</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Demo 3</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 4x2 YELLOW brick at location (0,2).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -501,7 +501,7 @@ exercises.push(new Exercise(3,3,5,
         new SolutionCell(3,3,"YELLOW")]
 ));
 exercises.push(new Exercise(3,4,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Demo 4</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a>Concept 3 Demo 4</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x3 GRAY brick at location (1,0)</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -513,7 +513,7 @@ exercises.push(new Exercise(3,4,5,
         new SolutionCell(2,2,"GRAY")]
 ));
 exercises.push(new Exercise(3,5,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 1</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 1</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 3x2 YELLOW brick at location (1,2).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -525,7 +525,7 @@ exercises.push(new Exercise(3,5,5,
         new SolutionCell(3,3,"YELLOW")]
 ));
 exercises.push(new Exercise(3,6,6,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 2</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 2</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x4 GRAY brick at location (4,1).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -539,7 +539,7 @@ exercises.push(new Exercise(3,6,6,
         new SolutionCell(5,4,"GRAY")]
 ));
 exercises.push(new Exercise(3,7,6,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 3</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 3</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 4x2 BLUE brick at location (1,3).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -553,7 +553,7 @@ exercises.push(new Exercise(3,7,6,
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(3,8,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 4</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a>Concept 3 Exercise 4</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x3 RED brick at location (2,2).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -565,7 +565,7 @@ exercises.push(new Exercise(3,8,5,
         new SolutionCell(3,4,"RED")]
 ));
 exercises.push(new Exercise(3,9,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 5</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 5</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x1 GREEN brick at location (3,0).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -573,7 +573,7 @@ exercises.push(new Exercise(3,9,5,
         new SolutionCell(4,0,"GREEN")]
 ));
 exercises.push(new Exercise(3,10,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 6</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 6</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 1x2 BLUE brick at location (2,1).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -581,7 +581,7 @@ exercises.push(new Exercise(3,10,5,
         new SolutionCell(2,2,"BLUE")]
 ));
 exercises.push(new Exercise(3,11,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 7</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 7</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 4x2 YELLOW brick at location (0,3).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -595,7 +595,7 @@ exercises.push(new Exercise(3,11,5,
         new SolutionCell(3,4,"YELLOW")]
 ));
 exercises.push(new Exercise(3,12,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 8</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 8</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x2 GRAY brick at location (1,1).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -605,7 +605,7 @@ exercises.push(new Exercise(3,12,5,
         new SolutionCell(2,1,"GRAY")]
 ));
 exercises.push(new Exercise(3,13,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 9</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 9</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x1 BLUE brick at location (3,4).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -613,7 +613,7 @@ exercises.push(new Exercise(3,13,5,
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(3,14,5,
-    "<h3><a href='https://youtu.be/NfLKQZJIrp4'>Concept 3</a> Exercise 10</h3>" +
+    "<h3><a href='https://youtu.be/NfLKQZJIrp4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 3 Exercise 10</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Put a 2x3 RED brick at location (3,2).</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
@@ -971,7 +971,7 @@ exercises.push(new Exercise(4,13,8,
 //CONCEPT 5
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(5,2,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 1</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 1</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_RED(0,0);</p>"+
@@ -987,7 +987,7 @@ exercises.push(new Exercise(5,2,5,
 ));
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(5,1,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Demo 1</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Demo 1</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x1_BLUE(2,4);</p>"+
@@ -996,7 +996,7 @@ exercises.push(new Exercise(5,1,5,
         new SolutionCell(3,4,"BLUE")]
 ));
 exercises.push(new Exercise(5,3,6,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 2</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 2</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x3_GREEN(1,3);</p>"+
@@ -1009,7 +1009,7 @@ exercises.push(new Exercise(5,3,6,
         new SolutionCell(2,5,"GREEN")]
 ));
 exercises.push(new Exercise(5,4,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 3</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 3</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x2_YELLOW(3,2);</p>"+
@@ -1020,7 +1020,7 @@ exercises.push(new Exercise(5,4,5,
         new SolutionCell(4,3,"YELLOW")]
 ));
 exercises.push(new Exercise(5,5,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 4</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 4</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x4_YELLOW(3,1);</p>"+
@@ -1035,7 +1035,7 @@ exercises.push(new Exercise(5,5,5,
         new SolutionCell(4,4,"YELLOW")]
 ));
 exercises.push(new Exercise(5,6,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 5</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 5</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_1x2_GRAY(3,1);</p>"+
@@ -1044,7 +1044,7 @@ exercises.push(new Exercise(5,6,5,
         new SolutionCell(3,2,"GRAY")]
 ));
 exercises.push(new Exercise(5,7,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 6</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 6</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x1_BLUE(3,4);</p>"+
@@ -1053,7 +1053,7 @@ exercises.push(new Exercise(5,7,5,
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(5,8,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 7</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 7</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_3x2_RED(2,3);</p>"+
@@ -1066,7 +1066,7 @@ exercises.push(new Exercise(5,8,5,
         new SolutionCell(4,4,"RED")]
 ));
 exercises.push(new Exercise(5,9,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 8</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 8</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_4x2_GREEN(1,2);</p>"+
@@ -1081,7 +1081,7 @@ exercises.push(new Exercise(5,9,5,
         new SolutionCell(4,3,"GREEN")]
 ));
 exercises.push(new Exercise(5,10,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 9</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 9</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x2_YELLOW(0,3);</p>"+
@@ -1092,7 +1092,7 @@ exercises.push(new Exercise(5,10,5,
         new SolutionCell(1,4,"YELLOW")]
 ));
 exercises.push(new Exercise(5,11,5,
-    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 10</h3>" +
+    "<h3><a href='https://youtu.be/ZdUHqJCnJ64'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 5 Exercise 10</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D_2x4_GRAY(1,1);</p>"+
@@ -1434,7 +1434,7 @@ exercises.push(new Exercise(6,9,9,
 //Concept 7
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(7,1,7,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Demo 1</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Demo 1</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1461,7 +1461,7 @@ exercises.push(new Exercise(7,1,7,
         new SolutionCell(6,3,"BLUE")]
 ));
 exercises.push(new Exercise(7,2,5,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Demo 2</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Demo 2</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1486,7 +1486,7 @@ exercises.push(new Exercise(7,2,5,
         new SolutionCell(3,4,"YELLOW")]
 ));
 exercises.push(new Exercise(7,3,5,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 1</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Exercise 1</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1509,7 +1509,7 @@ exercises.push(new Exercise(7,3,5,
         new SolutionCell(4,2,"WHITE")]
 ));
 exercises.push(new Exercise(7,4,5,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 2</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Exercise 2</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1524,7 +1524,7 @@ exercises.push(new Exercise(7,4,5,
         new SolutionCell(0,1,"GREEN")]
 ));
 exercises.push(new Exercise(7,5,4,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 3</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Exercise 3</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1551,7 +1551,7 @@ exercises.push(new Exercise(7,5,4,
         new SolutionCell(3,3,"GRAY")]
 ));
 exercises.push(new Exercise(7,6,7,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 4</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Exercise 4</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1583,7 +1583,7 @@ exercises.push(new Exercise(7,6,7,
         new SolutionCell(6,3,"GRAY")]
 ));
 exercises.push(new Exercise(7,7,6,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 5</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Exercise 5</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1639,7 +1639,7 @@ exercises.push(new Exercise(7,7,6,
         new SolutionCell(5,5,"GRAY")]
 ));
 exercises.push(new Exercise(7,8,7,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 6</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Exercise 6</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1710,7 +1710,7 @@ exercises.push(new Exercise(7,8,7,
         new SolutionCell(6,6,"RED")]
 ));
 exercises.push(new Exercise(7,9,7,
-    "<h3><a href='https://youtu.be/5ABJAKJhLk4'>Concept 7</a> Exercise 7</h3>" +
+    "<h3><a href='https://youtu.be/5ABJAKJhLk4'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 7 Exercise 7</h3>" +
     "<p>In Bricklayer, it is possible to permit (or forbid) the contents of a cell to be overwritten." +
     " Assuming overwriting is permitted," +
     " execute the following Level 1 program by placing bricks at the appropriate locations.</p>"+
@@ -1812,7 +1812,9 @@ exercises.push(new Exercise(8,3,5,
     "<p>2. The reverse the order of the pages (i.e., programs) and execute the result.</p>",
     [   new SolutionCell(0,0,"EMPTY")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 9
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(9,1,7,
     "<h3>Concept 9 Demo 1</h3>" +
     "<p>In the exercises folder you will find a file named vitruvia_09_demo_01.pdf.</p>"+
@@ -4091,14 +4093,277 @@ exercises.push(new Exercise(19,9,7,
 ));
 
 // ---------------------------------------------------------------------------------------------------------------------
-//Concept 20
+// Concept 20
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(20,1,4,
+exercises.push(new Exercise(20,1,5,
     "<h3>Concept 20 Demo 1</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun blueFn (x,y,z) = BLUE;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 80%;'>traverseWithin (0,0,0) (0,0,0) blueFn;</p>" +
+    "<p style='line-height: 80%;'>put (1,1,1) BLACK (0,0,1);</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLUE"),
+
+        new SolutionCell(0,1,"BLACK")
+    ]
+));
+
+exercises.push(new Exercise(20,2,5,
+    "<h3>Concept 20 Demo 2</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun blueFn (x,y,z) = BLUE;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 80%;'>traverseWithin (0,0,0) (1,0,1) blueFn;</p>" +
+    "<p style='line-height: 80%;'>put (2,1,2) BLACK (2,0,2);</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+
+        new SolutionCell(2,2,"BLACK"),
+        new SolutionCell(3,2,"BLACK"),
+        new SolutionCell(2,3,"BLACK"),
+        new SolutionCell(3,3,"BLACK")
+    ]
+));
+
+exercises.push(new Exercise(20,3,5,
+    "<h3>Concept 20 Exercise 1</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun blueFn (x,y,z) = BLUE;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 80%;'>traverseWithin (0,0,0) (3,0,1) blueFn;</p>" +
+    "<p style='line-height: 80%;'>put (4,1,2) BLACK (0,0,2);</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE"),
+
+        new SolutionCell(0,2,"BLACK"),
+        new SolutionCell(1,2,"BLACK"),
+        new SolutionCell(2,2,"BLACK"),
+        new SolutionCell(3,2,"BLACK"),
+        new SolutionCell(0,3,"BLACK"),
+        new SolutionCell(1,3,"BLACK"),
+        new SolutionCell(2,3,"BLACK"),
+        new SolutionCell(3,3,"BLACK")
+    ]
+));
+
+exercises.push(new Exercise(20,4,5,
+"<h3>Concept 20 Exercise 2</h3>" +
+"<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+"<hr style='border-width: 3px; border-style: inset;'>"+
+"<p>open Level_5;</p>" +
+"<p>fun blueFn (x,y,z) = BLUE;</p>" +
+"<p>build (5,1,5);</p>" +
+"<p style='line-height: 70%;'>traverseWithin (0,0,0) (3,0,0) blueFn;</p>" +
+"<p style='line-height: 70%;'>put (4,1,1) BLACK (0,0,1);</p>" +
+"<p line-height: 80%;'>show \"artifact\";" +
+"<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(1,0,"BLACK"),
+        new SolutionCell(2,0,"BLACK"),
+        new SolutionCell(3,0,"BLACK"),
+
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(3,1,"BLUE")
+    ]
+));
+
+exercises.push(new Exercise(20,5,5,
+    "<h3>Concept 20 Exercise 3</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun blueFn (x,y,z) = BLUE;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 70%;'>put (4,1,2) BLACK (0,0,0);</p>" +
+    "<p style='line-height: 70%;'>traverseWithin (0,0,2) (3,0,3) blueFn;</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(1,0,"BLACK"),
+        new SolutionCell(2,0,"BLACK"),
+        new SolutionCell(3,0,"BLACK"),
+        new SolutionCell(0,1,"BLACK"),
+        new SolutionCell(1,1,"BLACK"),
+        new SolutionCell(2,1,"BLACK"),
+        new SolutionCell(3,1,"BLACK"),
+
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE")
+    ]
+));
+
+exercises.push(new Exercise(20,6,5,
+    "<h3>Concept 20 Exercise 4</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun blueFn (x,y,z) = BLUE;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 70%;'>traverseWithin (0,0,0) (3,0,3) blueFn;</p>" +
+    "<p style='line-height: 70%;'>put (4,1,4) BLACK (0,0,0);</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(1,0,"BLACK"),
+        new SolutionCell(2,0,"BLACK"),
+        new SolutionCell(3,0,"BLACK"),
+        new SolutionCell(0,1,"BLACK"),
+        new SolutionCell(1,1,"BLACK"),
+        new SolutionCell(2,1,"BLACK"),
+        new SolutionCell(3,1,"BLACK"),
+        new SolutionCell(0,2,"BLACK"),
+        new SolutionCell(1,2,"BLACK"),
+        new SolutionCell(2,2,"BLACK"),
+        new SolutionCell(3,2,"BLACK"),
+        new SolutionCell(0,3,"BLACK"),
+        new SolutionCell(1,3,"BLACK"),
+        new SolutionCell(2,3,"BLACK"),
+        new SolutionCell(3,3,"BLACK")
+    ]
+));
+
+exercises.push(new Exercise(20,7,5,
+    "<h3>Concept 20 Exercise 5</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun emptyFn (x,y,z) = EMPTY;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 70%;'>put (4,1,4) BLACK (0,0,0);</p>" +
+    "<p style='line-height: 70%;'>traverseWithin (0,0,0) (3,0,2) emptyFn;</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,3,"BLACK"),
+        new SolutionCell(1,3,"BLACK"),
+        new SolutionCell(2,3,"BLACK"),
+        new SolutionCell(3,3,"BLACK")
+    ]
+));
+
+exercises.push(new Exercise(20,8,5,
+    "<h3>Concept 20 Exercise 6</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun emptyFn (x,y,z) = EMPTY;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 70%;'>put (4,1,4) BLACK (0,0,0);</p>" +
+    "<p style='line-height: 70%;'>traverseWithin (1,0,0) (3,0,3) emptyFn;</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(0,1,"BLACK"),
+        new SolutionCell(0,2,"BLACK"),
+        new SolutionCell(0,3,"BLACK")
+    ]
+));
+
+exercises.push(new Exercise(20,9,5,
+    "<h3>Concept 20 Exercise 7</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun emptyFn (x,y,z) = EMPTY;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 70%;'>put (4,1,4) BLACK (0,0,0);</p>" +
+    "<p style='line-height: 70%;'>traverseWithin (1,0,1) (3,0,3) emptyFn;</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(1,0,"BLACK"),
+        new SolutionCell(2,0,"BLACK"),
+        new SolutionCell(3,0,"BLACK"),
+
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(0,1,"BLACK"),
+        new SolutionCell(0,2,"BLACK"),
+        new SolutionCell(0,3,"BLACK")
+
+    ]
+));
+
+exercises.push(new Exercise(20,10,5,
+    "<h3>Concept 20 Exercise 8</h3>" +
+    "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>" +
+    "<p>fun emptyFn (x,y,z) = EMPTY;</p>" +
+    "<p>fun blueFn (x,y,z) = BLUE;</p>" +
+    "<p>build (5,1,5);</p>" +
+    "<p style='line-height: 70%;'>put (5,1,5) BLACK (0,0,0);</p>" +
+    "<p style='line-height: 70%;'>traverseWithin (1,0,0) (3,0,4) blueFn;</p>" +
+    "<p style='line-height: 70%;'>traverseWithin (0,0,1) (4,0,3) emptyFn;</p>" +
+    "<p line-height: 80%;'>show \"artifact\";" +
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,"BLACK"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
+        new SolutionCell(4,0,"BLACK"),
+
+        new SolutionCell(0,4,"BLACK"),
+        new SolutionCell(1,4,"BLUE"),
+        new SolutionCell(2,4,"BLUE"),
+        new SolutionCell(3,4,"BLUE"),
+        new SolutionCell(4,4,"BLACK")
+
+    ]
+));
+
+
+// ---------------------------------------------------------------------------------------------------------------------
+//Concept 21
+// ---------------------------------------------------------------------------------------------------------------------
+exercises.push(new Exercise(21,1,4,
+    "<h3>Concept 21 Demo 1</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = BLUE</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f (x,y,z) = BLUE;</p>"+
+    "<p>build (4,1,4); </p>"+
+    "<p>traverseWithin (0,0,0) (3,0,3) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -4116,12 +4381,18 @@ exercises.push(new Exercise(20,1,4,
         new SolutionCell(3,2,"BLUE"),
         new SolutionCell(3,3,"BLUE")]
 ));
-exercises.push(new Exercise(20,2,6,
-    "<h3>Concept 20 Demo 2</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,2,6,
+    "<h3>Concept 21 Demo 2</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x = 3 then BLUE else RED</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x = 3 then BLUE else RED</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,1,"RED"),
         new SolutionCell(0,2,"RED"),
@@ -4159,12 +4430,18 @@ exercises.push(new Exercise(20,2,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(20,3,6,
-    "<h3>Concept 20 Exercise 1 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,3,6,
+    "<h3>Concept 21 Exercise 1 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if z = 3 then RED else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if z = 3 then RED else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"RED"),
         new SolutionCell(1,3,"RED"),
         new SolutionCell(2,3,"RED"),
@@ -4172,12 +4449,18 @@ exercises.push(new Exercise(20,3,6,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(5,3,"RED")]
 ));
-exercises.push(new Exercise(20,4,6,
-    "<h3>Concept 20 Exercise 2 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,4,6,
+    "<h3>Concept 21 Exercise 2 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x = z then GREEN else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x = z then GREEN else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,1,"GREEN"),
         new SolutionCell(2,2,"GREEN"),
@@ -4185,12 +4468,18 @@ exercises.push(new Exercise(20,4,6,
         new SolutionCell(4,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(20,5,6,
-    "<h3>Concept 20 Exercise 3 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,5,6,
+    "<h3>Concept 21 Exercise 3 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x < z then YELLOW else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x < z then YELLOW else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,5,"YELLOW"),
         new SolutionCell(1,5,"YELLOW"),
         new SolutionCell(2,5,"YELLOW"),
@@ -4207,12 +4496,18 @@ exercises.push(new Exercise(20,5,6,
         new SolutionCell(1,2,"YELLOW"),
         new SolutionCell(0,1,"YELLOW")]
 ));
-exercises.push(new Exercise(20,6,6,
-    "<h3>Concept 20 Exercise 4 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,6,6,
+    "<h3>Concept 21 Exercise 4 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x + z = 5 then BLUE else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x + z = 5 then BLUE else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,5,"BLUE"),
         new SolutionCell(1,4,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
@@ -4220,12 +4515,18 @@ exercises.push(new Exercise(20,6,6,
         new SolutionCell(4,1,"BLUE"),
         new SolutionCell(5,0,"BLUE")]
 ));
-exercises.push(new Exercise(20,7,6,
-    "<h3>Concept 20 Exercise 5 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,7,6,
+    "<h3>Concept 21 Exercise 5 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x + z > 5 then RED else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x + z > 5 then RED else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,5,"RED"),
         new SolutionCell(2,5,"RED"),
         new SolutionCell(3,5,"RED"),
@@ -4242,12 +4543,18 @@ exercises.push(new Exercise(20,7,6,
         new SolutionCell(5,2,"RED"),
         new SolutionCell(5,1,"RED")]
 ));
-exercises.push(new Exercise(20,8,6,
-    "<h3>Concept 20 Exercise 6 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,8,6,
+    "<h3>Concept 21 Exercise 6 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if (x + z) mod 2 = 0 then GRAY else WHITE</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if (x + z) mod 2 = 0 then GRAY else WHITE</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GRAY"),
         new SolutionCell(1,1,"GRAY"),
         new SolutionCell(2,2,"GRAY"),
@@ -4285,12 +4592,18 @@ exercises.push(new Exercise(20,8,6,
         new SolutionCell(4,1,"WHITE"),
         new SolutionCell(5,2,"WHITE")]
 ));
-exercises.push(new Exercise(20,9,6,
-    "<h3>Concept 20 Exercise 7 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,9,6,
+    "<h3>Concept 21 Exercise 7 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x + z mod 2 = 0 then BLUE else YELLOW</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x + z mod 2 = 0 then BLUE else YELLOW</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"YELLOW"),
         new SolutionCell(2,0,"YELLOW"),
@@ -4328,12 +4641,18 @@ exercises.push(new Exercise(20,9,6,
         new SolutionCell(4,5,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(20,10,6,
-    "<h3>Concept 20 Exercise 8 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,10,6,
+    "<h3>Concept 21 Exercise 8 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x mod 2 = 0 then BLUE else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x mod 2 = 0 then BLUE else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -4353,12 +4672,18 @@ exercises.push(new Exercise(20,10,6,
         new SolutionCell(4,4,"BLUE"),
         new SolutionCell(4,5,"BLUE")]
 ));
-exercises.push(new Exercise(20,11,6,
-    "<h3>Concept 20 Exercise 9 </h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,11,6,
+    "<h3>Concept 21 Exercise 9 </h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then BLUE else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then BLUE else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,3,"BLUE"),
         new SolutionCell(1,2,"BLUE"),
@@ -4372,12 +4697,18 @@ exercises.push(new Exercise(20,11,6,
         new SolutionCell(4,5,"BLUE"),
         new SolutionCell(5,4,"BLUE")]
 ));
-exercises.push(new Exercise(20,12,6,
-    "<h3>Concept 20 Exercise 10</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,12,6,
+    "<h3>Concept 21 Exercise 10</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then EMPTY else GREEN</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then EMPTY else GREEN</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
         new SolutionCell(0,4,"GREEN"),
@@ -4403,12 +4734,18 @@ exercises.push(new Exercise(20,12,6,
         new SolutionCell(5,3,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(20,13,6,
-    "<h3>Concept 20 Exercise 11</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,13,6,
+    "<h3>Concept 21 Exercise 11</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 0 then RED else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 0 then RED else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,2,"RED"),
         new SolutionCell(0,4,"RED"),
@@ -4416,12 +4753,18 @@ exercises.push(new Exercise(20,13,6,
         new SolutionCell(3,2,"RED"),
         new SolutionCell(3,4,"RED")]
 ));
-exercises.push(new Exercise(20,14,6,
-    "<h3>Concept 20 Exercise 12</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
-    " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 1 then GREEN else EMPTY</p>",
+exercises.push(new Exercise(21,14,6,
+    "<h3>Concept 21 Exercise 12</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
+    " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 1 then GREEN else EMPTY</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,3,"GREEN"),
         new SolutionCell(0,5,"GREEN"),
@@ -4435,12 +4778,18 @@ exercises.push(new Exercise(20,14,6,
         new SolutionCell(4,2,"GREEN"),
         new SolutionCell(4,4,"GREEN")]
 ));
-exercises.push(new Exercise(20,15,6,
-    "<h3>Concept 20 Exercise 13</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,15,6,
+    "<h3>Concept 21 Exercise 13</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x div 3 = 0 then GREEN else YELLOW</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x div 3 = 0 then GREEN else YELLOW</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(2,0,"GREEN"),
@@ -4478,12 +4827,18 @@ exercises.push(new Exercise(20,15,6,
         new SolutionCell(4,5,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(20,16,6,
-    "<h3>Concept 20 Exercise 14</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,16,6,
+    "<h3>Concept 21 Exercise 14</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if (x + z div 3) mod 2 = 0 then GREEN else YELLOW</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if (x + z div 3) mod 2 = 0 then GREEN else YELLOW</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -4521,12 +4876,18 @@ exercises.push(new Exercise(20,16,6,
         new SolutionCell(5,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(20,17,6,
-    "<h3>Concept 20 Exercise 15</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,17,6,
+    "<h3>Concept 21 Exercise 15</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if ((x + z) div 3) mod 2 = 0 then GREEN else YELLOW</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if ((x + z) div 3) mod 2 = 0 then GREEN else YELLOW</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -4564,12 +4925,18 @@ exercises.push(new Exercise(20,17,6,
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(20,18,6,
-    "<h3>Concept 20 Exercise 16</h3>" +
-    "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
+exercises.push(new Exercise(21,18,6,
+    "<h3>Concept 21 Exercise 16</h3>" +
+    "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
+    " What artifact is produced when the following Bricklayer program is executed?" +
     " Assume that the y value for all cell positions is 0.</p>"+
-    "<p>fun f(x,y,z) = if x div 3 = z div 3  then GREEN else YELLOW</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>open Level_5;</p>"+
+    "<p>fun f(x,y,z) = if x div 3 = z div 3  then GREEN else YELLOW</p>"+
+    "<p>build (6,1,6); </p>"+
+    "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
+    "<p>show \"artifact\";</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -4608,20 +4975,22 @@ exercises.push(new Exercise(20,18,6,
         new SolutionCell(5,5,"GREEN")]
 ));
 // ---------------------------------------------------------------------------------------------------------------------
-//Concept 21
+//Concept 22
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(21,1,4,
-    "<h3>Concept 21 Demo 1</h3>" +
+exercises.push(new Exercise(22,1,4,
+    "<h3>Concept 22 Demo 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x = 0 then </p>" +
     "<p style='text-indent: 2em;'>if z = 0 then BLUE else EMPTY </p>" +
-    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE")]
 ));
-exercises.push(new Exercise(21,2,4,
-    "<h3>Concept 21 Demo 2</h3>" +
+exercises.push(new Exercise(22,2,4,
+    "<h3>Concept 22 Demo 2</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>In other words, the Boolean operator 'andalso' can be used to combine two Boolean expressions. " +
@@ -4632,8 +5001,8 @@ exercises.push(new Exercise(21,2,4,
     "<p>fun f(x,y,z) = if x = 0 andalso z = 0 then BLUE else EMPTY</p>",
     [   new SolutionCell(0,0,"BLUE")]
 ));
-exercises.push(new Exercise(21,3,6,
-    "<h3>Concept 21 Demo 3</h3>" +
+exercises.push(new Exercise(22,3,6,
+    "<h3>Concept 22 Demo 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
@@ -4677,8 +5046,8 @@ exercises.push(new Exercise(21,3,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(21,4,6,
-    "<h3>Concept 21 Demo 4</h3>" +
+exercises.push(new Exercise(22,4,6,
+    "<h3>Concept 22 Demo 4</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -4721,8 +5090,8 @@ exercises.push(new Exercise(21,4,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(21,5,6,
-    "<h3>Concept 21 Exercise 1</h3>" +
+exercises.push(new Exercise(22,5,6,
+    "<h3>Concept 22 Exercise 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
@@ -4748,8 +5117,8 @@ exercises.push(new Exercise(21,5,6,
         new SolutionCell(4,4,"BLUE"),
         new SolutionCell(4,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,6,6,
-    "<h3>Concept 21 Exercise 2</h3>" +
+exercises.push(new Exercise(22,6,6,
+    "<h3>Concept 22 Exercise 2</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -4774,8 +5143,8 @@ exercises.push(new Exercise(21,6,6,
         new SolutionCell(4,4,"BLUE"),
         new SolutionCell(4,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,7,6,
-    "<h3>Concept 21 Exercise 3</h3>" +
+exercises.push(new Exercise(22,7,6,
+    "<h3>Concept 22 Exercise 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
@@ -4795,8 +5164,8 @@ exercises.push(new Exercise(21,7,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,8,6,
-    "<h3>Concept 21 Exercise 4</h3>" +
+exercises.push(new Exercise(22,8,6,
+    "<h3>Concept 22 Exercise 4</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -4815,8 +5184,8 @@ exercises.push(new Exercise(21,8,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,9,6,
-    "<h3>Concept 21 Exercise 5</h3>" +
+exercises.push(new Exercise(22,9,6,
+    "<h3>Concept 22 Exercise 5</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
@@ -4845,8 +5214,8 @@ exercises.push(new Exercise(21,9,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,10,6,
-    "<h3>Concept 21 Exercise 6</h3>" +
+exercises.push(new Exercise(22,10,6,
+    "<h3>Concept 22 Exercise 6</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -4874,8 +5243,8 @@ exercises.push(new Exercise(21,10,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,11,6,
-    "<h3>Concept 21 Exercise 7</h3>" +
+exercises.push(new Exercise(22,11,6,
+    "<h3>Concept 22 Exercise 7</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
@@ -4911,8 +5280,8 @@ exercises.push(new Exercise(21,11,6,
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(21,12,6,
-    "<h3>Concept 21 Exercise 8</h3>" +
+exercises.push(new Exercise(22,12,6,
+    "<h3>Concept 22 Exercise 8</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -4949,8 +5318,8 @@ exercises.push(new Exercise(21,12,6,
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(21,13,6,
-    "<h3>Concept 21 Exercise 9</h3>" +
+exercises.push(new Exercise(22,13,6,
+    "<h3>Concept 22 Exercise 9</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
@@ -4994,8 +5363,8 @@ exercises.push(new Exercise(21,13,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,14,6,
-    "<h3>Concept 21 Exercise 10</h3>" +
+exercises.push(new Exercise(22,14,6,
+    "<h3>Concept 22 Exercise 10</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -5040,8 +5409,8 @@ exercises.push(new Exercise(21,14,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,15,6,
-    "<h3>Concept 21 Exercise 11</h3>" +
+exercises.push(new Exercise(22,15,6,
+    "<h3>Concept 22 Exercise 11</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if x >= 3 then</p>"+
@@ -5087,10 +5456,10 @@ exercises.push(new Exercise(21,15,6,
         new SolutionCell(5,5,"BLUE")]
 ));
 // ---------------------------------------------------------------------------------------------------------------------
-//Concept 22
+//Concept 23
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(22,1,6,
-    "<h3>Concept 22 Demo 1</h3>" +
+exercises.push(new Exercise(23,1,6,
+    "<h3>Concept 23 Demo 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -5109,8 +5478,8 @@ exercises.push(new Exercise(22,1,6,
         new SolutionCell(4,0,"BLUE"),
         new SolutionCell(5,0,"BLUE")]
 ));
-exercises.push(new Exercise(22,2,6,
-    "<h3>Concept 22 Demo 2</h3>" +
+exercises.push(new Exercise(23,2,6,
+    "<h3>Concept 23 Demo 2</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>In other words, the Boolean operator 'orelse' can be used to combine two Boolean expressions." +
@@ -5131,8 +5500,8 @@ exercises.push(new Exercise(22,2,6,
         new SolutionCell(4,0,"BLUE"),
         new SolutionCell(5,0,"BLUE")]
 ));
-exercises.push(new Exercise(22,3,6,
-    "<h3>Concept 22 Demo 3</h3>" +
+exercises.push(new Exercise(23,3,6,
+    "<h3>Concept 23 Demo 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -5175,8 +5544,8 @@ exercises.push(new Exercise(22,3,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(22,4,6,
-    "<h3>Concept 22 Demo 4</h3>" +
+exercises.push(new Exercise(23,4,6,
+    "<h3>Concept 23 Demo 4</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -5219,8 +5588,8 @@ exercises.push(new Exercise(22,4,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(22,5,7,
-    "<h3>Concept 22 Exercise 1</h3>" +
+exercises.push(new Exercise(23,5,7,
+    "<h3>Concept 23 Exercise 1</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -5276,8 +5645,8 @@ exercises.push(new Exercise(22,5,7,
         new SolutionCell(6,5,"RED"),
         new SolutionCell(6,6,"RED")]
 ));
-exercises.push(new Exercise(22,6,6,
-    "<h3>Concept 22 Exercise 2</h3>" +
+exercises.push(new Exercise(23,6,6,
+    "<h3>Concept 23 Exercise 2</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -5320,8 +5689,8 @@ exercises.push(new Exercise(22,6,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"WHITE")]
 ));
-exercises.push(new Exercise(22,7,7,
-    "<h3>Concept 22 Exercise 3</h3>" +
+exercises.push(new Exercise(23,7,7,
+    "<h3>Concept 23 Exercise 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -5377,8 +5746,8 @@ exercises.push(new Exercise(22,7,7,
         new SolutionCell(6,5,"GREEN"),
         new SolutionCell(6,6,"YELLOW")]
 ));
-exercises.push(new Exercise(22,8,7,
-    "<h3>Concept 22 Exercise 4</h3>" +
+exercises.push(new Exercise(23,8,7,
+    "<h3>Concept 23 Exercise 4</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
@@ -5435,8 +5804,8 @@ exercises.push(new Exercise(22,8,7,
         new SolutionCell(6,5,"GREEN"),
         new SolutionCell(6,6,"YELLOW")]
 ));
-exercises.push(new Exercise(22,9,7,
-    "<h3>Concept 22 Exercise 5</h3>" +
+exercises.push(new Exercise(23,9,7,
+    "<h3>Concept 23 Exercise 5</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) =      if z >= x + 3 then GREEN</p>"+
@@ -5462,8 +5831,8 @@ exercises.push(new Exercise(22,9,7,
         new SolutionCell(6,5,"GREEN"),
         new SolutionCell(6,6,"GREEN")]
 ));
-exercises.push(new Exercise(22,10,7,
-    "<h3>Concept 22 Exercise 6</h3>" +
+exercises.push(new Exercise(23,10,7,
+    "<h3>Concept 23 Exercise 6</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if z <= 3 - x orelse z <= x - 3  then RED</p>"+
@@ -5488,8 +5857,8 @@ exercises.push(new Exercise(22,10,7,
         new SolutionCell(6,2,"RED"),
         new SolutionCell(6,3,"RED")]
 ));
-exercises.push(new Exercise(22,11,6,
-    "<h3>Concept 22 Exercise 7</h3>" +
+exercises.push(new Exercise(23,11,6,
+    "<h3>Concept 23 Exercise 7</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if x <= z div 2 orelse x >= 2*z then BLUE </p>"+
@@ -5518,8 +5887,8 @@ exercises.push(new Exercise(22,11,6,
         new SolutionCell(5,1,"BLUE"),
         new SolutionCell(5,2,"BLUE")]
 ));
-exercises.push(new Exercise(22,12,6,
-    "<h3>Concept 22 Exercise 8</h3>" +
+exercises.push(new Exercise(23,12,6,
+    "<h3>Concept 23 Exercise 8</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then BLUE</p>"+
@@ -5574,8 +5943,8 @@ exercises.push(new Exercise(22,12,6,
         new SolutionCell(5,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));*/
-exercises.push(new Exercise(22,13,6,
-    "<h3>Concept 22 Exercise 9</h3>" +
+exercises.push(new Exercise(23,13,6,
+    "<h3>Concept 23 Exercise 9</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then</p>"+
@@ -5599,8 +5968,8 @@ exercises.push(new Exercise(22,13,6,
         new SolutionCell(5,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(22,14,6,
-    "<h3>Concept 22 Exercise 10</h3>" +
+exercises.push(new Exercise(23,14,6,
+    "<h3>Concept 23 Exercise 10</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then RED</p>"+
@@ -5618,8 +5987,8 @@ exercises.push(new Exercise(22,14,6,
         new SolutionCell(5,1,"RED"),
         new SolutionCell(5,2,"RED")]
 ));
-exercises.push(new Exercise(22,15,6,
-    "<h3>Concept 22 Exercise 11</h3>" +
+exercises.push(new Exercise(23,15,6,
+    "<h3>Concept 23 Exercise 11</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
@@ -5650,8 +6019,8 @@ exercises.push(new Exercise(22,15,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,16,6,
-    "<h3>Concept 22 Exercise 12</h3>" +
+exercises.push(new Exercise(23,16,6,
+    "<h3>Concept 23 Exercise 12</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
@@ -5695,8 +6064,8 @@ exercises.push(new Exercise(22,16,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,17,6,
-    "<h3>Concept 22 Exercise 13</h3>" +
+exercises.push(new Exercise(23,17,6,
+    "<h3>Concept 23 Exercise 13</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
@@ -5738,8 +6107,8 @@ exercises.push(new Exercise(22,17,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,18,7,
-    "<h3>Concept 22 Exercise 14</h3>" +
+exercises.push(new Exercise(23,18,7,
+    "<h3>Concept 23 Exercise 14</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
     "<p>fun f(x,y,z) = if x mod 2 = 0 orelse z mod 2 = 0 then BLUE</p>"+
@@ -5786,10 +6155,10 @@ exercises.push(new Exercise(22,18,7,
         new SolutionCell(6,6,"BLUE")]
 ));
 // ---------------------------------------------------------------------------------------------------------------------
-// Concept 23
+// Concept 24
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(23,1,7,
-    "<h3>Concept 23 Demo 1 </h3>" +
+exercises.push(new Exercise(24,1,7,
+    "<h3>Concept 24 Demo 1 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
 "<p>What is the result of executing the following Bricklayer code?</p>" +
@@ -5814,8 +6183,8 @@ exercises.push(new Exercise(23,1,7,
         new SolutionCell(5,3,"GREEN"),
         new SolutionCell(6,3,"GREEN")]
 ));
-exercises.push(new Exercise(23,2,4,
-    "<h3>Concept 23 Exercise 1 </h3>" +
+exercises.push(new Exercise(24,2,4,
+    "<h3>Concept 24 Exercise 1 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
@@ -5840,8 +6209,8 @@ exercises.push(new Exercise(23,2,4,
         new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"RED")]
 ));
-exercises.push(new Exercise(23,3,4,
-    "<h3>Concept 23 Exercise 2 </h3>" +
+exercises.push(new Exercise(24,3,4,
+    "<h3>Concept 24 Exercise 2 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
@@ -5868,8 +6237,8 @@ exercises.push(new Exercise(23,3,4,
         new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"RED")]
 ));
-exercises.push(new Exercise(23,4,4,
-    "<h3>Concept 23 Exercise 3 </h3>" +
+exercises.push(new Exercise(24,4,4,
+    "<h3>Concept 24 Exercise 3 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
@@ -5896,8 +6265,8 @@ exercises.push(new Exercise(23,4,4,
         new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"YELLOW")]
 ));
-exercises.push(new Exercise(23,5,5,
-    "<h3>Concept 23 Exercise 4 </h3>" +
+exercises.push(new Exercise(24,5,5,
+    "<h3>Concept 24 Exercise 4 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
@@ -5933,8 +6302,8 @@ exercises.push(new Exercise(23,5,5,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
-exercises.push(new Exercise(23,6,5,
-    "<h3>Concept 23 Exercise 5 </h3>" +
+exercises.push(new Exercise(24,6,5,
+    "<h3>Concept 24 Exercise 5 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
@@ -5963,8 +6332,8 @@ exercises.push(new Exercise(23,6,5,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,4,"YELLOW")]
 ));
-exercises.push(new Exercise(23,7,7,
-    "<h3>Concept 23 Exercise 6 </h3>" +
+exercises.push(new Exercise(24,7,7,
+    "<h3>Concept 24 Exercise 6 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
@@ -6022,8 +6391,8 @@ exercises.push(new Exercise(23,7,7,
         new SolutionCell(6,5,"BLUE"),
         new SolutionCell(6,6,"RED")]
 ));
-exercises.push(new Exercise(23,8,7,
-    "<h3>Concept 23 Exercise 7 </h3>" +
+exercises.push(new Exercise(24,8,7,
+    "<h3>Concept 24 Exercise 7 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
