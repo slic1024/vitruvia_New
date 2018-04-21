@@ -969,6 +969,7 @@ exercises.push(new Exercise(4,13,8,
 ));
 // ---------------------------------------------------------------------------------------------------------------------
 //CONCEPT 5
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(5,2,5,
     "<h3><a href='https://youtu.be/ZdUHqJCnJ64'>Concept 5</a> Exercise 1</h3>" +
     "<p>Execute the following Level 1 function call by putting a brick at the appropriate location.</p>"+
@@ -1845,32 +1846,36 @@ exercises.push(new Exercise(9,3,8,
         new SolutionCell(2,1,"WHITE"),
         new SolutionCell(2,2,"WHITE")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 10
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(10,1,8,
     "<h3>Concept 10 Demo 1</h3>" +
-    "<p>fun redBackground() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_3x2_RED(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_3x2_RED(0,3);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_RED(4,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_RED(4,3)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun redBackground () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED(0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED(0,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED(4,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED(4,3)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-"<p>fun whiteHorizontalStripe() =</p>"+
-"<p style='text-indent: 2em;'>(</p>"+
-"<p style='text-indent: 4em;'>                put2D_2x1_WHITE(0,2);</p>"+
-"<p style='text-indent: 4em;'>put2D_2x1_WHITE(2,2);</p>"+
-"<p style='text-indent: 4em;'> put2D_2x1_WHITE(4,2);</p>"+
-"<p style='text-indent: 4em;'> put2D_2x1_WHITE(6,2)</p>"+
-"<p style='text-indent: 2em;'> )</p>"+
-"<p> fun whiteVerticalStripe() =</p>"+
-"<p style='text-indent: 2em;'>(</p>"+
-"<p style='text-indent: 4em;'>put2D_1x2_WHITE(3,3);</p>"+
-"<p style='text-indent: 4em;'> put2D_1x2_WHITE(3,0)</p>"+
-"<p style='text-indent: 2em;'>  );</p>"+
-"<p>(* this can be further structured *)</p>"+
-"<p>redBackground();</p>"+
-"<p>whiteHorizontalStripe();</p>"+
-"<p>whiteVerticalStripe();  </p>",
+    "<p>fun whiteHorizontalStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE(0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE(2,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'> put2D_2x1_WHITE(4,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'> put2D_2x1_WHITE(6,2)</p>"+
+    "<p style='text-indent: 2em;'> )</p>"+
+    "<p> fun whiteVerticalStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_WHITE(3,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'> put2D_1x2_WHITE(3,0)</p>"+
+    "<p style='text-indent: 2em;'>  );</p>"+
+    "<p>(* this can be further structured *)</p>"+
+    "<p style='line-height:0.5'>redBackground ();</p>"+
+    "<p style='line-height:0.5'>whiteHorizontalStripe ();</p>"+
+    "<p style='line-height:0.5'>whiteVerticalStripe ();  </p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -1915,11 +1920,13 @@ exercises.push(new Exercise(10,1,8,
 exercises.push(new Exercise(10,2,5,
     "<h3>Concept 10 Exercise 1</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun f() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x2_GREEN (0,0)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun f () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_GREEN (0,0)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>f();</p>",
+    "<p style='line-height:0.5'>f ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(1,1,"GREEN"),
@@ -1928,13 +1935,15 @@ exercises.push(new Exercise(10,2,5,
 exercises.push(new Exercise(10,3,6,
 "<h3>Concept 10 Exercise 2</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun france() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x4_BLUE (0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x4_WHITE (2,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x4_RED (4,0) (* note there is no semicolon *)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun france () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_BLUE (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_WHITE (2,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_RED (4,0) (* note there is no semicolon *)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>france();</p>",
+    "<p style='line-height:0.5'>france ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -1963,14 +1972,16 @@ exercises.push(new Exercise(10,3,6,
 exercises.push(new Exercise(10,4,5,
     "<h3>Concept 10 Exercise 3</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun yellow() = put2D_2x2_YELLOW(0,0);</p>"+
-    "<p>fun blue() = put2D_2x2_BLUE(1,1);</p>"+
-    "<p>fun thing() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>yellow();</p>"+
-    "<p style='text-indent: 4em;'>blue()</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun yellow() = put2D_2x2_YELLOW (0,0);</p>"+
+    "<p>fun blue() = put2D_2x2_BLUE (1,1);</p>"+
+    "<p style='line-height:0.5'>fun thing() =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellow ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blue ()</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>thing();</p>",
+    "<p style='line-height:0.5'>thing ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,1,"BLUE"),
         new SolutionCell(1,2,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -1982,14 +1993,16 @@ exercises.push(new Exercise(10,4,5,
 exercises.push(new Exercise(10,5,5,
     "<h3>Concept 10 Exercise 4</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun yellow() = put2D_2x2_YELLOW(0,0);</p>"+
-    "<p>fun blue() = put2D_2x2_BLUE(1,1);</p>"+
-    "<p>fun thing() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>blue();</p>"+
-    "<p style='text-indent: 4em;'>yellow()</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun yellow() = put2D_2x2_YELLOW (0,0);</p>"+
+    "<p>fun blue() = put2D_2x2_BLUE (1,1);</p>"+
+    "<p style='line-height:0.5'>fun thing () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blue ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellow ()</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>thing();</p>",
+    "<p style='line-height:0.5'>thing ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(0,1,"YELLOW"),
         new SolutionCell(1,1,"YELLOW"),
@@ -2001,16 +2014,18 @@ exercises.push(new Exercise(10,5,5,
 exercises.push(new Exercise(10,6,5,
     "<h3>Concept 10 Exercise 5</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun yellow() = put2D_2x2_YELLOW(0,0);</p>"+
-    "<p>fun blue() = put2D_2x2_BLUE(0,1);</p>"+
-    "<p>fun red() = put2D_2x2_RED(1,1);</p>"+
-    "<p>fun thing() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>blue();</p>"+
-    "<p style='text-indent: 4em;'>red();</p>"+
-    "<p style='text-indent: 4em;'>yellow()</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun yellow () = put2D_2x2_YELLOW (0,0);</p>"+
+    "<p>fun blue () = put2D_2x2_BLUE (0,1);</p>"+
+    "<p>fun red () = put2D_2x2_RED(1,1);</p>"+
+    "<p style='line-height:0.5'>fun thing () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em;line-height:0.5'>blue ();</p>"+
+    "<p style='text-indent: 4em;line-height:0.5'>red ();</p>"+
+    "<p style='text-indent: 4em;line-height:0.5'>yellow ()</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>thing();</p>",
+    "<p style='line-height:0.5'>thing ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(0,1,"YELLOW"),
         new SolutionCell(1,1,"YELLOW"),
@@ -2023,23 +2038,25 @@ exercises.push(new Exercise(10,6,5,
 exercises.push(new Exercise(10,7,5,
     "<h3>Concept 10 Exercise 6</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun gray() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_GRAY(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_GRAY(0,2)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun gray () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_GRAY(0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_GRAY(0,2)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun blue() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x2_BLUE(1,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(3,3)</p>"+
+    "<p style='line-height:0.5'>fun blue () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_BLUE(1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(3,3)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun grayAndBlue() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'> gray();</p>"+
-    "<p style='text-indent: 4em;'>blue()</p>"+
+    "<p style='line-height:0.5'>fun grayAndBlue () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'> gray();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blue()</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>grayAndBlue();</p>",
+    "<p style='line-height:0.5'>grayAndBlue ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"GRAY"),
         new SolutionCell(0,2,"GRAY"),
@@ -2060,29 +2077,31 @@ exercises.push(new Exercise(10,7,5,
 exercises.push(new Exercise(10,8,5,
     "<h3>Concept 10 Exercise 7</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun red() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_RED(4,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_RED(4,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_RED(0,4);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_RED(2,4);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_RED(4,4)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun red () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_RED (4,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_RED (4,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (0,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (2,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (4,4)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun white() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_WHITE(2,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(2,3);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(1,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(2,1)</p>"+
+    "<p style='line-height:0.5'>fun white () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE (2,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (2,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (1,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (2,1)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun flag() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>red();</p>"+
-    "<p style='text-indent: 4em;'>white()</p>"+
-    "<p style='text-indent: 2em;'>);</p>"+
-    "<p>flag();</p>",
+    "<p style='line-height:0.5'>fun flag () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>red ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>white ()</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>);</p>"+
+    "<p>flag ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,1,"RED"),
         new SolutionCell(0,2,"RED"),
@@ -2112,16 +2131,18 @@ exercises.push(new Exercise(10,8,5,
 exercises.push(new Exercise(10,9,6,
     "<h3>Concept 10 Exercise 8</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun red()   = put2D_2x4_RED(4,0)</p>"+
-    "<p>fun white() = put2D_2x4_WHITE(2,0)</p>"+
-    "<p>fun green() = put2D_2x4_GREEN(0,0)</p>"+
-    "<p>fun flagOfItaly() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>green();</p>"+
-    "<p style='text-indent: 4em;'>white();</p>"+
-    "<p style='text-indent: 4em;'>red()</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun red ()   = put2D_2x4_RED (4,0);</p>"+
+    "<p>fun white () = put2D_2x4_WHITE (2,0);</p>"+
+    "<p>fun green () = put2D_2x4_GREEN (0,0);</p>"+
+    "<p style='line-height:1.0'>fun flagOfItaly () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>green ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>white ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>red ()</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>flagOfItaly();</p>",
+    "<p>flagOfItaly ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -2150,28 +2171,30 @@ exercises.push(new Exercise(10,9,6,
 exercises.push(new Exercise(10,10,8,
     "<h3>Concept 10 Exercise 9</h3>" +
     "<p>Evaluate the following program.</p>"+
-    "<p>fun horizontalRed()   =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_RED(4,0)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.5'>fun horizontalRed ()   =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (4,0)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun horizontalWhite() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_WHITE(0,4);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_WHITE(4,4)</p>"+
+    "<p style=' line-height:0.5'>fun horizontalWhite () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_WHITE (0,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_WHITE (4,4)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun horizontalBlue()  =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_BLUE(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_BLUE(4,2)</p>"+
+    "<p style=' line-height:0.5'>fun horizontalBlue ()  =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_BLUE (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_BLUE (4,2)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun flagOfRussia() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>horizontalWhite();</p>"+
-    "<p style='text-indent: 4em;'>horizontalBlue();</p>"+
-    "<p style='text-indent: 4em;'>horizontalRed()</p>"+
+    "<p style=' line-height:0.5'>fun flagOfRussia () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>horizontalWhite ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>horizontalBlue ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>horizontalRed ()</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>flagOfRussia();</p>",
+    "<p style=' line-height:0.5'>flagOfRussia ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -2221,13 +2244,17 @@ exercises.push(new Exercise(10,10,8,
         new SolutionCell(6,5,"WHITE"),
         new SolutionCell(7,5,"WHITE")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 11
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(11,1,5,
     "<h3>Concept 11 Demo 1</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations. </p>"+
-    "<p>put2D_1x1_YELLOW(0,0);</p>"+
-    "<p>incOffset2D(1,3);</p>"+
-    "<p>put2D_4x2_BLUE(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.8'>put2D_1x1_YELLOW (0,0);</p>"+
+    "<p style=' line-height:0.8'>incOffset2D (1,3);</p>"+
+    "<p style=' line-height:0.8'>put2D_4x2_BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,3,"BLUE"),
         new SolutionCell(2,3,"BLUE"),
@@ -2241,11 +2268,13 @@ exercises.push(new Exercise(11,1,5,
 exercises.push(new Exercise(11,2,5,
     "<h3>Concept 11 Demo 2</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations. </p>"+
-    "<p>put2D_2x1_RED(0,0);</p>"+
-    "<p>incOffset2D(1,1);</p>"+
-    "<p>put2D_2x1_WHITE(0,0);</p>"+
-    "<p>incOffset2D(1,1);</p>"+
-    "<p>put2D_2x1_BLUE(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.8'>put2D_2x1_RED (0,0);</p>"+
+    "<p style=' line-height:0.8'>incOffset2D (1,1);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_WHITE (0,0);</p>"+
+    "<p style=' line-height:0.8'>incOffset2D (1,1);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(1,1,"WHITE"),
@@ -2256,11 +2285,13 @@ exercises.push(new Exercise(11,2,5,
 exercises.push(new Exercise(11,3,5,
     "<h3>Concept 11 Demo 3</h3>" +
     "<p>Execute the following Level 1 program by placing bricks at the appropriate locations. </p>"+
-    "<p>put2D_2x1_RED(0,0);</p>"+
-    "<p>setOffset2D(1,1);</p>"+
-    "<p>put2D_2x1_WHITE(0,0);</p>"+
-    "<p>setOffset2D(2,2);</p>"+
-    "<p>put2D_2x1_BLUE(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.8'>put2D_2x1_RED (0,0);</p>"+
+    "<p style=' line-height:0.8'>setOffset2D (1,1);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_WHITE (0,0);</p>"+
+    "<p style=' line-height:0.8'>setOffset2D (2,2);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(1,1,"WHITE"),
@@ -2271,15 +2302,17 @@ exercises.push(new Exercise(11,3,5,
 exercises.push(new Exercise(11,4,6,
     "<h3>Concept 11 Demo 4</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-"<p>put2D_2x1_RED(0,0);</p>"+
-"<p>incOffset2D(1,1);</p>"+
-"<p>put2D_2x1_WHITE(0,0);</p>"+
-"<p>incOffset2D(1,1);</p>"+
-"<p>put2D_2x1_BLUE(0,0);</p>"+
-"<p>incOffset2D(1,~1);</p>"+
-"<p>put2D_2x1_WHITE(0,0);</p>"+
-"<p>incOffset2D(1,~1);</p>"+
-"<p>put2D_2x1_RED(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.8'>put2D_2x1_RED (0,0);</p>"+
+    "<p style=' line-height:0.8'>incOffset2D (1,1);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_WHITE (0,0);</p>"+
+    "<p style=' line-height:0.8'>incOffset2D (1,1);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_BLUE (0,0);</p>"+
+    "<p style=' line-height:0.8'>incOffset2D (1,~1);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_WHITE (0,0);</p>"+
+    "<p style=' line-height:0.8'>incOffset2D (1,~1);</p>"+
+    "<p style=' line-height:0.8'>put2D_2x1_RED (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(1,1,"WHITE"),
@@ -2294,20 +2327,22 @@ exercises.push(new Exercise(11,4,6,
 exercises.push(new Exercise(11,5,6,
     "<h3>Concept 11 Demo 5</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun star() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_WHITE(0,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(2,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(1,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_WHITE(1,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.5'>fun star () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE (0,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (2,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (1,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (1,2);</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>fun stars() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>star();</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(3,3);</p>"+
-    "<p style='text-indent: 4em;'>star()</p>"+
+    "<p style=' line-height:0.5'>fun stars () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>star ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (3,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>star ()</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
-    "<p>stars();</p>",
+    "<p style=' line-height:0.5'>stars ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,1,"WHITE"),
         new SolutionCell(0,1,"WHITE"),
         new SolutionCell(1,0,"WHITE"),
@@ -2322,32 +2357,34 @@ exercises.push(new Exercise(11,5,6,
 exercises.push(new Exercise(11,6,5,
     "<h3>Concept 11 Demo 6</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun head() =</p>"+
-"<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(1,4);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,0);</p>"+
-    "<p style='text-indent: 4em;'>decOffset2D(1,4)</p>"+
-"<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun body() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_4x2_RED(0,0);</p>"+
-    "<p style='text-indent: 4em;'>decOffset2D(0,2)</p>"+
-"<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun legs() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(0,0);</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(3,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(0,0);</p>"+
-    "<p style='text-indent: 4em;'>decOffset2D(3,0)</p>"+
-"<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun person() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>head();</p>"+
-    "<p style='text-indent: 4em;'>body();</p>"+
-    "<p style='text-indent: 4em;'>legs()</p>"+
-"<p style='text-indent: 2em;'>);</p>"+
-"<p>person();</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.5'>fun head () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (1,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (1,4)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style=' line-height:0.5'>fun body () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (0,2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style=' line-height:0.5'>fun legs () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (3,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (3,0)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style=' line-height:0.5'>fun person () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>head ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>body ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>legs ()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style=' line-height:0.5'>person ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(3,0,"BLUE"),
@@ -2366,11 +2403,13 @@ exercises.push(new Exercise(11,6,5,
 exercises.push(new Exercise(11,7,6,
     "<h3>Concept 11 Exercise 1</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>put2D_2x2_BLUE(0,0);</p>"+
-    "<p>incOffset2D(0,4);</p>"+
-    "<p>put2D_2x2_BLUE(0,0);</p>"+
-    "<p>incOffset2D(4,0);</p>"+
-    "<p>put2D_2x2_BLUE(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.8'>put2D_2x2_BLUE (0,0);</p>"+
+    "<p style='line-height:0.8'>incOffset2D (0,4);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_BLUE (0,0);</p>"+
+    "<p style='line-height:0.8'>incOffset2D (4,0);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
@@ -2387,13 +2426,15 @@ exercises.push(new Exercise(11,7,6,
 exercises.push(new Exercise(11,8,6,
     "<h3>Concept 11 Exercise 2</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>put2D_2x2_GREEN(0,0);</p>"+
-    "<p>incOffset2D(0,4);</p>"+
-    "<p>put2D_2x2_GREEN(0,0);</p>"+
-    "<p>incOffset2D(4,0);</p>"+
-    "<p>put2D_2x2_GREEN(0,0);</p>"+
-    "<p>decOffset2D(0,4);</p>"+
-    "<p>put2D_2x2_GREEN(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.8'>put2D_2x2_GREEN (0,0);</p>"+
+    "<p style='line-height:0.8'>incOffset2D (0,4);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_GREEN (0,0);</p>"+
+    "<p style='line-height:0.8'>incOffset2D (4,0);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_GREEN (0,0);</p>"+
+    "<p style='line-height:0.8'>decOffset2D (0,4);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_GREEN (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
@@ -2414,15 +2455,17 @@ exercises.push(new Exercise(11,8,6,
 exercises.push(new Exercise(11,9,6,
     "<h3>Concept 11 Exercise 3</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>put2D_2x2_YELLOW(0,0);</p>"+
-    "<p>incOffset2D(0,4);</p>"+
-    "<p>put2D_2x2_GREEN(0,0);</p>"+
-    "<p>incOffset2D(4,0);</p>"+
-    "<p>put2D_2x2_RED(0,0);</p>"+
-    "<p>decOffset2D(0,4);</p>"+
-    "<p>put2D_2x2_GRAY(0,0);</p>"+
-    "<p>incOffset2D(~2,2);</p>"+
-    "<p>put2D_2x2_BLUE(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.8'>put2D_2x2_YELLOW (0,0);</p>"+
+    "<p style='line-height:0.8'>incOffset2D (0,4);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_GREEN (0,0);</p>"+
+    "<p style='line-height:0.8'>incOffset2D (4,0);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_RED (0,0);</p>"+
+    "<p style='line-height:0.8'>decOffset2D (0,4);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_GRAY (0,0);</p>"+
+    "<p style='line-height:0.8'>incOffset2D (~2,2);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,0,"YELLOW"),
         new SolutionCell(1,0,"YELLOW"),
@@ -2447,9 +2490,11 @@ exercises.push(new Exercise(11,9,6,
 exercises.push(new Exercise(11,10,5,
     "<h3>Concept 11 Exercise 4</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>put2D_1x1_RED(0,0);</p>"+
-    "<p>setOffset2D(3,3);</p>"+
-    "<p>put2D_2x2_BLUE(~1,~2);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.8'>put2D_1x1_RED (0,0);</p>"+
+    "<p style='line-height:0.8'>setOffset2D (3,3);</p>"+
+    "<p style='line-height:0.8'>put2D_2x2_BLUE (~1,~2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(2,2,"BLUE"),
         new SolutionCell(3,2,"BLUE"),
@@ -2459,32 +2504,34 @@ exercises.push(new Exercise(11,10,5,
 exercises.push(new Exercise(11,11,6,
     "<h3>Concept 11 Exercise 5</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun xGray() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(2,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(2,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GRAY(1,1)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun xGray () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GRAY (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GRAY (2,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GRAY (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GRAY (2,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GRAY (1,1)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun xBlue() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(2,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(2,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(1,1)</p>"+
+    "<p style='line-height:0.5'>fun xBlue () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (2,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (2,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (1,1)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun xs() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(1,1);</p>"+
-    "<p style='text-indent: 4em;'>xGray();</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(2,1);</p>"+
-    "<p style='text-indent: 4em;'>xBlue();</p>"+
-    "<p style='text-indent: 4em;'>decOffset2D(3,2)</p>"+
+    "<p style='line-height:0.5'>fun xs () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>xGray ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (2,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>xBlue ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (3,2)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>xs();</p>"+
-    "<p>put2D_1x1_RED(0,0);</p>",
+    "<p style='line-height:0.8'>xs ();</p>"+
+    "<p style='line-height:0.8'>put2D_1x1_RED (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,1,"GRAY"),
         new SolutionCell(2,2,"GRAY"),
@@ -2500,28 +2547,30 @@ exercises.push(new Exercise(11,11,6,
 exercises.push(new Exercise(11,12,6,
     "<h3>Concept 11 Exercise 6</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun left() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,0)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun left () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (0,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (0,0)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun right() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(1,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,0)</p>"+
+    "<p style='line-height:0.5'>fun right () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW (1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (0,0)</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>)</p>"+
+    "<p style='line-height:0.5'>fun pattern() =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>left ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>right ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (1,1)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun pattern() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>left();</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(1,1);</p>"+
-    "<p style='text-indent: 4em;'>right();</p>"+
-    "<p style='text-indent: 4em;'>decOffset2D(1,1)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>pattern();</p>"+
-    "<p>setOffset2D(3,0);</p>"+
-    "<p>pattern();</p>",
+    "<p style='line-height:0.8'>pattern ();</p>"+
+    "<p style='line-height:0.8'>setOffset2D (3,0);</p>"+
+    "<p style='line-height:0.8'>pattern ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(3,0,"BLUE"),
@@ -2546,52 +2595,54 @@ exercises.push(new Exercise(11,12,6,
 exercises.push(new Exercise(11,13,6,
     "<h3>Concept 11 Exercise 7</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun left() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(0,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_BLUE(0,0)</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun left () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (0,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (0,0)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun right() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(1,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_YELLOW(0,0)</p>"+
+    "<p style='line-height:0.5'>fun right () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW (1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (0,0)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun top() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_GREEN(1,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(3,0)</p>"+
+    "<p style='line-height:0.5'>fun top () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_GREEN (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_GREEN (1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_GREEN (3,0)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun bottom() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(0,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_GREEN(1,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_GREEN(3,0)</p>"+
+    "<p style='line-height:0.5'>fun bottom () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_GREEN (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_GREEN (1,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_GREEN (3,0)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun smallPattern() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>left();</p>"+
-    "<p style='text-indent: 4em;'>incOffset2D(1,1);</p>"+
-    "<p style='text-indent: 4em;'>right();</p>"+
-    "<p style='text-indent: 4em;'>decOffset2D(1,1)</p>"+
+    "<p style='line-height:0.5'>fun smallPattern () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>left ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>right ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (1,1)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun pattern() =</p>"+
-"<p style='text-indent: 2em;'>(</p>"+
-"<p style='text-indent: 4em;'>put2D_2x1_RED(0,0);</p>"+
-"<p style='text-indent: 4em;'>incOffset2D(0,1);</p>"+
-"<p style='text-indent: 4em;'>smallPattern();</p>"+
-"<p style='text-indent: 4em;'>incOffset2D(3,0); (* offset = (3,1) *)</p>"+
-"<p style='text-indent: 4em;'>smallPattern();</p>"+
-"<p style='text-indent: 4em;'>incOffset2D(~3,3); (* offset = (0,4) *)</p>"+
-"<p style='text-indent: 4em;'>top();</p>"+
-"<p style='text-indent: 4em;'>incOffset2D(2,~4); (* offset = (2,0) *)</p>"+
-"<p style='text-indent: 4em;'>bottom();</p>"+
-"<p style='text-indent: 4em;'>decOffset2D(2,0);</p>"+
-"<p style='text-indent: 4em;'>put2D_2x1_RED(4,5)</p>"+
-"<p style='text-indent: 2em;'>);</p>"+
-    "<p>pattern();</p>",
+    "<p style='line-height:0.5'>fun pattern () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (0,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>smallPattern ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (3,0); (* offset = (3,1) *)</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>smallPattern ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (~3,3); (* offset = (0,4) *)</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>top ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (2,~4); (* offset = (2,0) *)</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>bottom ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (2,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (4,5)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.8'>pattern ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"GREEN"),
@@ -2629,12 +2680,16 @@ exercises.push(new Exercise(11,13,6,
         new SolutionCell(4,5,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 12
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(12,1,5,
     "<h3>Concept 12 Demo 1</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun myPut(x,z) = put2D_4x2_RED(x,z);</p>"+
-    "<p>myPut(0,1);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.8'>fun myPut (x,z) = put2D_4x2_RED (x,z);</p>"+
+    "<p style='line-height:0.8'>myPut (0,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"RED"),
         new SolutionCell(1,1,"RED"),
         new SolutionCell(2,1,"RED"),
@@ -2647,17 +2702,19 @@ exercises.push(new Exercise(12,1,5,
 exercises.push(new Exercise(12,2,5,
     "<h3>Concept 12 Demo 2</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun myPut(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GREEN(x,z);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GREEN(x+3,z+3))</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>setOffset2D(1,1);</p>"+
-    "<p>put2D_1x1_BLUE(0,0);</p>"+
-    "<p>setOffset2D(2,2);</p>"+
-    "<p>put2D_1x1_RED(0,0);</p>"+
-    "<p>setOffset2D(0,0);</p>"+
-    "<p>myPut(0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun myPut (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GREEN (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GREEN (x+3,z+3)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.8'>setOffset2D (1,1);</p>"+
+    "<p style='line-height:0.8'>put2D_1x1_BLUE (0,0);</p>"+
+    "<p style='line-height:0.8'>setOffset2D (2,2);</p>"+
+    "<p style='line-height:0.8'>put2D_1x1_RED (0,0);</p>"+
+    "<p style='line-height:0.8'>setOffset2D (0,0);</p>"+
+    "<p style='line-height:0.8'>myPut (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,2,"RED"),
@@ -2666,26 +2723,28 @@ exercises.push(new Exercise(12,2,5,
 exercises.push(new Exercise(12,3,5,
     "<h3>Concept 12 Demo 3</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun design1() =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_RED(0,0);</p>"+
-"<p style='text-indent: 4em;'>incOffset2D(4,0);</p>"+
-"<p style='text-indent: 4em;'>put2D_1x1_RED(0,0);</p>"+
-"<p style='text-indent: 4em;'>incOffset2D(0,4);</p>"+
-"<p style='text-indent: 4em;'>put2D_1x1_RED(0,0);</p>"+
-"<p style='text-indent: 4em;'>decOffset2D(4,0);</p>"+
-"<p style='text-indent: 4em;'>put2D_1x1_RED(0,0)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun design2(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x,z);</p>"+
-"<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x+2,z);</p>"+
-"<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x+2,z+2);</p>"+
-"<p style='text-indent: 4em;'>put2D_1x1_YELLOW(x,z+2)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>design1();</p>"+
-    "<p>setOffset2D(0,0);</p>"+
-    "<p>design2(1,1);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun design1 () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (4,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>incOffset2D (0,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>decOffset2D (4,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (0,0)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.5'>fun design2 (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW (x+2,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW (x+2,z+2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW (x,z+2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.8'>design1 ();</p>"+
+    "<p style='line-height:0.8'>setOffset2D (0,0);</p>"+
+    "<p style='line-height:0.8'>design2 (1,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,1,"YELLOW"),
         new SolutionCell(3,1,"YELLOW"),
@@ -2698,13 +2757,15 @@ exercises.push(new Exercise(12,3,5,
 exercises.push(new Exercise(12,4,6,
     "<h3>Concept 12 Demo 4</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun put2D_6x2_RED(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-   "<p style='text-indent: 4em;'>put2D_3x2_RED(x,z);</p>"+
-    "<p style='text-indent: 4em;'>put2D_3x2_RED(x +3,z)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>put2D_6x2_RED(0,0);</p>"+
-    "<p>put2D_6x2_RED(0,3);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun put2D_6x2_RED (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+   "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x+3,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.8'>put2D_6x2_RED (0,0);</p>"+
+    "<p style='line-height:0.8'>put2D_6x2_RED (0,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -2733,12 +2794,14 @@ exercises.push(new Exercise(12,4,6,
 exercises.push(new Exercise(12,5,6,
     "<h3>Concept 12 Demo 5</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun put2D_6x2_RED_on_Row_Zero x =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_3x2_RED(x  ,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_3x2_RED(x+3,0)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>put2D_6x2_RED_on_Row_Zero 0;</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun put2D_6x2_RED_on_Row_Zero x =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x  ,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x+3,0)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.8'>put2D_6x2_RED_on_Row_Zero 0;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -2755,13 +2818,15 @@ exercises.push(new Exercise(12,5,6,
 exercises.push(new Exercise(12,6,6,
     "<h3>Concept 12 Exercise 1</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun mysteryPiece(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x2_BLUE(x,z);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x2_BLUE(x+2,z+2)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>mysteryPiece(2,0);</p>"+
-    "<p>mysteryPiece(0,2);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun mysteryPiece (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_BLUE (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_BLUE (x+2,z+2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.8'>mysteryPiece (2,0);</p>"+
+    "<p style='line-height:0.8'>mysteryPiece (0,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,0,"BLUE"),
         new SolutionCell(3,0,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -2782,15 +2847,17 @@ exercises.push(new Exercise(12,6,6,
 exercises.push(new Exercise(12,7,7,
     "<h3>Concept 12 Exercise 2</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
-    "<p>fun mysteryPiece(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_RED(x,z+1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_RED(x+2,z+1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(x+1,z);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(x+1,z+2)</p>"+
-    "<p style='text-indent: 2em;'>)</p>"+
-    "<p>mysteryPiece(0,0);</p>"+
-    "<p>mysteryPiece(4,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun mysteryPiece (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (x,z+1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (x+2,z+1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (x+1,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (x+1,z+2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.8'>mysteryPiece (0,0);</p>"+
+    "<p style='line-height:0.8'>mysteryPiece (4,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(1,0,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(1,2,"BLUE"),
@@ -2805,6 +2872,7 @@ exercises.push(new Exercise(12,7,7,
 exercises.push(new Exercise(12,8,5,
     "<h3>Concept 12 Exercise 3</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun mystery v =</p>"+
     "<p style='text-indent: 2em;'>(</p>"+
     "<p style='text-indent: 4em;'>put2D_1x1_GREEN (v   ,v);</p>"+
@@ -2813,7 +2881,8 @@ exercises.push(new Exercise(12,8,5,
     "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(v   ,v+1)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
     "<p>mystery 0;</p>"+
-    "<p>mystery 3;</p>",
+    "<p>mystery 3;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"YELLOW"),
         new SolutionCell(1,0,"YELLOW"),
@@ -2826,6 +2895,7 @@ exercises.push(new Exercise(12,8,5,
 exercises.push(new Exercise(12,9,5,
     "<h3>Concept 12 Exercise 4</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun mystery v =</p>"+
     "<p style='text-indent: 2em;'>(</p>"+
     "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,0);</p>"+
@@ -2834,7 +2904,8 @@ exercises.push(new Exercise(12,9,5,
     "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,3)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
     "<p>mystery 0;</p>"+
-    "<p>mystery 2;</p>",
+    "<p>mystery 2;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -2846,6 +2917,8 @@ exercises.push(new Exercise(12,9,5,
 ));
 exercises.push(new Exercise(12,10,7,
     "<h3>Concept 12 Exercise 5</h3>" +
+    "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f v =</p>"+
     "<p style='text-indent: 2em;'>(</p>"+
     "<p style='text-indent: 4em;'>put2D_1x2_BLUE(v,v);</p>"+
@@ -2863,7 +2936,8 @@ exercises.push(new Exercise(12,10,7,
     "<p style='text-indent: 2em;'>)</p>"+
     "<p>mystery(0, 1);</p>"+
     "<p>incOffset2D(2,2);</p>"+
-    "<p>mystery(0, 1);</p>",
+    "<p>mystery(0, 1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -2881,7 +2955,9 @@ exercises.push(new Exercise(12,10,7,
         new SolutionCell(5,3,"RED"),
         new SolutionCell(6,3,"RED")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 13
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(13,1,7,
     "<h3>Concept 13 Demo 1</h3>" +
     "<p>Idea: radius*radius >= x*x + z*z</p>"+
@@ -2933,7 +3009,9 @@ exercises.push(new Exercise(13,1,7,
         new SolutionCell(3,6,"BLUE"),
         new SolutionCell(4,6,"BLUE")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 14
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(14,1,5,
     "<h3>Concept 14 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
@@ -3195,7 +3273,9 @@ exercises.push(new Exercise(14,7,7,
         new SolutionCell(7,8,"BLUE"),
         new SolutionCell(8,8,"BLUE")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 15
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(15,1,5,
     "<h3>Concept 15 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
@@ -3259,7 +3339,9 @@ exercises.push(new Exercise(15,4,6,
         new SolutionCell(4,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 16
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(16,1,5,
     "<h3>Concept 16 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
@@ -3294,7 +3376,9 @@ exercises.push(new Exercise(16,5,5,
     "<p>put2D (4,1) RED (5,3);</p>",
     [   new SolutionCell(0,0,"EMPTY")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 17
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(17,1,7,
     "<h3>Concept 17 Demo 1</h3>" +
     "<p>build2D(7,7);</p>"+
@@ -3425,7 +3509,9 @@ exercises.push(new Exercise(17,4,7,
         new SolutionCell(5,2,"BLUE"),
         new SolutionCell(5,3,"BLUE")]
 ));
-//Concept 18 -----------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+//Concept 18
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(18,1,6,
     "<h3>Concept 18 Demo 1</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
@@ -3690,10 +3776,9 @@ exercises.push(new Exercise(18,10,7,
 
     ]
 ));
-
-
-
-// Concept 19 -----------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+// Concept 19
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(19,1,5,
     "<h3>Concept 19 Demo 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
@@ -4005,8 +4090,9 @@ exercises.push(new Exercise(19,9,7,
     ]
 ));
 
-
-//Concept 20 -----------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+//Concept 20
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(20,1,4,
     "<h3>Concept 20 Demo 1</h3>" +
     "<p>A brick function is a function that takes a 3D coordinate as its input and returns a brick." +
@@ -4521,7 +4607,9 @@ exercises.push(new Exercise(20,18,6,
         new SolutionCell(5,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 21
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(21,1,4,
     "<h3>Concept 21 Demo 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
@@ -4998,7 +5086,9 @@ exercises.push(new Exercise(21,15,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 //Concept 22
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(22,1,6,
     "<h3>Concept 22 Demo 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
@@ -5695,7 +5785,9 @@ exercises.push(new Exercise(22,18,7,
         new SolutionCell(6,5,"BLUE"),
         new SolutionCell(6,6,"BLUE")]
 ));
+// ---------------------------------------------------------------------------------------------------------------------
 // Concept 23
+// ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(23,1,7,
     "<h3>Concept 23 Demo 1 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
