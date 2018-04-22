@@ -2762,7 +2762,7 @@ exercises.push(new Exercise(12,4,6,
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun put2D_6x2_RED (x,z) =</p>"+
     "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
-   "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x,z);</p>"+
     "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x+3,z)</p>"+
     "<p style='text-indent: 2em;'>);</p>"+
     "<p style='line-height:0.8'>put2D_6x2_RED (0,0);</p>"+
@@ -2875,15 +2875,15 @@ exercises.push(new Exercise(12,8,5,
     "<h3>Concept 12 Exercise 3</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
-    "<p>fun mystery v =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GREEN (v   ,v);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_GREEN (v+1 ,v+1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(v+1 ,v);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_YELLOW(v   ,v+1)</p>"+
+    "<p style='line-height:0.5'>fun mystery v =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GREEN (v   ,v);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_GREEN (v+1 ,v+1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW(v+1 ,v);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_YELLOW(v   ,v+1)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>mystery 0;</p>"+
-    "<p>mystery 3;</p>"+
+    "<p style='line-height:0.8'>mystery 0;</p>"+
+    "<p style='line-height:0.8'>mystery 3;</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"YELLOW"),
@@ -2898,15 +2898,15 @@ exercises.push(new Exercise(12,9,5,
     "<h3>Concept 12 Exercise 4</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
-    "<p>fun mystery v =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,0);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,1);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,2);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x1_BLUE(v   ,3)</p>"+
+    "<p style='line-height:0.5'>fun mystery v =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(v   ,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(v   ,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(v   ,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(v   ,3)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>mystery 0;</p>"+
-    "<p>mystery 2;</p>"+
+    "<p style='line-height:0.8'>mystery 0;</p>"+
+    "<p style='line-height:0.8'>mystery 2;</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
@@ -2921,24 +2921,24 @@ exercises.push(new Exercise(12,10,7,
     "<h3>Concept 12 Exercise 5</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
-    "<p>fun f v =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(v,v);</p>"+
-    "<p style='text-indent: 4em;'>put2D_1x2_BLUE(v,v+2)</p>"+
+    "<p style='line-height:0.5'>fun f v =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE(v,v);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE(v,v+2)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun g v =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_RED(v,v);</p>"+
-    "<p style='text-indent: 4em;'>put2D_2x1_RED(v+2,v)</p>"+
+    "<p style='line-height:0.5'>fun g v =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED(v,v);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED(v+2,v)</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>fun mystery(x,z) =</p>"+
-    "<p style='text-indent: 2em;'>(</p>"+
-    "<p style='text-indent: 4em;'>f x;</p>"+
-    "<p style='text-indent: 4em;'>g z</p>"+
+    "<p style='line-height:0.5'>fun mystery(x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>f x;</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>g z</p>"+
     "<p style='text-indent: 2em;'>)</p>"+
-    "<p>mystery(0, 1);</p>"+
-    "<p>incOffset2D(2,2);</p>"+
-    "<p>mystery(0, 1);</p>"+
+    "<p style='line-height:0.8'>mystery(0, 1);</p>"+
+    "<p style='line-height:0.8'>incOffset2D(2,2);</p>"+
+    "<p style='line-height:0.8'>mystery(0, 1);</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
@@ -2963,16 +2963,18 @@ exercises.push(new Exercise(12,10,7,
 exercises.push(new Exercise(13,1,7,
     "<h3>Concept 13 Demo 1</h3>" +
     "<p>Idea: radius*radius >= x*x + z*z</p>"+
-"<p>Formula: radius >= sqrt( sq(x-centerX) + sq(z-centerZ) )</p>"+
-"<p>Note: We will round to the nearest integer.</p>"+
-"<p>3 >= sqrt( sq(~3) + sq(~1)) true</p>"+
-"<p>3 >= sqrt( sq(~3) + sq(0) ) true</p>"+
-"<p>3 >= sqrt( sq(~3) + sq(1) ) true</p>"+
-"<p>3 >= sqrt( sq(~3) + sq(2) ) false</p>"+
-"<p>3 >= sqrt( sq(~3) + sq(3) ) false</p>"+
-"<p>Execute the following function calls.</p>"+
-"<p>circleXZ 3 BLUE (3,3);</p>"+
-"<p>put2D_1x1_WHITE(3,3);</p>",
+    "<p>Formula: radius >= sqrt( sq(x-centerX) + sq(z-centerZ) )</p>"+
+    "<p>Note: We will round to the nearest integer.</p>"+
+    "<p>3 >= sqrt( sq(~3) + sq(~1)) true</p>"+
+    "<p>3 >= sqrt( sq(~3) + sq(0) ) true</p>"+
+    "<p>3 >= sqrt( sq(~3) + sq(1) ) true</p>"+
+    "<p>3 >= sqrt( sq(~3) + sq(2) ) false</p>"+
+    "<p>3 >= sqrt( sq(~3) + sq(3) ) false</p>"+
+    "<p>Execute the following function calls.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>circleXZ 3 BLUE (3,3);</p>"+
+    "<p>put2D_1x1_WHITE(3,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,0,"BLUE"),
         new SolutionCell(3,0,"BLUE"),
         new SolutionCell(4,0,"BLUE"),
@@ -3015,9 +3017,11 @@ exercises.push(new Exercise(13,1,7,
 //Concept 14
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(14,1,5,
-    "<h3>Concept 14 Demo 1</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (4,2) RED (0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (4,2) RED (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -3028,9 +3032,11 @@ exercises.push(new Exercise(14,1,5,
         new SolutionCell(3,1,"RED")]
 ));
 exercises.push(new Exercise(14,2,5,
-    "<h3>Concept 14 Demo 2</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Demo 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (4,4) BLUE (0,1);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (4,4) BLUE (0,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -3049,18 +3055,22 @@ exercises.push(new Exercise(14,2,5,
         new SolutionCell(3,4,"BLUE")]
 ));
 exercises.push(new Exercise(14,3,5,
-    "<h3>Concept 14 Exercise 1</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (4,1) YELLOW (0,0);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (4,1) YELLOW (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,0,"YELLOW"),
         new SolutionCell(2,0,"YELLOW"),
         new SolutionCell(3,0,"YELLOW")]
 ));
 exercises.push(new Exercise(14,4,5,
-    "<h3>Concept 14 Exercise 2</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (4,3) GREEN (0,1);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (4,3) GREEN (0,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"GREEN"),
         new SolutionCell(1,1,"GREEN"),
         new SolutionCell(2,1,"GREEN"),
@@ -3075,10 +3085,12 @@ exercises.push(new Exercise(14,4,5,
         new SolutionCell(3,3,"GREEN")]
 ));
 exercises.push(new Exercise(14,5,5,
-    "<h3>Concept 14 Exercise 3</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 3</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D (4,4) GREEN (0,0);</p>"+
-    "<p>put2D (4,4) BLUE  (1,1);</p>",
+    "<p>put2D (4,4) BLUE  (1,1);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
         new SolutionCell(2,0,"GREEN"),
@@ -3104,11 +3116,13 @@ exercises.push(new Exercise(14,5,5,
         new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(14,6,7,
-    "<h3>Concept 14 Exercise 4</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 4</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D (7,5) RED (0,0);</p>"+
     "<p>put2D (7,1) WHITE (0,2);</p>"+
-    "<p>put2D (1,5) WHITE (3,0);</p>",
+    "<p>put2D (1,5) WHITE (3,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(2,0,"RED"),
@@ -3146,11 +3160,13 @@ exercises.push(new Exercise(14,6,7,
         new SolutionCell(6,4,"RED")]
 ));
 exercises.push(new Exercise(14,7,7,
-    "<h3>Concept 14 Exercise 5</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 5</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D (7,5) YELLOW (0,0);</p>"+
     "<p>put2D (5,3) BLUE (1,1);</p>"+
-    "<p>put2D (3,1) WHITE (2,2);</p>",
+    "<p>put2D (3,1) WHITE (2,2);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,0,"YELLOW"),
         new SolutionCell(2,0,"YELLOW"),
@@ -3187,12 +3203,14 @@ exercises.push(new Exercise(14,7,7,
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(6,4,"YELLOW")]
 ));exercises.push(new Exercise(14,8,9,
-    "<h3>Concept 14 Exercise 6</h3>" +
+    "<h3><a href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 6</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D (9,9) BLUE (0,0);</p>"+
     "<p>put2D (9,3) WHITE (0,3);</p>"+
     "<p>put2D (3,9) WHITE (3,0);</p>"+
     "<p>put2D (9,1) RED (0,4);</p>"+
-    "<p>put2D (1,9) RED (4,0);</p>",
+    "<p>put2D (1,9) RED (4,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(2,0,"BLUE"),
@@ -3281,7 +3299,9 @@ exercises.push(new Exercise(14,7,7,
 exercises.push(new Exercise(15,1,5,
     "<h3>Concept 15 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>lineXZ (0,0) (4,4) RED;</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>lineXZ (0,0) (4,4) RED;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,1,"RED"),
         new SolutionCell(2,2,"RED"),
@@ -3291,7 +3311,9 @@ exercises.push(new Exercise(15,1,5,
 exercises.push(new Exercise(15,2,6,
     "<h3>Concept 15 Demo 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>lineXZ (0,0) (5,1) BLUE;</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>lineXZ (0,0) (5,1) BLUE;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,0,"BLUE"),
         new SolutionCell(2,0,"BLUE"),
@@ -3302,7 +3324,9 @@ exercises.push(new Exercise(15,2,6,
 exercises.push(new Exercise(15,3,6,
     "<h3>Concept 15 Exercise 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>lineXZ (0,0) (1,5) GREEN;</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>lineXZ (0,0) (1,5) GREEN;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -3313,11 +3337,13 @@ exercises.push(new Exercise(15,3,6,
 exercises.push(new Exercise(15,4,6,
     "<h3>Concept 15 Exercise 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>lineXZ (0,0) (0,5) BLUE;</p>"+
-"<p>lineXZ (0,0) (1,5) BLUE;</p>"+
-"<p>lineXZ (0,0) (5,5) BLUE;</p>"+
-"<p>lineXZ (0,0) (5,1) BLUE;</p>"+
-"<p>lineXZ (0,0) (5,0) BLUE;</p>",
+    "<p>lineXZ (0,0) (1,5) BLUE;</p>"+
+    "<p>lineXZ (0,0) (5,5) BLUE;</p>"+
+    "<p>lineXZ (0,0) (5,1) BLUE;</p>"+
+    "<p>lineXZ (0,0) (5,0) BLUE;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -3347,26 +3373,34 @@ exercises.push(new Exercise(15,4,6,
 exercises.push(new Exercise(16,1,5,
     "<h3>Concept 16 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (4,2) RED (3,4);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (4,2) RED (3,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,4,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
 exercises.push(new Exercise(16,2,5,
     "<h3>Concept 16 Demo 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (4,2) BLUE (~3,4);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (4,2) BLUE (~3,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [new SolutionCell(0,4,"BLUE")]
 ));
 exercises.push(new Exercise(16,3,5,
     "<h3>Concept 16 Exercise 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (2,2) BLUE (4,4);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (2,2) BLUE (4,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [new SolutionCell(4,4,"BLUE")]
 ));
 exercises.push(new Exercise(16,4,5,
     "<h3>Concept 16 Exercise 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (2,4) GREEN (3,3);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (2,4) GREEN (3,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,3,"GREEN"),
         new SolutionCell(4,4,"GREEN"),
         new SolutionCell(3,4,"GREEN"),
@@ -3375,7 +3409,9 @@ exercises.push(new Exercise(16,4,5,
 exercises.push(new Exercise(16,5,5,
     "<h3>Concept 16 Exercise 3</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
-    "<p>put2D (4,1) RED (5,3);</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (4,1) RED (5,3);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"EMPTY")]
 ));
 // ---------------------------------------------------------------------------------------------------------------------
@@ -3383,10 +3419,12 @@ exercises.push(new Exercise(16,5,5,
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(17,1,7,
     "<h3>Concept 17 Demo 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
     "<p>put2D (1,1) YELLOW (0,0);</p>"+
     "<p>setMySpace2D (1,1) (4,4);</p>"+
-    "<p>put2D (5,5) BLUE (0,0);</p>",
+    "<p>put2D (5,5) BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -3407,11 +3445,13 @@ exercises.push(new Exercise(17,1,7,
 ));
 exercises.push(new Exercise(17,2,7,
     "<h3>Concept 17 Demo 2</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
     "<p>setMySpace2D (0,0) (5,5);</p>"+
     "<p>put2D (6,6) BLUE   (0,0);</p>"+
     "<p>put2D (1,1) YELLOW (0,0);</p>"+
-    "<p>put2D (1,1) YELLOW (4,4);</p>",
+    "<p>put2D (1,1) YELLOW (4,4);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"YELLOW"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -3440,12 +3480,14 @@ exercises.push(new Exercise(17,2,7,
 ));
 exercises.push(new Exercise(17,3,7,
     "<h3>Concept 17 Demo 3</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
     "<p>put2D (1,1) GREEN (6,6);</p>"+
     "<p>setMySpace2D (0,0) (4,4);</p>"+
     "<p>put2D (4,4) RED (0,0);</p>"+
     "<p>setMySpace2D (2,2) (4,4);</p>"+
-    "<p>put2D (4,4) BLUE (0,0);</p>",
+    "<p>put2D (4,4) BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,1,"RED"),
         new SolutionCell(0,2,"RED"),
@@ -3478,11 +3520,13 @@ exercises.push(new Exercise(17,3,7,
 ));
 exercises.push(new Exercise(17,4,7,
     "<h3>Concept 17 Demo 4</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
     "<p>setMySpace2D (0,0) (3,5);</p>"+
-"<p>put2D (10,10) RED (0,0);</p>"+
-"<p>setMySpace2D (3,0) (3,4);</p>"+
-"<p>put2D (10,10) BLUE (0,0);</p>",
+    "<p>put2D (10,10) RED (0,0);</p>"+
+    "<p>setMySpace2D (3,0) (3,4);</p>"+
+    "<p>put2D (10,10) BLUE (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,1,"RED"),
         new SolutionCell(0,2,"RED"),
@@ -4388,7 +4432,7 @@ exercises.push(new Exercise(21,2,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x = 3 then BLUE else RED</p>"+
+    "<p>fun f (x,y,z) = if x = 3 then BLUE else RED;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4437,7 +4481,7 @@ exercises.push(new Exercise(21,3,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if z = 3 then RED else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if z = 3 then RED else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4456,7 +4500,7 @@ exercises.push(new Exercise(21,4,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x = z then GREEN else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if x = z then GREEN else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4475,7 +4519,7 @@ exercises.push(new Exercise(21,5,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x < z then YELLOW else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if x < z then YELLOW else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4503,7 +4547,7 @@ exercises.push(new Exercise(21,6,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x + z = 5 then BLUE else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if x + z = 5 then BLUE else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4522,7 +4566,7 @@ exercises.push(new Exercise(21,7,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x + z > 5 then RED else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if x + z > 5 then RED else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4550,7 +4594,7 @@ exercises.push(new Exercise(21,8,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if (x + z) mod 2 = 0 then GRAY else WHITE</p>"+
+    "<p>fun f(x,y,z) = if (x + z) mod 2 = 0 then GRAY else WHITE;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4599,7 +4643,7 @@ exercises.push(new Exercise(21,9,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x + z mod 2 = 0 then BLUE else YELLOW</p>"+
+    "<p>fun f (x,y,z) = if x + z mod 2 = 0 then BLUE else YELLOW;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4648,7 +4692,7 @@ exercises.push(new Exercise(21,10,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x mod 2 = 0 then BLUE else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if x mod 2 = 0 then BLUE else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4679,7 +4723,7 @@ exercises.push(new Exercise(21,11,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then BLUE else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if (x + z) mod 3 = 0 then BLUE else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4704,7 +4748,7 @@ exercises.push(new Exercise(21,12,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if (x + z) mod 3 = 0 then EMPTY else GREEN</p>"+
+    "<p>fun f (x,y,z) = if (x + z) mod 3 = 0 then EMPTY else GREEN;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4741,7 +4785,7 @@ exercises.push(new Exercise(21,13,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 0 then RED else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if x mod 3 + z mod 2 = 0 then RED else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4760,7 +4804,7 @@ exercises.push(new Exercise(21,14,6,
     " Assume that the y value for all cell positions is 0.</p>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x mod 3 + z mod 2 = 1 then GREEN else EMPTY</p>"+
+    "<p>fun f (x,y,z) = if x mod 3 + z mod 2 = 1 then GREEN else EMPTY;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4785,7 +4829,7 @@ exercises.push(new Exercise(21,15,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x div 3 = 0 then GREEN else YELLOW</p>"+
+    "<p>fun f (x,y,z) = if x div 3 = 0 then GREEN else YELLOW;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4834,7 +4878,7 @@ exercises.push(new Exercise(21,16,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if (x + z div 3) mod 2 = 0 then GREEN else YELLOW</p>"+
+    "<p>fun f (x,y,z) = if (x + z div 3) mod 2 = 0 then GREEN else YELLOW;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4883,7 +4927,7 @@ exercises.push(new Exercise(21,17,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if ((x + z) div 3) mod 2 = 0 then GREEN else YELLOW</p>"+
+    "<p>fun f (x,y,z) = if ((x + z) div 3) mod 2 = 0 then GREEN else YELLOW;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4932,7 +4976,7 @@ exercises.push(new Exercise(21,18,6,
     " Assume that the y value for all cell positions is 0.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>open Level_5;</p>"+
-    "<p>fun f(x,y,z) = if x div 3 = z div 3  then GREEN else YELLOW</p>"+
+    "<p>fun f (x,y,z) = if x div 3 = z div 3  then GREEN else YELLOW;</p>"+
     "<p>build (6,1,6); </p>"+
     "<p>traverseWithin (0,0,0) (5,0,5) f; </p>"+
     "<p>show \"artifact\";</p>"+
@@ -4980,12 +5024,12 @@ exercises.push(new Exercise(21,18,6,
 exercises.push(new Exercise(22,1,4,
     "<h3>Concept 22 Demo 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
-    " What is the result of applying the brick function f to the following matrix of cells." +
-    " Assume that the y value for all cell positions is 0.</p>"+
+    " What is the result of applying brickFn shown below to the matrix of cells shown on the right?</p>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
-    "<p>fun f(x,y,z) = if x = 0 then </p>" +
-    "<p style='text-indent: 2em;'>if z = 0 then BLUE else EMPTY </p>" +
-    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<p>fun brickFn (x,y,z) = </p>" +
+    "<p style='text-indent: 2em; line-height: 80%;'>if x = 0 then </p>" +
+    "<p style='text-indent: 4em; line-height: 80%;'>if z = 0 then BLUE else EMPTY </p>" +
+    "<p style='text-indent: 2em;'>else EMPTY;</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE")]
 ));
@@ -4996,9 +5040,10 @@ exercises.push(new Exercise(22,2,4,
     "<p>In other words, the Boolean operator 'andalso' can be used to combine two Boolean expressions. " +
     "An expression (e1 andalso e2) evaluates to true if and only if e1 evaluates to true and e2 evaluates to true. " +
     "Otherwise, (e1 andalso e2)  evaluates to false.</p>"+
-    "<p>What is the result of applying the brick function f to the following matrix of cells." +
-    " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x = 0 andalso z = 0 then BLUE else EMPTY</p>",
+    "<p>What is the result of applying brickFn to the matrix of cells shown on the right.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x = 0 andalso z = 0 then BLUE else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE")]
 ));
 exercises.push(new Exercise(22,3,6,
@@ -5006,9 +5051,11 @@ exercises.push(new Exercise(22,3,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x < 3 then</p>" +
     "<p style='text-indent: 2em;'>if z < 3 then BLUE else RED</p>" +
-    "<p style='text-indent: 4em;'>else RED;</p>",
+    "<p style='text-indent: 4em;'>else RED;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5052,7 +5099,9 @@ exercises.push(new Exercise(22,4,6,
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x < 3 andalso z < 3 then BLUE else RED</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x < 3 andalso z < 3 then BLUE else RED</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5095,9 +5144,11 @@ exercises.push(new Exercise(22,5,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if 2 <= x then</p>" +
     "<p style='text-indent: 2em;'>if x <= 4 then BLUE else EMPTY</p>" +
-    "<p style='text-indent: 4em;'>else EMPTY;</p>",
+    "<p style='text-indent: 4em;'>else EMPTY;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,0,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
@@ -5123,7 +5174,9 @@ exercises.push(new Exercise(22,6,6,
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if 2 <= x andalso x <= 4 then BLUE else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if 2 <= x andalso x <= 4 then BLUE else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,0,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
         new SolutionCell(2,2,"BLUE"),
@@ -5148,9 +5201,11 @@ exercises.push(new Exercise(22,7,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x >= z then</p>" +
     "<p style='text-indent: 2em;'>if x <= 2*z then BLUE else EMPTY</p>" +
-    "<p style='text-indent: 4em;'>else EMPTY;</p>",
+    "<p style='text-indent: 4em;'>else EMPTY;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -5170,7 +5225,9 @@ exercises.push(new Exercise(22,8,6,
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x >= z andalso x <= 2*z then BLUE else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x >= z andalso x <= 2*z then BLUE else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
         new SolutionCell(2,1,"BLUE"),
@@ -5189,9 +5246,11 @@ exercises.push(new Exercise(22,9,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x >= z div 2 then</p>" +
     "<p style='text-indent: 2em;'>if x <= 2*z then BLUE else EMPTY</p>" +
-    "<p style='text-indent: 4em;'>else EMPTY;</p>",
+    "<p style='text-indent: 4em;'>else EMPTY;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
@@ -5220,7 +5279,9 @@ exercises.push(new Exercise(22,10,6,
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x >= z div 2 andalso x <= 2*z then BLUE else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x >= z div 2 andalso x <= 2*z then BLUE else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(1,1,"BLUE"),
@@ -5248,9 +5309,11 @@ exercises.push(new Exercise(22,11,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x <= 3 then</p>" +
     "<p style='text-indent: 2em;'>if z <= 3 then GREEN else EMPTY</p>" +
-    "<p style='text-indent: 4em;'>else YELLOW</p>",
+    "<p style='text-indent: 4em;'>else YELLOW</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -5286,9 +5349,11 @@ exercises.push(new Exercise(22,12,6,
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x <= 3 andalso z <= 3 then GREEN</p>"+
     "<p style='text-indent: 2em;'>else if x > 3 then YELLOW</p>" +
-    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -5323,9 +5388,11 @@ exercises.push(new Exercise(22,13,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x <= 3 then</p>" +
     "<p style='text-indent: 2em;'>if z > 2 then GREEN else YELLOW</p>" +
-    "<p style='text-indent: 4em;'>else BLUE</p>",
+    "<p style='text-indent: 4em;'>else BLUE</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5369,9 +5436,11 @@ exercises.push(new Exercise(22,14,6,
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x = 3 andalso z > 2 then GREEN</p>"+
     "<p style='text-indent: 2em;'>else if x <> 3 then BLUE</p>" +
-    "<p style='text-indent: 4em;'>else YELLOW</p>",
+    "<p style='text-indent: 4em;'>else YELLOW</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5413,11 +5482,13 @@ exercises.push(new Exercise(22,15,6,
     "<h3>Concept 22 Exercise 11</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x >= 3 then</p>"+
     "<p style='text-indent: 4em;'>if z >= 3 then BLUE </p>" +
     "<p style='text-indent: 4em;'>else RED</p>"+
     "<p style='text-indent: 2em;'>else if z >= 3 then YELLOW</p>" +
-    "<p style='text-indent: 4em;'>else GREEN</p>",
+    "<p style='text-indent: 4em;'>else GREEN</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -5463,9 +5534,11 @@ exercises.push(new Exercise(23,1,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x = 0 then BLUE </p>"+
     "<p style='text-indent: 2em;'>else if z = 0 then BLUE </p>" +
-    "<p style='text-indent: 4em;'>else EMPTY </p>",
+    "<p style='text-indent: 4em;'>else EMPTY </p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5487,7 +5560,9 @@ exercises.push(new Exercise(23,2,6,
     " Otherwise, (e1 orelse e2)  evaluates to false.</p>"+
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x = 0 orelse z = 0 then BLUE else EMPTY</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x = 0 orelse z = 0 then BLUE else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5505,8 +5580,10 @@ exercises.push(new Exercise(23,3,6,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x < 3 then BLUE</p>"+
-    "<p style='text-indent: 2em;'>else if z < 3 then BLUE else RED</p>",
+    "<p style='text-indent: 2em;'>else if z < 3 then BLUE else RED</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5550,7 +5627,9 @@ exercises.push(new Exercise(23,4,6,
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x < 3 orelse z < 3 then BLUE else RED</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x < 3 orelse z < 3 then BLUE else RED</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5594,7 +5673,9 @@ exercises.push(new Exercise(23,5,7,
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x = 3 orelse z = 3 then WHITE else RED</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x = 3 orelse z = 3 then WHITE else RED</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,1,"RED"),
         new SolutionCell(0,2,"RED"),
@@ -5651,7 +5732,9 @@ exercises.push(new Exercise(23,6,6,
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x = z orelse z = 5 - x then WHITE else RED</p>",
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun f(x,y,z) = if x = z orelse z = 5 - x then WHITE else RED</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"WHITE"),
         new SolutionCell(0,1,"RED"),
         new SolutionCell(0,2,"RED"),
@@ -5694,8 +5777,10 @@ exercises.push(new Exercise(23,7,7,
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if z < x then GREEN</p>"+
-    "<p style='text-indent: 2em;'>else if z < 6 - x then GREEN else YELLOW</p>",
+    "<p style='text-indent: 2em;'>else if z < 6 - x then GREEN else YELLOW</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -5752,8 +5837,10 @@ exercises.push(new Exercise(23,8,7,
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if z < x orelse z < 6 - x then GREEN </p>"+
-    "<p style='text-indent: 2em;'>else YELLOW</p>",
+    "<p style='text-indent: 2em;'>else YELLOW</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,2,"GREEN"),
@@ -5808,9 +5895,11 @@ exercises.push(new Exercise(23,9,7,
     "<h3>Concept 23 Exercise 5</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) =      if z >= x + 3 then GREEN</p>"+
     "<p style='text-indent: 2em;'>else if z >= 9 - x then GREEN </p>"+
-    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    "<p style='text-indent: 2em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"GREEN"),
         new SolutionCell(0,4,"GREEN"),
         new SolutionCell(0,5,"GREEN"),
@@ -5835,8 +5924,10 @@ exercises.push(new Exercise(23,10,7,
     "<h3>Concept 23 Exercise 6</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if z <= 3 - x orelse z <= x - 3  then RED</p>"+
-    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    "<p style='text-indent: 2em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,1,"RED"),
         new SolutionCell(0,2,"RED"),
@@ -5861,8 +5952,10 @@ exercises.push(new Exercise(23,11,6,
     "<h3>Concept 23 Exercise 7</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x <= z div 2 orelse x >= 2*z then BLUE </p>"+
-    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    "<p style='text-indent: 2em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5891,8 +5984,10 @@ exercises.push(new Exercise(23,12,6,
     "<h3>Concept 23 Exercise 8</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then BLUE</p>"+
-    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    "<p style='text-indent: 2em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -5918,39 +6013,16 @@ exercises.push(new Exercise(23,12,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-/*exercises.push(new Exercise(22,12,6,
-    "<h3>Concept 22 Exercise 8</h3>" +
-    "<p>What is the result of applying the brick function f to the following matrix of cells." +
-    " Assume that the y value for all cell positions is 0.</p>" +
-    "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then</p>"+
-    "<p style='text-indent: 4em;'>if z < 2 orelse z > 3 then GREEN</p>"+
-    "<p style='text-indent: 4em;'>else EMPTY</p>"+
-    "<p style='text-indent: 2em;'>else EMPTY</p>",
-    [   new SolutionCell(0,0,"GREEN"),
-        new SolutionCell(0,1,"GREEN"),
-        new SolutionCell(0,4,"GREEN"),
-        new SolutionCell(0,5,"GREEN"),
-        new SolutionCell(1,0,"GREEN"),
-        new SolutionCell(1,1,"GREEN"),
-        new SolutionCell(1,4,"GREEN"),
-        new SolutionCell(1,5,"GREEN"),
-        new SolutionCell(4,0,"GREEN"),
-        new SolutionCell(4,1,"GREEN"),
-        new SolutionCell(4,4,"GREEN"),
-        new SolutionCell(4,5,"GREEN"),
-        new SolutionCell(5,0,"GREEN"),
-        new SolutionCell(5,1,"GREEN"),
-        new SolutionCell(5,4,"GREEN"),
-        new SolutionCell(5,5,"GREEN")]
-));*/
 exercises.push(new Exercise(23,13,6,
     "<h3>Concept 23 Exercise 9</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x < 2 orelse x > 3 then</p>"+
     "<p style='text-indent: 4em;'>if z < 2 orelse z > 3 then GREEN</p>"+
     "<p style='text-indent: 4em;'>else EMPTY</p>"+
-    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    "<p style='text-indent: 2em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(0,1,"GREEN"),
         new SolutionCell(0,4,"GREEN"),
@@ -5972,8 +6044,10 @@ exercises.push(new Exercise(23,14,6,
     "<h3>Concept 23 Exercise 10</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then RED</p>"+
-    "<p style='text-indent: 2em;'>else EMPTY</p>",
+    "<p style='text-indent: 2em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"RED"),
         new SolutionCell(0,4,"RED"),
         new SolutionCell(0,5,"RED"),
@@ -5991,9 +6065,11 @@ exercises.push(new Exercise(23,15,6,
     "<h3>Concept 23 Exercise 11</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
     "<p style='text-indent: 4em;'>else if z < 3 - x orelse z > 7 - x then BLUE</p>"+
-    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"YELLOW"),
         new SolutionCell(0,4,"YELLOW"),
         new SolutionCell(0,5,"YELLOW"),
@@ -6023,9 +6099,11 @@ exercises.push(new Exercise(23,16,6,
     "<h3>Concept 23 Exercise 12</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
     "<p style='text-indent: 4em;'>else if z > 3 - x orelse z < 7 - x then BLUE</p>"+
     "<p style='text-indent: 4em;'>else EMPTY</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Can this code be improved?</p>",
     [   new SolutionCell(0,3,"YELLOW"),
         new SolutionCell(0,4,"YELLOW"),
@@ -6068,8 +6146,10 @@ exercises.push(new Exercise(23,17,6,
     "<h3>Concept 23 Exercise 13</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if z > x + 2 orelse z < x - 2 then YELLOW</p>"+
-    "<p style='text-indent: 4em;'>else BLUE</p>",
+    "<p style='text-indent: 4em;'>else BLUE</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,3,"YELLOW"),
         new SolutionCell(0,4,"YELLOW"),
         new SolutionCell(0,5,"YELLOW"),
@@ -6111,8 +6191,10 @@ exercises.push(new Exercise(23,18,7,
     "<h3>Concept 23 Exercise 14</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x mod 2 = 0 orelse z mod 2 = 0 then BLUE</p>"+
-    "<p style='text-indent: 4em;'>else EMPTY</p>",
+    "<p style='text-indent: 4em;'>else EMPTY</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
@@ -6161,14 +6243,16 @@ exercises.push(new Exercise(24,1,7,
     "<h3>Concept 24 Demo 1 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
-"<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x = 3 then BLUE else EMPTY;</p>"+
     "<p>fun g(x,y,z) = if z = 3 then</p>"+
     "<p style='text-indent: 4em;'>if access(x,y,z) = BLUE then RED</p>"+
     "<p style='text-indent: 4em;'>else GREEN</p>"+
     "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
     "<p>traverseWithin (0,0,0) (size,0,size) f;</p>"+
-    "<p>traverseWithin (0,0,0) (size,0,size) g;</p>",
+    "<p>traverseWithin (0,0,0) (size,0,size) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(3,0,"BLUE"),
         new SolutionCell(3,1,"BLUE"),
         new SolutionCell(3,2,"BLUE"),
@@ -6188,10 +6272,12 @@ exercises.push(new Exercise(24,2,4,
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if (x+z) mod 2 = 0 then BLUE else YELLOW;</p>"+
     "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then RED else IDENTITY;</p>"+
     "<p>traverseWithin (0,0,0) (3,0,3) f;</p>"+
-    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>",
+    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(0,1,"YELLOW"),
         new SolutionCell(0,2,"RED"),
@@ -6214,12 +6300,14 @@ exercises.push(new Exercise(24,3,4,
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if (x+z) mod 2 = 0 then BLUE else YELLOW;;</p>"+
     "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
     "<p style='text-indent: 4em;'>if z > 1 then RED else IDENTITY</p>"+
     "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
     "<p>traverseWithin (0,0,0) (3,0,3) f;</p>"+
-    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>",
+    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"YELLOW"),
         new SolutionCell(0,2,"RED"),
@@ -6242,12 +6330,14 @@ exercises.push(new Exercise(24,4,4,
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x mod 2 = 0 then BLUE else YELLOW;</p>"+
     "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
     "<p style='text-indent: 4em;'>if z > 1 then RED else IDENTITY</p>"+
     "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
     "<p>traverseWithin (0,0,0) (3,0,3) f;</p>"+
-    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>",
+    "<p>traverseWithin (0,0,0) (3,0,3) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"RED"),
@@ -6270,12 +6360,14 @@ exercises.push(new Exercise(24,5,5,
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x mod 2 = 0 orelse z mod 2 = 0 then BLUE else YELLOW;</p>"+
     "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
     "<p style='text-indent: 4em;'>if z > 1 then RED else IDENTITY</p>"+
     "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
     "<p>traverseWithin (0,0,0) (4,0,4) f;</p>"+
-    "<p>traverseWithin (0,0,0) (4,0,4) g;</p>",
+    "<p>traverseWithin (0,0,0) (4,0,4) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE"),
         new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"RED"),
@@ -6307,12 +6399,14 @@ exercises.push(new Exercise(24,6,5,
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if x mod 3 = 0  orelse z mod 3 = 0 then BLUE else YELLOW;</p>"+
     "<p>fun g(x,y,z) = if access(x,y,z) = BLUE then</p>"+
     "<p style='text-indent: 4em;'>if z > 1 then RED else EMPTY</p>"+
     "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
     "<p>traverseWithin (0,0,0) (4,0,4) f;</p>"+
-    "<p>traverseWithin (0,0,0) (4,0,4) g;</p>",
+    "<p>traverseWithin (0,0,0) (4,0,4) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,2,"RED"),
         new SolutionCell(0,3,"RED"),
         new SolutionCell(0,4,"RED"),
@@ -6337,13 +6431,15 @@ exercises.push(new Exercise(24,7,7,
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if ( x + z ) div 3 mod 3 = 0 then BLUE else YELLOW;</p>"+
     "<p>fun g(x,y,z) = if x = z then</p>"+
     "<p style='text-indent: 4em;'>if access(x,y,z) = YELLOW then RED</p>"+
     "<p style='text-indent: 4em;'>else EMPTY</p>"+
     "<p style='text-indent: 2em;'>else IDENTITY;</p>"+
     "<p>traverseWithin (0,0,0) (6,0,6) f;</p>"+
-    "<p>traverseWithin (0,0,0) (6,0,6) g;</p>",
+    "<p>traverseWithin (0,0,0) (6,0,6) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,1,"BLUE"),
         new SolutionCell(0,2,"BLUE"),
         new SolutionCell(0,3,"YELLOW"),
@@ -6396,6 +6492,7 @@ exercises.push(new Exercise(24,8,7,
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
     "<p>What is the result of executing the following Bricklayer code?</p>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>fun f(x,y,z) = if ( x + z ) div 3 mod 3 = 0 then BLUE</p>"+
     "<p style='text-indent: 4em;'>else if ( x + z ) div 3 mod 3 = 1 then YELLOW</p>"+
     "<p style='text-indent: 4em;'>else GREEN;</p>"+
@@ -6404,7 +6501,8 @@ exercises.push(new Exercise(24,8,7,
     "<p style='text-indent: 4em;'>else IDENTITY</p>"+
     "<p style='text-indent: 2em;'>else EMPTY;</p>"+
     "<p>traverseWithin (0,0,0) (6,0,6) f;</p>"+
-    "<p>traverseWithin (0,0,0) (6,0,6) g;</p>",
+    "<p>traverseWithin (0,0,0) (6,0,6) g;</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"RED"),
         new SolutionCell(1,0,"RED"),
         new SolutionCell(1,1,"RED"),
@@ -6419,6 +6517,8 @@ exercises.push(new Exercise(24,8,7,
         new SolutionCell(6,5,"RED"),
         new SolutionCell(6,6,"YELLOW")]
 ));
+
+
 // =====================================================================================================================
 function loadExercise(concept_id,exercise_id) {
     if(fireworks){
