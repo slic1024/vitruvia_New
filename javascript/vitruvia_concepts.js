@@ -307,7 +307,7 @@ exercises.push(new Exercise(2,12,5,
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,4)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z-3), (x+2,z-2), (x+3,z-3), (x+4,z-4)</p>"+
+    "<p>(x,z), (x+1,z-1), (x+2,z-2), (x+3,z-3), (x+4,z-4)</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"BLUE"),
         new SolutionCell(1,3,"BLUE"),
