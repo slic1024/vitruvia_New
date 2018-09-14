@@ -4,6 +4,7 @@
     <list default="true" id="1df29e59-b9d9-4f7d-ad35-174521025b56" name="Default" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/vitruvia_concepts.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/vitruvia_concepts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <ignored path="testingTwitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="561">
+              <caret line="272" column="74" selection-start-line="272" selection-start-column="74" selection-end-line="272" selection-end-column="74" />
               <folding>
                 <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="vitruvia_concepts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/vitruvia_concepts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="2423" column="28" selection-start-line="2423" selection-start-column="28" selection-end-line="2423" selection-end-column="28" />
+            <state relative-caret-position="731">
+              <caret line="3764" column="26" selection-start-line="3764" selection-start-column="26" selection-end-line="3764" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
@@ -730,6 +731,24 @@
                 <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#!!top" expanded="true" />
@@ -1130,7 +1149,7 @@
         <entry file="file://$PROJECT_DIR$/javascript/canvasLayout.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="952">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -1158,7 +1177,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fillcolor</find>
       <find>empty</find>
       <find>axisDelta</find>
       <find>concept 3 exercise</find>
@@ -1188,12 +1206,14 @@
       <find>23</find>
       <find>19</find>
       <find>images</find>
+      <find>BLACK</find>
     </findStrings>
     <replaceStrings>
       <replace>Let (x,z) be</replace>
       <replace>23</replace>
       <replace>24</replace>
       <replace>20</replace>
+      <replace>RED</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -1228,8 +1248,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1363" />
-    <option name="y" value="81" />
+    <option name="x" value="1338" />
+    <option name="y" value="82" />
     <option name="width" value="1951" />
     <option name="height" value="1273" />
   </component>
@@ -1442,15 +1462,18 @@
       <workItem from="1524425732400" duration="182000" />
       <workItem from="1524925614017" duration="548000" />
       <workItem from="1535055545182" duration="417000" />
-      <workItem from="1535662410309" duration="74000" />
+      <workItem from="1535662410309" duration="155000" />
+      <workItem from="1535721846967" duration="52000" />
+      <workItem from="1535722330032" duration="23000" />
+      <workItem from="1536927544204" duration="7117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233805000" />
+    <option name="totallyTimeSpent" value="241078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1363" y="81" width="1951" height="1273" extended-state="0" />
+    <frame x="1338" y="82" width="1951" height="1273" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49386504" visible="true" weight="0.13852587" />
@@ -1475,19 +1498,19 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24613117" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32890365" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.31268436" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32890365" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32890365" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -1832,14 +1855,21 @@
     <entry file="file://$PROJECT_DIR$/javascript/canvasLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/howtoadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="561">
+          <caret line="272" column="74" selection-start-line="272" selection-start-column="74" selection-end-line="272" selection-end-column="74" />
           <folding>
             <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1854,17 +1884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/howtoadd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/vitruvia_concepts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="2423" column="28" selection-start-line="2423" selection-start-column="28" selection-end-line="2423" selection-end-column="28" />
+        <state relative-caret-position="731">
+          <caret line="3764" column="26" selection-start-line="3764" selection-start-column="26" selection-end-line="3764" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
@@ -2500,6 +2523,24 @@
             <element signature="n#style#0;n#p#16;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#17;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#18;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
